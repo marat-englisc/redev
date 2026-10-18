@@ -10,7 +10,7 @@ export const CONTENT_DIR = path.resolve(
   process.env.CONTENT_DIR ?? path.join(process.cwd(), ".."),
 );
 
-const IGNORED = new Set(["site", "node_modules", ".git", ".github", ".obsidian", ".trash", ".claude"]);
+const IGNORED = new Set(["site", "node_modules", ".git", ".github", ".obsidian", ".trash", ".claude", "README.md"]);
 
 const NUM_RE = /^(\d+)\.\s*(.+)$/;
 
