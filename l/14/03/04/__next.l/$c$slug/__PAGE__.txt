@@ -1,0 +1,114 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+1b:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+1c:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+23:"ViewportBoundary"
+24:I[97367,["$2","$3","$4","$5","$6","$7"],"$23"]
+25:"MetadataBoundary"
+26:I[97367,["$2","$3","$4","$5","$6","$7"],"$25"]
+27:"$Sreact.suspense"
+28:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+14:X
+17:X
+17:C
+1a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L1b",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L1c",null,{"tree":{"kind":"folder","id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/","children":[{"kind":"lesson","id":"1dekpos","num":"00","title":"Карта раздела и план подготовки","href":"/l/14/00/"},{"kind":"folder","id":"1awq8st","num":"01","title":"Основы","href":"/l/14/01/","children":[{"kind":"lesson","id":"1678hbx","num":"01","title":"Что такое поведенческое интервью и что оценивают у middle","href":"/l/14/01/01/"},{"kind":"lesson","id":"1f5n9bv","num":"02","title":"Метод STAR и банк историй","href":"/l/14/01/02/"},{"kind":"lesson","id":"1nowhgm","num":"03","title":"Как честно говорить о своем вкладе и опыте","href":"/l/14/01/03/"}]},{"kind":"folder","id":"1i29t9t","num":"02","title":"Рассказ о себе","href":"/l/14/02/","children":[{"kind":"lesson","id":"zg5ggd","num":"01","title":"Как построить рассказ о себе","href":"/l/14/02/01/"},{"kind":"lesson","id":"1w509ia","num":"02","title":"Как рассказать о проекте и своей роли","href":"/l/14/02/02/"},{"kind":"lesson","id":"ap2ty6","num":"03","title":"Почему ищете работу, мотивация и зарплатные ожидания","href":"/l/14/02/03/"}]},{"kind":"folder","id":"1etpe7j","num":"03","title":"Опыт и сложные задачи","href":"/l/14/03/","children":[{"kind":"lesson","id":"1u31v8a","num":"01","title":"Как рассказать о самой сложной задаче","href":"/l/14/03/01/"},{"kind":"lesson","id":"uho01g","num":"02","title":"Как рассказать об ошибке или провале","href":"/l/14/03/02/"},{"kind":"lesson","id":"uzag1a","num":"03","title":"Как рассказать о достижениях и инициативе","href":"/l/14/03/03/"},{"kind":"lesson","id":"1xaw0j7","num":"04","title":"Дедлайны, неопределенность и оценка задач","href":"/l/14/03/04/"}]},{"kind":"folder","id":"1ya1oaw","num":"04","title":"Команда и конфликты","href":"/l/14/04/","children":[{"kind":"lesson","id":"2p07rf","num":"01","title":"Как рассказать о конфликте с коллегой","href":"/l/14/04/01/"},{"kind":"lesson","id":"ek7krj","num":"02","title":"Несогласие с руководителем или продактом","href":"/l/14/04/02/"},{"kind":"lesson","id":"12znroa","num":"03","title":"Как давать и получать обратную связь на код-ревью","href":"/l/14/04/03/"},{"kind":"lesson","id":"6h1oah","num":"04","title":"Менторство и помощь младшим коллегам","href":"/l/14/04/04/"},{"kind":"lesson","id":"109003w","num":"05","title":"Работа с продактом, дизайнером и бэкендом","href":"/l/14/04/05/"}]},{"kind":"folder","id":"ntho7h","num":"05","title":"Вопросы работодателю и завершение","href":"/l/14/05/","children":[{"kind":"lesson","id":"ijz3me","num":"01","title":"Какие вопросы задать работодателю","href":"/l/14/05/01/"},{"kind":"lesson","id":"tiv0aq","num":"02","title":"Красные флаги и как оценить компанию","href":"/l/14/05/02/"},{"kind":"lesson","id":"1azle18","num":"03","title":"Банк частых поведенческих вопросов","href":"/l/14/05/03/"},{"kind":"lesson","id":"dc2jk3","num":"04","title":"Как сравнить офферы и договориться об условиях","href":"/l/14/05/04/"}]}]},"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"1xaw0j7"}]}],"$L1d","$L1e"]}]],["$L1f","$L20"],"$L21"]}],"p":"$@22","v":null,"s":"$14"}}]]
+18:[["children",{"s":{"n":"slug","t":"c","k":"14/03/04","s":[]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@19","v":"$17","s":"$14"},"c":"$Q1a"}]]
+15:[["children",{"s":"l","h":131168,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@16","v":"$17","s":"$14"},"c":"$Q18"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]]}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":"$@13","v":null,"s":"$14"},"c":"$Q15"},"h":{"r":["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]}],["$","$L26",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$27",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Дедлайны, неопределенность и оценка задач · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L28","3",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@29","v":null,"s":"$14"}},"a":"$@2a","u":"$@2b","b":"wRMcUeVIbhyGgdOCswqeh"}
+2c:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+2d:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+32:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+33:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+2e:T25af,<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p>Вопросы о сроках проверяют, умеете ли вы <strong>оценивать задачи</strong>, <strong>работать с неопределенностью</strong> и <strong>управлять ожиданиями</strong>. Ожидаемое поведение middle: разбить задачу на части и оценить с запасом на неизвестное, заранее уточнить неясные требования, <strong>сразу сообщить о риске срыва</strong> и предложить варианты — сократить объем (MVP), перенести срок, добавить ресурс или принять осознанный техдолг. Плохие сигналы — молча не успеть, «геройски» работать ночами без обсуждения или выкатить сырой код без предупреждения.</p></div>
+</div>
+<h2 id="вопрос">Вопрос</h2>
+<p>Как ответить на вопросы «как вы оцениваете задачи», «что делаете, если не успеваете к дедлайну», «расскажите о работе с неясными требованиями» и «как приоритизируете задачи»?</p>
+<h2 id="как-оценивать-задачи">Как оценивать задачи</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>1. Уточнить требования: сценарии, граничные случаи, дизайн для всех состояний, API</span></span>
+<span data-line=""><span>2. Разбить на подзадачи по 0,5–2 дня: верстка, состояние, интеграция с API, тесты, ревью</span></span>
+<span data-line=""><span>3. Оценить каждую, отдельно выделить неизвестное (новая библиотека, неготовый API)</span></span>
+<span data-line=""><span>4. Добавить время на ревью, исправления, QA и релиз</span></span>
+<span data-line=""><span>5. Для большого неизвестного — сначала исследование (spike) с фиксированным временем</span></span>
+<span data-line=""><span>6. Назвать оценку диапазоном и допущения: «3–5 дней, если API будет готов к среде»</span></span></code></pre></figure>
+<p>Частые причины недооценки: забыли про состояния загрузки и ошибок, адаптив, доступность, тесты, ревью, интеграцию с бэкендом и правки после QA.</p>
+<h2 id="если-не-успеваете">Если не успеваете</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>Заметили риск → сразу сообщить (не в последний день)</span></span>
+<span data-line=""><span>              → объяснить причину и новую оценку</span></span>
+<span data-line=""><span>              → предложить варианты:</span></span>
+<span data-line=""><span>                 • уменьшить объем: выпустить основную часть, остальное следующим шагом</span></span>
+<span data-line=""><span>                 • перенести срок</span></span>
+<span data-line=""><span>                 • распараллелить с коллегой</span></span>
+<span data-line=""><span>                 • осознанный техдолг с задачей на исправление</span></span>
+<span data-line=""><span>              → решение принимает тот, кто отвечает за приоритеты (продакт, лид)</span></span></code></pre></figure>
+<h2 id="пример-сжатый-срок">Пример: сжатый срок</h2>
+<p><em>Образец — подставьте свое.</em></p>
+<blockquote>
+<p><strong>S:</strong> За две недели до запуска рекламной кампании продакт попросил добавить в каталог фильтры с сохранением в URL и новую карточку товара. По первой оценке работы было на три недели.</p>
+<p><strong>T:</strong> Нужно было успеть к кампании, не сломав каталог.</p>
+<p><strong>A:</strong> Я разбил задачу на части и вместе с продактом разделил их по ценности для кампании: фильтры по цене и бренду и новая карточка — обязательно, сохранение всех фильтров в URL и анимации — после запуска. Договорился с бэкендом заранее согласовать контракт API и работал на моках, пока эндпоинт был в разработке. Каждый день коротко сообщал статус. За три дня до релиза предупредил, что сортировка по рейтингу не успевает, — продакт решил выпустить без нее.</p>
+<p><strong>R:</strong> Запустились вовремя, без критичных багов, оставшиеся части выкатили через неделю. Вывод: при жестком сроке быстрее всего помогает сокращение объема вместе с продактом и ранняя договоренность о контракте с бэкендом.</p>
+</blockquote>
+<h2 id="работа-с-неопределенностью">Работа с неопределенностью</h2>
+<ul>
+<li><strong>Уточнять у источника</strong>: продакт, дизайнер, аналитик — с конкретными вопросами, а не «расскажите подробнее».</li>
+<li><strong>Фиксировать допущения</strong> письменно: «считаю, что пустой список показываем так-то; если нет — скажите».</li>
+<li><strong>Делать прототип</strong> или черновой вариант, чтобы быстрее получить обратную связь.</li>
+<li><strong>Отделять неизвестное</strong>: исследование с ограниченным временем, затем точная оценка.</li>
+</ul>
+<h2 id="приоритизация">Приоритизация</h2>
+<ul>
+<li>срочное и важное (инцидент в проде, блокер команды) — сразу;</li>
+<li>задачи спринта — по договоренному порядку;</li>
+<li>запросы «вне спринта» — через лида или продакта, а не молча в ущерб текущим задачам;</li>
+<li>техдолг — договариваться о доле времени в каждом спринте.</li>
+</ul>
+<h2 id="что-важно-помнить">Что важно помнить</h2>
+<ul>
+<li>О риске срыва сообщайте как можно раньше — это главный сигнал зрелости.</li>
+<li>Оценка — диапазон с допущениями, а не обещание.</li>
+<li>Сокращение объема (MVP) обычно лучше, чем перенос срока или переработки.</li>
+<li>Не обещайте нереальные сроки, чтобы понравиться: это ведет к срывам и потере доверия.</li>
+</ul>
+<h2 id="мини-шпаргалка">Мини-шпаргалка</h2>
+<p>Оценка: уточнить требования → разбить на части 0,5–2 дня → учесть состояния, тесты, ревью, QA → диапазон с допущениями, spike для неизвестного. Не успеваю: сообщить сразу, объяснить, предложить варианты (меньше объема, перенос, помощь, техдолг), решение — за продактом. Неясность: вопросы, письменные допущения, прототип.</p>
+<h2 id="документация">Документация</h2>
+<p><a href="https://www.techinterviewhandbook.org/behavioral-interview-questions/" target="_blank" rel="noopener noreferrer">Tech Interview Handbook: Behavioral questions</a>, <a href="https://www.atlassian.com/agile/project-management/estimation" target="_blank" rel="noopener noreferrer">Atlassian: Story points and estimation</a>, <a href="https://martinfowler.com/bliki/TechnicalDebtQuadrant.html" target="_blank" rel="noopener noreferrer">Martin Fowler: Technical Debt Quadrant</a>.</p>1d:["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L2c",null,{"children":"$1a:0:1:d:r:props:children:0:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[["$","span","9omkan",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/14/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"14"}],"Поведенческое интервью"]}]]}],["$","span","1etpe7j",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/14/03/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"03"}],"Опыт и сложные задачи"]}]]}]]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","04"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[4," ","минуты"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Дедлайны, неопределенность и оценка задач"}],["$","div",null,{"className":"mt-7","children":["$","$L2d",null,{"id":"1xaw0j7","href":"/l/14/03/04/","title":"Дедлайны, неопределенность и оценка задач"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$2e"}}],"$L2f","$L30","$L31"]}]]}]
+1e:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L32",null,{"items":[{"id":"вопрос","text":"Вопрос","depth":2},{"id":"как-оценивать-задачи","text":"Как оценивать задачи","depth":2},{"id":"если-не-успеваете","text":"Если не успеваете","depth":2},{"id":"пример-сжатый-срок","text":"Пример: сжатый срок","depth":2},{"id":"работа-с-неопределенностью","text":"Работа с неопределенностью","depth":2},{"id":"приоритизация","text":"Приоритизация","depth":2},{"id":"что-важно-помнить","text":"Что важно помнить","depth":2},{"id":"мини-шпаргалка","text":"Мини-шпаргалка","depth":2},{"id":"документация","text":"Документация","depth":2}]}]}]
+1f:["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true}]
+20:["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true}]
+21:["$","$L33",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@34"}]}]
+35:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+36:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+14:300
+2f:["$","$L35",null,{"targetId":"lesson-body"}]
+30:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L2d",null,{"id":"1xaw0j7","href":"/l/14/03/04/","title":"Дедлайны, неопределенность и оценка задач","variant":"footer"}]}]
+31:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/14/03/03/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L36",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как рассказать о достижениях и инициативе"}]]}],["$","$L10",null,{"href":"/l/14/04/01/","className":"group flex flex-col items-end gap-1.5 bg-background p-5 text-right transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":["Далее ",["$","$L36",null,{"icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-3 transition-transform group-hover:translate-x-1"}]]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как рассказать о конфликте с коллегой"}]]}]]}]
+34:null
+2b:true
+14:C
+2a:0
+19:"$undefined"
+16:"$undefined"
+13:"$undefined"
+29:"$undefined"
+22:"$undefined"

@@ -1,0 +1,173 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+18:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+19:"$Sreact.suspense"
+1b:"ViewportBoundary"
+1c:I[97367,["$2","$3","$4","$5","$6","$7"],"$1b"]
+1e:"MetadataBoundary"
+1f:I[97367,["$2","$3","$4","$5","$6","$7"],"$1e"]
+21:I[68027,["$2","$3","$4","$5","$6","$7"],"default",1]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+:HL["/refront/_next/static/media/4fa387ec64143e14-s.p.2tuy5pz7dlieh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/8a480f0b521d4e75-s.p.1qq4vpdcun5oj.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+14:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$L17",[["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true,"nonce":"$undefined"}]],["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]]}],"p":false,"v":null}}]]
+15:[["children",{"s":{"n":"slug","t":"c","k":"14/01/02","s":[]},"h":66048,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q16"}]]
+13:[["children",{"s":"l","h":131584,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q15"}]]
+0:{"P":null,"c":["","l","14","01","02",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1c",null,{"children":"$L1d"}],["$","$L1f",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$19",null,{"name":"Next.Metadata","children":"$L20"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$21",[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"wRMcUeVIbhyGgdOCswqeh"}
+14:C
+22:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+23:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+17:[["$","$L22",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L23",null,{"tree":{"kind":"folder","id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/","children":[{"kind":"lesson","id":"1dekpos","num":"00","title":"Карта раздела и план подготовки","href":"/l/14/00/","children":"$undefined"},{"kind":"folder","id":"1awq8st","num":"01","title":"Основы","href":"/l/14/01/","children":[{"kind":"lesson","id":"1678hbx","num":"01","title":"Что такое поведенческое интервью и что оценивают у middle","href":"/l/14/01/01/","children":"$undefined"},{"kind":"lesson","id":"1f5n9bv","num":"02","title":"Метод STAR и банк историй","href":"/l/14/01/02/","children":"$undefined"},{"kind":"lesson","id":"1nowhgm","num":"03","title":"Как честно говорить о своем вкладе и опыте","href":"/l/14/01/03/","children":"$undefined"}]},{"kind":"folder","id":"1i29t9t","num":"02","title":"Рассказ о себе","href":"/l/14/02/","children":[{"kind":"lesson","id":"zg5ggd","num":"01","title":"Как построить рассказ о себе","href":"/l/14/02/01/","children":"$undefined"},{"kind":"lesson","id":"1w509ia","num":"02","title":"Как рассказать о проекте и своей роли","href":"/l/14/02/02/","children":"$undefined"},{"kind":"lesson","id":"ap2ty6","num":"03","title":"Почему ищете работу, мотивация и зарплатные ожидания","href":"/l/14/02/03/","children":"$undefined"}]},{"kind":"folder","id":"1etpe7j","num":"03","title":"Опыт и сложные задачи","href":"/l/14/03/","children":[{"kind":"lesson","id":"1u31v8a","num":"01","title":"Как рассказать о самой сложной задаче","href":"/l/14/03/01/","children":"$undefined"},{"kind":"lesson","id":"uho01g","num":"02","title":"Как рассказать об ошибке или провале","href":"/l/14/03/02/","children":"$undefined"},{"kind":"lesson","id":"uzag1a","num":"03","title":"Как рассказать о достижениях и инициативе","href":"/l/14/03/03/","children":"$undefined"},{"kind":"lesson","id":"1xaw0j7","num":"04","title":"Дедлайны, неопределенность и оценка задач","href":"/l/14/03/04/","children":"$undefined"}]},{"kind":"folder","id":"1ya1oaw","num":"04","title":"Команда и конфликты","href":"/l/14/04/","children":[{"kind":"lesson","id":"2p07rf","num":"01","title":"Как рассказать о конфликте с коллегой","href":"/l/14/04/01/","children":"$undefined"},{"kind":"lesson","id":"ek7krj","num":"02","title":"Несогласие с руководителем или продактом","href":"/l/14/04/02/","children":"$undefined"},{"kind":"lesson","id":"12znroa","num":"03","title":"Как давать и получать обратную связь на код-ревью","href":"/l/14/04/03/","children":"$undefined"},{"kind":"lesson","id":"6h1oah","num":"04","title":"Менторство и помощь младшим коллегам","href":"/l/14/04/04/","children":"$undefined"},{"kind":"lesson","id":"109003w","num":"05","title":"Работа с продактом, дизайнером и бэкендом","href":"/l/14/04/05/","children":"$undefined"}]},{"kind":"folder","id":"ntho7h","num":"05","title":"Вопросы работодателю и завершение","href":"/l/14/05/","children":[{"kind":"lesson","id":"ijz3me","num":"01","title":"Какие вопросы задать работодателю","href":"/l/14/05/01/","children":"$undefined"},{"kind":"lesson","id":"tiv0aq","num":"02","title":"Красные флаги и как оценить компанию","href":"/l/14/05/02/","children":"$undefined"},{"kind":"lesson","id":"1azle18","num":"03","title":"Банк частых поведенческих вопросов","href":"/l/14/05/03/","children":"$undefined"},{"kind":"lesson","id":"dc2jk3","num":"04","title":"Как сравнить офферы и договориться об условиях","href":"/l/14/05/04/","children":"$undefined"}]}]},"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"1f5n9bv"}]}],"$L24","$L25"]}]]
+26:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+27:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+2c:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+28:T2ae3,<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p><strong>STAR</strong> — структура ответа на поведенческий вопрос: <strong>S</strong>ituation (контекст, 1–2 предложения), <strong>T</strong>ask (ваша задача или проблема), <strong>A</strong>ction (что сделали <strong>лично вы</strong> — самая длинная часть), <strong>R</strong>esult (измеримый результат и вывод). Ответ занимает 1,5–3 минуты. Чтобы не придумывать истории на ходу, заранее собирают <strong>банк историй</strong>: 6–8 ситуаций из опыта, каждая из которых подходит к нескольким вопросам — сложная задача, ошибка, конфликт, инициатива, дедлайн, помощь коллеге.</p></div>
+</div>
+<h2 id="вопрос">Вопрос</h2>
+<p>Что такое метод STAR и как построить по нему ответ? Как подготовить банк историй из 3,5 лет опыта, чтобы ответить на любой поведенческий вопрос?</p>
+<h2 id="структура-star">Структура STAR</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Часть</th><th>Доля ответа</th><th>Что рассказать</th></tr></thead><tbody><tr><td><strong>S</strong> — ситуация</td><td>~15%</td><td>проект, команда, контекст, почему это было важно</td></tr><tr><td><strong>T</strong> — задача</td><td>~10%</td><td>ваша роль и что нужно было сделать, ограничения</td></tr><tr><td><strong>A</strong> — действия</td><td>~50%</td><td>конкретные шаги, решения и почему именно так, как работали с людьми</td></tr><tr><td><strong>R</strong> — результат</td><td>~25%</td><td>цифры, что изменилось, что поняли и делаете иначе</td></tr></tbody></table></div>
+<p>Часто добавляют <strong>L — Learnings</strong> (STAR-L): вывод на будущее. Для middle это важная часть — показывает рефлексию.</p>
+<h2 id="пример-ответа-по-star">Пример ответа по STAR</h2>
+<blockquote>
+<p><strong>Вопрос:</strong> «Расскажите о задаче, которой вы гордитесь».</p>
+<p><strong>S:</strong> Я работал в команде из четырех фронтендеров над личным кабинетом интернет-магазина на React и TypeScript. После добавления новых виджетов главная страница кабинета стала загружаться около 6 секунд на мобильных, и продакт видел падение конверсии в повторный заказ.</p>
+<p><strong>T:</strong> Мне поручили разобраться с производительностью и предложить план, при этом нельзя было остановить разработку фич.</p>
+<p><strong>A:</strong> Я начал с измерений: собрал Lighthouse и Performance-профили, подключил отправку Web Vitals в нашу аналитику, чтобы видеть реальные данные. Нашел три причины: тяжелая библиотека графиков в общем бандле, водопад из пяти последовательных запросов и перерисовка всего списка заказов при любом изменении фильтра. Вынес графики в ленивый чанк, договорился с бэкендом об агрегирующем эндпоинте вместо пяти запросов, добавил виртуализацию списка и мемоизацию строк. Разбил работу на небольшие PR, чтобы не мешать другим, и добавил бюджет размера бандла в CI.</p>
+<p><strong>R:</strong> LCP на мобильных снизился примерно с 6 до 2,3 секунды, размер стартового бандла — на 40%. Через месяц продакт отметил рост повторных заказов. Вывод: сначала измерять, а не оптимизировать наугад, и закреплять результат автоматическими проверками.</p>
+</blockquote>
+<p><em>Это пример. Подставьте свои цифры и детали — интервьюер будет уточнять.</em></p>
+<h2 id="банк-историй">Банк историй</h2>
+<p>Подготовьте 6–8 историй и отметьте, к каким вопросам каждая подходит:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Тема истории</th><th>Подходит к вопросам</th></tr></thead><tbody><tr><td>Сложная техническая задача (производительность, миграция, сложный баг)</td><td>«самая сложная задача», «чем гордитесь», «как решаете проблемы»</td></tr><tr><td>Ошибка или инцидент в продакшене</td><td>«расскажите о провале», «ошибка и выводы», «работа под давлением»</td></tr><tr><td>Конфликт или несогласие (код-ревью, техрешение, с продактом)</td><td>«конфликт», «несогласие с решением», «сложный коллега»</td></tr><tr><td>Инициатива сверх задачи (улучшили процесс, внедрили тесты, линтеры)</td><td>«инициатива», «ownership», «что улучшили в команде»</td></tr><tr><td>Сжатый срок или изменение требований</td><td>«дедлайн», «неопределенность», «приоритизация»</td></tr><tr><td>Помощь коллеге, менторство, онбординг</td><td>«работа в команде», «менторство», «делитесь знаниями»</td></tr><tr><td>Взаимодействие с бизнесом, дизайном, бэкендом</td><td>«как работаете с другими командами», «отказали заказчику»</td></tr><tr><td>Изучение нового быстро</td><td>«как учитесь», «незнакомая технология»</td></tr></tbody></table></div>
+<p>Шаблон для каждой истории:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>Название: ______________________   Период/проект: ______________</span></span>
+<span data-line=""><span>S: где, команда, контекст</span></span>
+<span data-line=""><span>T: моя роль и задача, ограничения</span></span>
+<span data-line=""><span>A: 3–5 конкретных шагов, решения и почему</span></span>
+<span data-line=""><span>R: цифры, эффект, обратная связь</span></span>
+<span data-line=""><span>L: что вынес, что делаю иначе</span></span>
+<span data-line=""><span>Подходит к вопросам: ...</span></span></code></pre></figure>
+<h2 id="как-готовиться">Как готовиться</h2>
+<ol>
+<li>Вспомните последние 2–3 проекта: что было сложного, интересного, болезненного.</li>
+<li>Восстановите цифры: метрики, сроки, количество пользователей, размер команды.</li>
+<li>Запишите истории по шаблону и проговорите вслух с таймером (до 3 минут).</li>
+<li>Подготовьте ответы на уточнения: «почему не сделали иначе?», «что бы сейчас изменили?», «кто еще участвовал?».</li>
+<li>Освежите истории перед каждым собеседованием.</li>
+</ol>
+<h2 id="что-важно-помнить">Что важно помнить</h2>
+<ul>
+<li>Action — главная часть: интервьюер оценивает <strong>ваши</strong> решения, а не работу команды.</li>
+<li>Результат без цифр слабее: если точных данных нет, честно приблизительно («примерно вдвое», «с 20 до 3 багов в спринт»).</li>
+<li>Не бойтесь неидеальных историй: ошибки и конфликты с выводами ценятся выше «все прошло гладко».</li>
+<li>Одна история может ответить на разные вопросы — меняйте акцент.</li>
+<li>Используйте свежие истории (за последние 1–2 года) — они показывают текущий уровень.</li>
+</ul>
+<h2 id="мини-шпаргалка">Мини-шпаргалка</h2>
+<p>STAR: Situation (контекст) → Task (ваша задача) → Action (что сделали вы, ~50%) → Result (цифры) + Learnings (выводы). 1,5–3 минуты. Банк из 6–8 историй: сложная задача, ошибка, конфликт, инициатива, дедлайн, менторство, работа с бизнесом, быстрое обучение.</p>
+<h2 id="документация">Документация</h2>
+<p><a href="https://www.techinterviewhandbook.org/behavioral-interview/" target="_blank" rel="noopener noreferrer">Tech Interview Handbook: Behavioral interviews</a>, <a href="https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/" target="_blank" rel="noopener noreferrer">MIT CAPD: The STAR method</a>, <a href="https://www.techinterviewhandbook.org/behavioral-interview-questions/" target="_blank" rel="noopener noreferrer">Tech Interview Handbook: Behavioral questions</a>.</p>24:["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L26",null,{"children":"$17:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[["$","span","9omkan",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/14/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"14"}],"Поведенческое интервью"]}]]}],["$","span","1awq8st",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/14/01/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"01"}],"Основы"]}]]}]]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","02"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[4," ","минуты"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Метод STAR и банк историй"}],["$","div",null,{"className":"mt-7","children":["$","$L27",null,{"id":"1f5n9bv","href":"/l/14/01/02/","title":"Метод STAR и банк историй"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$28"}}],"$L29","$L2a","$L2b"]}]]}]
+25:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L2c",null,{"items":[{"id":"вопрос","text":"Вопрос","depth":2},{"id":"структура-star","text":"Структура STAR","depth":2},{"id":"пример-ответа-по-star","text":"Пример ответа по STAR","depth":2},{"id":"банк-историй","text":"Банк историй","depth":2},{"id":"как-готовиться","text":"Как готовиться","depth":2},{"id":"что-важно-помнить","text":"Что важно помнить","depth":2},{"id":"мини-шпаргалка","text":"Мини-шпаргалка","depth":2},{"id":"документация","text":"Документация","depth":2}]}]}]
+2d:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+2e:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+29:["$","$L2d",null,{"targetId":"lesson-body"}]
+2a:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L27",null,{"id":"1f5n9bv","href":"/l/14/01/02/","title":"Метод STAR и банк историй","variant":"footer"}]}]
+2b:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/14/01/01/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L2e",null,{"ref":"$undefined","icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Что такое поведенческое интервью и что оценивают у middle"}]]}],["$","$L10",null,{"href":"/l/14/01/03/","className":"group flex flex-col items-end gap-1.5 bg-background p-5 text-right transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":["Далее ",["$","$L2e",null,{"ref":"$undefined","icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-3 transition-transform group-hover:translate-x-1"}]]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как честно говорить о своем вкладе и опыте"}]]}]]}]
+1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]
+2f:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+1a:null
+20:[["$","title","0",{"children":"Метод STAR и банк историй · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L2f","3",{}]]

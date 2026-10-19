@@ -1,0 +1,147 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+1b:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+1c:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+23:"ViewportBoundary"
+24:I[97367,["$2","$3","$4","$5","$6","$7"],"$23"]
+25:"MetadataBoundary"
+26:I[97367,["$2","$3","$4","$5","$6","$7"],"$25"]
+27:"$Sreact.suspense"
+28:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+14:X
+17:X
+17:C
+1a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L1b",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L1c",null,{"tree":{"kind":"folder","id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/","children":[{"kind":"lesson","id":"1dekpos","num":"00","title":"Карта раздела и план подготовки","href":"/l/14/00/"},{"kind":"folder","id":"1awq8st","num":"01","title":"Основы","href":"/l/14/01/","children":[{"kind":"lesson","id":"1678hbx","num":"01","title":"Что такое поведенческое интервью и что оценивают у middle","href":"/l/14/01/01/"},{"kind":"lesson","id":"1f5n9bv","num":"02","title":"Метод STAR и банк историй","href":"/l/14/01/02/"},{"kind":"lesson","id":"1nowhgm","num":"03","title":"Как честно говорить о своем вкладе и опыте","href":"/l/14/01/03/"}]},{"kind":"folder","id":"1i29t9t","num":"02","title":"Рассказ о себе","href":"/l/14/02/","children":[{"kind":"lesson","id":"zg5ggd","num":"01","title":"Как построить рассказ о себе","href":"/l/14/02/01/"},{"kind":"lesson","id":"1w509ia","num":"02","title":"Как рассказать о проекте и своей роли","href":"/l/14/02/02/"},{"kind":"lesson","id":"ap2ty6","num":"03","title":"Почему ищете работу, мотивация и зарплатные ожидания","href":"/l/14/02/03/"}]},{"kind":"folder","id":"1etpe7j","num":"03","title":"Опыт и сложные задачи","href":"/l/14/03/","children":[{"kind":"lesson","id":"1u31v8a","num":"01","title":"Как рассказать о самой сложной задаче","href":"/l/14/03/01/"},{"kind":"lesson","id":"uho01g","num":"02","title":"Как рассказать об ошибке или провале","href":"/l/14/03/02/"},{"kind":"lesson","id":"uzag1a","num":"03","title":"Как рассказать о достижениях и инициативе","href":"/l/14/03/03/"},{"kind":"lesson","id":"1xaw0j7","num":"04","title":"Дедлайны, неопределенность и оценка задач","href":"/l/14/03/04/"}]},{"kind":"folder","id":"1ya1oaw","num":"04","title":"Команда и конфликты","href":"/l/14/04/","children":[{"kind":"lesson","id":"2p07rf","num":"01","title":"Как рассказать о конфликте с коллегой","href":"/l/14/04/01/"},{"kind":"lesson","id":"ek7krj","num":"02","title":"Несогласие с руководителем или продактом","href":"/l/14/04/02/"},{"kind":"lesson","id":"12znroa","num":"03","title":"Как давать и получать обратную связь на код-ревью","href":"/l/14/04/03/"},{"kind":"lesson","id":"6h1oah","num":"04","title":"Менторство и помощь младшим коллегам","href":"/l/14/04/04/"},{"kind":"lesson","id":"109003w","num":"05","title":"Работа с продактом, дизайнером и бэкендом","href":"/l/14/04/05/"}]},{"kind":"folder","id":"ntho7h","num":"05","title":"Вопросы работодателю и завершение","href":"/l/14/05/","children":[{"kind":"lesson","id":"ijz3me","num":"01","title":"Какие вопросы задать работодателю","href":"/l/14/05/01/"},{"kind":"lesson","id":"tiv0aq","num":"02","title":"Красные флаги и как оценить компанию","href":"/l/14/05/02/"},{"kind":"lesson","id":"1azle18","num":"03","title":"Банк частых поведенческих вопросов","href":"/l/14/05/03/"},{"kind":"lesson","id":"dc2jk3","num":"04","title":"Как сравнить офферы и договориться об условиях","href":"/l/14/05/04/"}]}]},"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"1w509ia"}]}],"$L1d","$L1e"]}]],["$L1f","$L20"],"$L21"]}],"p":"$@22","v":null,"s":"$14"}}]]
+18:[["children",{"s":{"n":"slug","t":"c","k":"14/02/02","s":[]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@19","v":"$17","s":"$14"},"c":"$Q1a"}]]
+15:[["children",{"s":"l","h":131168,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@16","v":"$17","s":"$14"},"c":"$Q18"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]]}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":"$@13","v":null,"s":"$14"},"c":"$Q15"},"h":{"r":["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]}],["$","$L26",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$27",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Как рассказать о проекте и своей роли · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L28","3",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@29","v":null,"s":"$14"}},"a":"$@2a","u":"$@2b","b":"wRMcUeVIbhyGgdOCswqeh"}
+2c:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+2d:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+32:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+33:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+2e:T25b9,<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p>Вопрос «расскажите о последнем проекте» проверяет, понимаете ли вы <strong>продукт целиком</strong>, а не только свои задачи. Хороший ответ идет от общего к частному: <strong>что за продукт и для кого</strong> → <strong>команда и процесс</strong> → <strong>архитектура фронтенда и стек</strong> с обоснованием → <strong>ваша зона ответственности</strong> → <strong>самая интересная задача</strong> → <strong>что бы улучшили</strong>. На 3,5 годах опыта ждут, что вы объясните, почему проект устроен именно так, и назовете его слабые места.</p></div>
+</div>
+<h2 id="вопрос">Вопрос</h2>
+<p>Как рассказать о текущем проекте на собеседовании: что о продукте, архитектуре и своей роли важно сказать, а что можно опустить? Как обходить NDA?</p>
+<h2 id="структура-ответа">Структура ответа</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Блок</th><th>Что сказать</th><th>Пример</th></tr></thead><tbody><tr><td>Продукт</td><td>что делает, для кого, масштаб</td><td>«B2B-сервис бронирования, около 50 тысяч активных пользователей в месяц»</td></tr><tr><td>Команда и процесс</td><td>размер, роли, спринты, ревью, релизы</td><td>«4 фронтенда, 6 бэкендов, QA, дизайнер; двухнедельные спринты, релиз раз в неделю»</td></tr><tr><td>Архитектура</td><td>рендеринг, структура, состояние, API, сборка</td><td>«Next.js App Router, FSD, TanStack Query для серверных данных, Zustand для UI, REST + OpenAPI-генерация типов»</td></tr><tr><td>Почему так</td><td>обоснование ключевых решений</td><td>«SSR нужен для публичных страниц из поиска, кабинет — клиентский»</td></tr><tr><td>Ваша роль</td><td>за что отвечаете, какие решения принимали</td><td>«веду модуль бронирования, участвовал в выборе TanStack Query»</td></tr><tr><td>Интересная задача</td><td>короткая STAR-история</td><td>«сделал календарь со слотами в реальном времени»</td></tr><tr><td>Что бы улучшили</td><td>слабые места и идеи</td><td>«мало e2e-тестов, дублирование в формах — хотел бы вынести общий слой»</td></tr></tbody></table></div>
+<h2 id="пример">Пример</h2>
+<p><em>Образец для 3,5 лет опыта — подставьте свой проект.</em></p>
+<blockquote>
+<p>Последние два года работаю над сервисом онлайн-записи для салонов красоты: клиенты бронируют услуги, а администраторы управляют расписанием. Публичная часть — каталог салонов, ее важно индексировать, поэтому она на Next.js с SSR и ISR. Админка — клиентская часть того же приложения, там сложные таблицы и календарь.</p>
+<p>Во фронтенд-команде четыре человека, есть дизайнер и QA. Работаем двухнедельными спринтами, любой PR проходит ревью минимум одного человека и проверки в CI: линтер, типы, unit- и e2e-тесты на основные сценарии.</p>
+<p>По архитектуре: структура по Feature-Sliced Design, серверные данные — через TanStack Query, локальное состояние админки — Zustand, формы — react-hook-form с Zod, типы API генерируем из OpenAPI. Я отвечаю за модуль расписания и бронирования: от обсуждения требований до релиза. Самая интересная задача там — календарь, в котором слоты обновляются в реальном времени, когда другой администратор их занимает: сделали через SSE и оптимистичные обновления с откатом при конфликте.</p>
+<p>Что бы улучшил: у нас разрослись формы с похожей логикой — я предлагал вынести общий конструктор полей, и это есть в планах на следующий квартал.</p>
+</blockquote>
+<h2 id="как-рассказывать-об-архитектуре">Как рассказывать об архитектуре</h2>
+<p>Для каждой части называйте <strong>решение и причину</strong>:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>Рендеринг:  SSR/ISR для публичных страниц (SEO), CSR для кабинета</span></span>
+<span data-line=""><span>Структура:  FSD — слои и публичные API модулей, правила импорта в линтере</span></span>
+<span data-line=""><span>Данные:     TanStack Query — кеш, повторы, инвалидация; Zustand — UI-состояние</span></span>
+<span data-line=""><span>Формы:      react-hook-form + Zod, общие схемы с бэкендом</span></span>
+<span data-line=""><span>Качество:   TypeScript strict, ESLint, Vitest + RTL, Playwright, CI</span></span>
+<span data-line=""><span>Мониторинг: Sentry, Web Vitals</span></span></code></pre></figure>
+<p>Если решение принимали до вас и оно спорное — скажите, что видите его минусы, и как бы сделали сейчас.</p>
+<h2 id="nda-и-конфиденциальность">NDA и конфиденциальность</h2>
+<ul>
+<li>Описывайте продукт обобщенно: «маркетплейс в сфере e-commerce», «внутренняя CRM банка».</li>
+<li>Не называйте закрытые цифры (выручка, точное число клиентов) — достаточно порядка величины.</li>
+<li>Технические решения и ваш вклад обычно можно рассказывать без нарушения NDA.</li>
+<li>Можно прямо сказать: «детали под NDA, но могу рассказать, как была устроена архитектура».</li>
+</ul>
+<h2 id="что-важно-помнить">Что важно помнить</h2>
+<ul>
+<li>Показывайте понимание «зачем», а не только «на чем».</li>
+<li>Готовьте ответ на «почему выбрали X, а не Y?» для каждого ключевого решения.</li>
+<li>Называйте слабые места проекта спокойно и конструктивно — это признак зрелости, а не жалоба.</li>
+<li>Держите рассказ в 3–5 минутах; интервьюер сам углубится, куда ему интересно.</li>
+<li>Связанные темы: <a href="/refront/l/11/02/02/" data-internal="true">архитектура и данные в system design</a>, <a href="/refront/l/10/08/03/" data-internal="true">как рассказать о тестировании в проекте</a>.</li>
+</ul>
+<h2 id="мини-шпаргалка">Мини-шпаргалка</h2>
+<p>Продукт и масштаб → команда и процесс → архитектура и стек с причинами → ваша зона ответственности → одна интересная задача (STAR) → что бы улучшили. Каждое решение — «что и почему». NDA — обобщать продукт, рассказывать технику. 3–5 минут.</p>
+<h2 id="документация">Документация</h2>
+<p><a href="https://www.techinterviewhandbook.org/behavioral-interview/" target="_blank" rel="noopener noreferrer">Tech Interview Handbook: Behavioral interviews</a>, <a href="https://feature-sliced.design/ru/" target="_blank" rel="noopener noreferrer">Feature-Sliced Design</a>, <a href="https://www.greatfrontend.com/front-end-system-design-playbook" target="_blank" rel="noopener noreferrer">GreatFrontEnd: Front End System Design Playbook</a>.</p>1d:["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L2c",null,{"children":"$1a:0:1:d:r:props:children:0:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[["$","span","9omkan",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/14/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"14"}],"Поведенческое интервью"]}]]}],["$","span","1i29t9t",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/14/02/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"02"}],"Рассказ о себе"]}]]}]]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","02"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[4," ","минуты"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Как рассказать о проекте и своей роли"}],["$","div",null,{"className":"mt-7","children":["$","$L2d",null,{"id":"1w509ia","href":"/l/14/02/02/","title":"Как рассказать о проекте и своей роли"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$2e"}}],"$L2f","$L30","$L31"]}]]}]
+1e:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L32",null,{"items":[{"id":"вопрос","text":"Вопрос","depth":2},{"id":"структура-ответа","text":"Структура ответа","depth":2},{"id":"пример","text":"Пример","depth":2},{"id":"как-рассказывать-об-архитектуре","text":"Как рассказывать об архитектуре","depth":2},{"id":"nda-и-конфиденциальность","text":"NDA и конфиденциальность","depth":2},{"id":"что-важно-помнить","text":"Что важно помнить","depth":2},{"id":"мини-шпаргалка","text":"Мини-шпаргалка","depth":2},{"id":"документация","text":"Документация","depth":2}]}]}]
+1f:["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true}]
+20:["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true}]
+21:["$","$L33",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@34"}]}]
+35:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+36:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+14:300
+2f:["$","$L35",null,{"targetId":"lesson-body"}]
+30:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L2d",null,{"id":"1w509ia","href":"/l/14/02/02/","title":"Как рассказать о проекте и своей роли","variant":"footer"}]}]
+31:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/14/02/01/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L36",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как построить рассказ о себе"}]]}],["$","$L10",null,{"href":"/l/14/02/03/","className":"group flex flex-col items-end gap-1.5 bg-background p-5 text-right transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":["Далее ",["$","$L36",null,{"icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-3 transition-transform group-hover:translate-x-1"}]]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Почему ищете работу, мотивация и зарплатные ожидания"}]]}]]}]
+34:null
+2b:true
+14:C
+2a:0
+19:"$undefined"
+16:"$undefined"
+13:"$undefined"
+29:"$undefined"
+22:"$undefined"

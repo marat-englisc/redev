@@ -1,0 +1,202 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+1b:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+1c:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+23:"ViewportBoundary"
+24:I[97367,["$2","$3","$4","$5","$6","$7"],"$23"]
+25:"MetadataBoundary"
+26:I[97367,["$2","$3","$4","$5","$6","$7"],"$25"]
+27:"$Sreact.suspense"
+28:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+14:X
+17:X
+17:C
+1a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L1b",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L1c",null,{"tree":{"kind":"folder","id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/","children":[{"kind":"lesson","id":"1ux8vf5","num":"00","title":"Карта раздела и маршрут изучения","href":"/l/11/00/"},{"kind":"folder","id":"13avxpg","num":"01","title":"Основы","href":"/l/11/01/","children":[{"kind":"lesson","id":"13hsjng","num":"01","title":"Что такое frontend system design и как проходит интервью","href":"/l/11/01/01/"},{"kind":"lesson","id":"h3trdb","num":"02","title":"Как строить ответ - фреймворк RADIO","href":"/l/11/01/02/"},{"kind":"lesson","id":"5sdmze","num":"03","title":"Как собирать требования - функциональные и нефункциональные","href":"/l/11/01/03/"}]},{"kind":"folder","id":"1tuqiho","num":"02","title":"Архитектура и данные","href":"/l/11/02/","children":[{"kind":"lesson","id":"cyxxg3","num":"01","title":"Как выбрать стратегию рендеринга под задачу","href":"/l/11/02/01/"},{"kind":"lesson","id":"y9mrya","num":"02","title":"Как разбить интерфейс на компоненты и слои","href":"/l/11/02/02/"},{"kind":"lesson","id":"1aq3i9w","num":"03","title":"Как спроектировать модель данных и состояние клиента","href":"/l/11/02/03/"},{"kind":"lesson","id":"cgxwwi","num":"04","title":"Как спроектировать API между клиентом и сервером","href":"/l/11/02/04/"},{"kind":"lesson","id":"wcdt27","num":"05","title":"Как выбрать способ realtime - polling, SSE или WebSocket","href":"/l/11/02/05/"}]},{"kind":"folder","id":"wqfas6","num":"03","title":"Нефункциональные требования","href":"/l/11/03/","children":[{"kind":"lesson","id":"1jbptbb","num":"01","title":"Как обеспечить производительность","href":"/l/11/03/01/"},{"kind":"lesson","id":"1ewasbz","num":"02","title":"Как спроектировать кеширование на всех уровнях","href":"/l/11/03/02/"},{"kind":"lesson","id":"1o50zyy","num":"03","title":"Как обеспечить надежность, обработку ошибок и офлайн","href":"/l/11/03/03/"},{"kind":"lesson","id":"hw7oqo","num":"04","title":"Как учесть доступность и интернационализацию","href":"/l/11/03/04/"},{"kind":"lesson","id":"1lgnfdp","num":"05","title":"Как обеспечить безопасность фронтенда","href":"/l/11/03/05/"},{"kind":"lesson","id":"1icj4lz","num":"06","title":"Как обеспечить наблюдаемость - логи, метрики и feature flags","href":"/l/11/03/06/"}]},{"kind":"folder","id":"tu3xir","num":"04","title":"Разбор задач","href":"/l/11/04/","children":[{"kind":"lesson","id":"167xqsv","num":"01","title":"Как спроектировать автокомплит (typeahead)","href":"/l/11/04/01/"},{"kind":"lesson","id":"he1i1t","num":"02","title":"Как спроектировать ленту новостей (news feed)","href":"/l/11/04/02/"},{"kind":"lesson","id":"1qtepj5","num":"03","title":"Как спроектировать чат (мессенджер)","href":"/l/11/04/03/"},{"kind":"lesson","id":"1s17bbc","num":"04","title":"Как спроектировать каталог товаров с фильтрами и корзиной","href":"/l/11/04/04/"},{"kind":"lesson","id":"4tcz87","num":"05","title":"Как спроектировать совместный редактор документов","href":"/l/11/04/05/"},{"kind":"lesson","id":"16nrtzx","num":"06","title":"Как спроектировать компонент таблицы данных (data table)","href":"/l/11/04/06/"}]},{"kind":"folder","id":"18el745","num":"05","title":"Масштабирование и интервью","href":"/l/11/05/","children":[{"kind":"lesson","id":"eg5s44","num":"01","title":"Как спроектировать дизайн-систему и UI-кит","href":"/l/11/05/01/"},{"kind":"lesson","id":"1ovbcef","num":"02","title":"Как масштабировать фронтенд - монорепозиторий, модули и микрофронтенды","href":"/l/11/05/02/"},{"kind":"lesson","id":"1mkgbvc","num":"03","title":"Чек-лист и частые вопросы на system design интервью","href":"/l/11/05/03/"}]}]},"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"1aq3i9w"}]}],"$L1d","$L1e"]}]],["$L1f","$L20"],"$L21"]}],"p":"$@22","v":null,"s":"$14"}}]]
+18:[["children",{"s":{"n":"slug","t":"c","k":"11/02/03","s":[]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@19","v":"$17","s":"$14"},"c":"$Q1a"}]]
+15:[["children",{"s":"l","h":131168,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@16","v":"$17","s":"$14"},"c":"$Q18"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]]}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":"$@13","v":null,"s":"$14"},"c":"$Q15"},"h":{"r":["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]}],["$","$L26",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$27",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Как спроектировать модель данных и состояние клиента · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L28","3",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@29","v":null,"s":"$14"}},"a":"$@2a","u":"$@2b","b":"wRMcUeVIbhyGgdOCswqeh"}
+2c:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+2d:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+32:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+33:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+2e:T4308,<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p>На шаге Data model определяют <strong>сущности</strong> клиента и их поля, разделяют <strong>серверное состояние</strong> (данные с API — кешируются и синхронизируются) и <strong>клиентское</strong> (UI, черновики, выбор пользователя), решают, что хранить <strong>нормализованно</strong>, что — в <strong>URL</strong>, что — <strong>локально на устройстве</strong>. Хорошая модель минимальна: производные значения вычисляются, а каждая сущность хранится в одном месте.</p></div>
+</div>
+<h2 id="вопрос">Вопрос</h2>
+<p>Как спроектировать модель данных на клиенте? Как разделить серверное и клиентское состояние, когда нормализовать данные и что хранить в URL?</p>
+<h2 id="сущности">Сущности</h2>
+<p>Пример — чат:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="typescript" data-theme="mono"><code data-language="typescript" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-keyword)">type</span><span style="color:var(--shiki-token-function)"> User</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground)"> { id</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> UserId</span><span style="color:var(--shiki-foreground)">; name</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground)">; avatarUrl</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground)">; online</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> boolean</span><span style="color:var(--shiki-foreground)"> };</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">type</span><span style="color:var(--shiki-token-function)"> Conversation</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  id</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> ConversationId</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  title</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  participantIds</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> UserId</span><span style="color:var(--shiki-foreground)">[];</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  lastMessageId</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> MessageId</span><span style="color:var(--shiki-token-keyword)"> |</span><span style="color:var(--shiki-token-constant)"> null</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  unreadCount</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> number</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">};</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">type</span><span style="color:var(--shiki-token-function)"> Message</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  id</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> MessageId</span><span style="color:var(--shiki-foreground)">;              </span><span style="color:var(--shiki-token-comment)">// для неотправленных — временный clientId</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  conversationId</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> ConversationId</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  authorId</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> UserId</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  text</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  createdAt</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground)">;          </span><span style="color:var(--shiki-token-comment)">// ISO, с сервера</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  status</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> "sending"</span><span style="color:var(--shiki-token-keyword)"> |</span><span style="color:var(--shiki-token-string-expression)"> "sent"</span><span style="color:var(--shiki-token-keyword)"> |</span><span style="color:var(--shiki-token-string-expression)"> "delivered"</span><span style="color:var(--shiki-token-keyword)"> |</span><span style="color:var(--shiki-token-string-expression)"> "read"</span><span style="color:var(--shiki-token-keyword)"> |</span><span style="color:var(--shiki-token-string-expression)"> "failed"</span><span style="color:var(--shiki-foreground)">;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">};</span></span></code></pre></figure>
+<h2 id="виды-состояния">Виды состояния</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Вид</th><th>Пример</th><th>Где хранить</th></tr></thead><tbody><tr><td>Серверное</td><td>беседы, сообщения, профили</td><td>кеш запросов (TanStack Query, RTK Query) или нормализованный store</td></tr><tr><td>Клиентское UI</td><td>открыта ли панель, выбранная беседа</td><td><code>useState</code>, локальный store</td></tr><tr><td>URL</td><td><code>/chat/:conversationId</code>, фильтры, поиск</td><td>роутер, <code>searchParams</code></td></tr><tr><td>Формы и черновики</td><td>текст неотправленного сообщения</td><td>состояние формы + <code>localStorage</code></td></tr><tr><td>Сессия</td><td>текущий пользователь, токен</td><td>httpOnly cookie, контекст</td></tr><tr><td>Офлайн-данные</td><td>история для работы без сети</td><td>IndexedDB</td></tr></tbody></table></div>
+<h2 id="нормализация">Нормализация</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="typescript" data-theme="mono"><code data-language="typescript" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-keyword)">type</span><span style="color:var(--shiki-token-function)"> ChatState</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  users</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> Record</span><span style="color:var(--shiki-foreground)">&#x3C;</span><span style="color:var(--shiki-token-function)">UserId</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-function)"> User</span><span style="color:var(--shiki-foreground)">>;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  conversations</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> Record</span><span style="color:var(--shiki-foreground)">&#x3C;</span><span style="color:var(--shiki-token-function)">ConversationId</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-function)"> Conversation</span><span style="color:var(--shiki-foreground)">>;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  messages</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> Record</span><span style="color:var(--shiki-foreground)">&#x3C;</span><span style="color:var(--shiki-token-function)">MessageId</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-function)"> Message</span><span style="color:var(--shiki-foreground)">>;</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  messageIdsByConversation</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> Record</span><span style="color:var(--shiki-foreground)">&#x3C;</span><span style="color:var(--shiki-token-function)">ConversationId</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-function)"> MessageId</span><span style="color:var(--shiki-foreground)">[]>;  </span><span style="color:var(--shiki-token-comment)">// порядок</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">};</span></span></code></pre></figure>
+<p>Нормализуйте, если:</p>
+<ul>
+<li>одна сущность встречается в нескольких местах (автор в сообщениях, списке участников, шапке);</li>
+<li>данные часто обновляются точечно (статус сообщения, онлайн пользователя);</li>
+<li>приходят realtime-события по id.</li>
+</ul>
+<p>Для простой ленты «только чтение» достаточно массивов в кеше запросов.</p>
+<h2 id="производные-данные">Производные данные</h2>
+<p>Не храните то, что можно вычислить:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="typescript" data-theme="mono"><code data-language="typescript" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-comment)">// плохо: хранить unreadTotal отдельно и синхронизировать вручную</span></span>
+<span data-line=""><span style="color:var(--shiki-token-comment)">// хорошо: селектор</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">const</span><span style="color:var(--shiki-token-function)"> selectUnreadTotal</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground)"> (s</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> ChatState</span><span style="color:var(--shiki-foreground)">) </span><span style="color:var(--shiki-token-keyword)">=></span></span>
+<span data-line=""><span style="color:var(--shiki-token-constant)">  Object</span><span style="color:var(--shiki-token-function)">.values</span><span style="color:var(--shiki-foreground)">(</span><span style="color:var(--shiki-token-constant)">s</span><span style="color:var(--shiki-foreground)">.conversations)</span><span style="color:var(--shiki-token-function)">.reduce</span><span style="color:var(--shiki-foreground)">((sum</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground)"> c) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground)"> sum </span><span style="color:var(--shiki-token-keyword)">+</span><span style="color:var(--shiki-token-constant)"> c</span><span style="color:var(--shiki-foreground)">.unreadCount</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-foreground)">);</span></span></code></pre></figure>
+<h2 id="что-хранить-в-url">Что хранить в URL</h2>
+<ul>
+<li>текущий экран и выбранную сущность (<code>/products/42</code>);</li>
+<li>фильтры, сортировку, поиск, страницу — чтобы можно было поделиться ссылкой и вернуться «назад»;</li>
+<li>открытую вкладку или модалку, если на нее дают прямую ссылку.</li>
+</ul>
+<p>Не храните в URL секреты и большие объекты.</p>
+<h2 id="локальное-хранение">Локальное хранение</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Хранилище</th><th>Объем</th><th>Для чего</th></tr></thead><tbody><tr><td><code>localStorage</code></td><td>~5 МБ, синхронный</td><td>настройки, маленькие черновики</td></tr><tr><td><code>sessionStorage</code></td><td>~5 МБ, вкладка</td><td>временное состояние вкладки</td></tr><tr><td>IndexedDB</td><td>сотни МБ, асинхронный</td><td>офлайн-кеш, большие данные, очередь отправки</td></tr><tr><td>Cache API</td><td>ответы HTTP</td><td>Service Worker, офлайн-ресурсы</td></tr><tr><td>cookie</td><td>~4 КБ</td><td>сессия (httpOnly)</td></tr></tbody></table></div>
+<h2 id="что-важно-помнить">Что важно помнить</h2>
+<ul>
+<li>Минимальное состояние: каждая сущность — в одном месте, производное — через селекторы.</li>
+<li>Временные id для оптимистичных сущностей заменяйте на серверные после ответа.</li>
+<li>Даты храните в ISO/UTC, форматируйте при отображении через <code>Intl</code>.</li>
+<li>Указывайте, откуда берется «источник правды»: сервер, URL или клиент.</li>
+<li>Связанные темы: <a href="/refront/l/06/15/07/" data-internal="true">нормализация в RTK</a>, <a href="/refront/l/06/03/12/" data-internal="true">client-side и server-side state</a>.</li>
+</ul>
+<h2 id="мини-шпаргалка">Мини-шпаргалка</h2>
+<p>Сущности с id и типами полей. Серверное состояние — в кеше запросов, UI — локально, навигация и фильтры — в URL, черновики — <code>localStorage</code>, офлайн — IndexedDB. Нормализовать при повторяющихся сущностях и точечных обновлениях. Производное — вычислять.</p>
+<h2 id="документация">Документация</h2>
+<p><a href="https://redux.js.org/usage/structuring-reducers/normalizing-state-shape" target="_blank" rel="noopener noreferrer">Redux: Normalizing State Shape</a>, <a href="https://tanstack.com/query/latest/docs/framework/react/guides/does-this-replace-client-state" target="_blank" rel="noopener noreferrer">TanStack Query: Does this replace client state?</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API" target="_blank" rel="noopener noreferrer">MDN: IndexedDB API</a>, <a href="https://web.dev/articles/storage-for-the-web" target="_blank" rel="noopener noreferrer">web.dev: Storage for the web</a>.</p>1d:["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L2c",null,{"children":"$1a:0:1:d:r:props:children:0:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[["$","span","qk1yis",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/11/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"11"}],"Frontend System Design"]}]]}],["$","span","1tuqiho",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/11/02/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"02"}],"Архитектура и данные"]}]]}]]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","03"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[3," ","минуты"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Как спроектировать модель данных и состояние клиента"}],["$","div",null,{"className":"mt-7","children":["$","$L2d",null,{"id":"1aq3i9w","href":"/l/11/02/03/","title":"Как спроектировать модель данных и состояние клиента"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$2e"}}],"$L2f","$L30","$L31"]}]]}]
+1e:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L32",null,{"items":[{"id":"вопрос","text":"Вопрос","depth":2},{"id":"сущности","text":"Сущности","depth":2},{"id":"виды-состояния","text":"Виды состояния","depth":2},{"id":"нормализация","text":"Нормализация","depth":2},{"id":"производные-данные","text":"Производные данные","depth":2},{"id":"что-хранить-в-url","text":"Что хранить в URL","depth":2},{"id":"локальное-хранение","text":"Локальное хранение","depth":2},{"id":"что-важно-помнить","text":"Что важно помнить","depth":2},{"id":"мини-шпаргалка","text":"Мини-шпаргалка","depth":2},{"id":"документация","text":"Документация","depth":2}]}]}]
+1f:["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true}]
+20:["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true}]
+21:["$","$L33",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@34"}]}]
+35:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+36:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+14:300
+2f:["$","$L35",null,{"targetId":"lesson-body"}]
+30:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L2d",null,{"id":"1aq3i9w","href":"/l/11/02/03/","title":"Как спроектировать модель данных и состояние клиента","variant":"footer"}]}]
+31:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/11/02/02/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L36",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как разбить интерфейс на компоненты и слои"}]]}],["$","$L10",null,{"href":"/l/11/02/04/","className":"group flex flex-col items-end gap-1.5 bg-background p-5 text-right transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":["Далее ",["$","$L36",null,{"icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-3 transition-transform group-hover:translate-x-1"}]]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как спроектировать API между клиентом и сервером"}]]}]]}]
+34:null
+2b:true
+14:C
+2a:0
+19:"$undefined"
+16:"$undefined"
+13:"$undefined"
+29:"$undefined"
+22:"$undefined"

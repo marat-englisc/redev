@@ -1,0 +1,181 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+1b:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+1c:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+23:"ViewportBoundary"
+24:I[97367,["$2","$3","$4","$5","$6","$7"],"$23"]
+25:"MetadataBoundary"
+26:I[97367,["$2","$3","$4","$5","$6","$7"],"$25"]
+27:"$Sreact.suspense"
+28:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+14:X
+17:X
+17:C
+1a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L1b",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L1c",null,{"tree":{"kind":"folder","id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/","children":[{"kind":"lesson","id":"1ux8vf5","num":"00","title":"Карта раздела и маршрут изучения","href":"/l/11/00/"},{"kind":"folder","id":"13avxpg","num":"01","title":"Основы","href":"/l/11/01/","children":[{"kind":"lesson","id":"13hsjng","num":"01","title":"Что такое frontend system design и как проходит интервью","href":"/l/11/01/01/"},{"kind":"lesson","id":"h3trdb","num":"02","title":"Как строить ответ - фреймворк RADIO","href":"/l/11/01/02/"},{"kind":"lesson","id":"5sdmze","num":"03","title":"Как собирать требования - функциональные и нефункциональные","href":"/l/11/01/03/"}]},{"kind":"folder","id":"1tuqiho","num":"02","title":"Архитектура и данные","href":"/l/11/02/","children":[{"kind":"lesson","id":"cyxxg3","num":"01","title":"Как выбрать стратегию рендеринга под задачу","href":"/l/11/02/01/"},{"kind":"lesson","id":"y9mrya","num":"02","title":"Как разбить интерфейс на компоненты и слои","href":"/l/11/02/02/"},{"kind":"lesson","id":"1aq3i9w","num":"03","title":"Как спроектировать модель данных и состояние клиента","href":"/l/11/02/03/"},{"kind":"lesson","id":"cgxwwi","num":"04","title":"Как спроектировать API между клиентом и сервером","href":"/l/11/02/04/"},{"kind":"lesson","id":"wcdt27","num":"05","title":"Как выбрать способ realtime - polling, SSE или WebSocket","href":"/l/11/02/05/"}]},{"kind":"folder","id":"wqfas6","num":"03","title":"Нефункциональные требования","href":"/l/11/03/","children":[{"kind":"lesson","id":"1jbptbb","num":"01","title":"Как обеспечить производительность","href":"/l/11/03/01/"},{"kind":"lesson","id":"1ewasbz","num":"02","title":"Как спроектировать кеширование на всех уровнях","href":"/l/11/03/02/"},{"kind":"lesson","id":"1o50zyy","num":"03","title":"Как обеспечить надежность, обработку ошибок и офлайн","href":"/l/11/03/03/"},{"kind":"lesson","id":"hw7oqo","num":"04","title":"Как учесть доступность и интернационализацию","href":"/l/11/03/04/"},{"kind":"lesson","id":"1lgnfdp","num":"05","title":"Как обеспечить безопасность фронтенда","href":"/l/11/03/05/"},{"kind":"lesson","id":"1icj4lz","num":"06","title":"Как обеспечить наблюдаемость - логи, метрики и feature flags","href":"/l/11/03/06/"}]},{"kind":"folder","id":"tu3xir","num":"04","title":"Разбор задач","href":"/l/11/04/","children":[{"kind":"lesson","id":"167xqsv","num":"01","title":"Как спроектировать автокомплит (typeahead)","href":"/l/11/04/01/"},{"kind":"lesson","id":"he1i1t","num":"02","title":"Как спроектировать ленту новостей (news feed)","href":"/l/11/04/02/"},{"kind":"lesson","id":"1qtepj5","num":"03","title":"Как спроектировать чат (мессенджер)","href":"/l/11/04/03/"},{"kind":"lesson","id":"1s17bbc","num":"04","title":"Как спроектировать каталог товаров с фильтрами и корзиной","href":"/l/11/04/04/"},{"kind":"lesson","id":"4tcz87","num":"05","title":"Как спроектировать совместный редактор документов","href":"/l/11/04/05/"},{"kind":"lesson","id":"16nrtzx","num":"06","title":"Как спроектировать компонент таблицы данных (data table)","href":"/l/11/04/06/"}]},{"kind":"folder","id":"18el745","num":"05","title":"Масштабирование и интервью","href":"/l/11/05/","children":[{"kind":"lesson","id":"eg5s44","num":"01","title":"Как спроектировать дизайн-систему и UI-кит","href":"/l/11/05/01/"},{"kind":"lesson","id":"1ovbcef","num":"02","title":"Как масштабировать фронтенд - монорепозиторий, модули и микрофронтенды","href":"/l/11/05/02/"},{"kind":"lesson","id":"1mkgbvc","num":"03","title":"Чек-лист и частые вопросы на system design интервью","href":"/l/11/05/03/"}]}]},"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"cgxwwi"}]}],"$L1d","$L1e"]}]],["$L1f","$L20"],"$L21"]}],"p":"$@22","v":null,"s":"$14"}}]]
+18:[["children",{"s":{"n":"slug","t":"c","k":"11/02/04","s":[]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@19","v":"$17","s":"$14"},"c":"$Q1a"}]]
+15:[["children",{"s":"l","h":131168,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"p":"$@16","v":"$17","s":"$14"},"c":"$Q18"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]]}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":"$@13","v":null,"s":"$14"},"c":"$Q15"},"h":{"r":["$","$1","h",{"children":[null,["$","$L24",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]}],["$","$L26",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$27",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Как спроектировать API между клиентом и сервером · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L28","3",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@29","v":null,"s":"$14"}},"a":"$@2a","u":"$@2b","b":"wRMcUeVIbhyGgdOCswqeh"}
+2c:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+2d:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+32:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+33:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+2e:T3c8c,<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p>На шаге Interface описывают <strong>контракт клиент — сервер</strong>: какие запросы делает клиент, с какими параметрами, в каком формате приходит ответ, как устроены пагинация, ошибки и обновления. Ключевые решения: REST или GraphQL, <strong>offset или cursor пагинация</strong>, нужен ли <strong>BFF</strong> (Backend for Frontend), как передавать частичные данные и как обрабатывать ошибки. API проектируют под экраны: один экран — как можно меньше последовательных запросов.</p></div>
+</div>
+<h2 id="вопрос">Вопрос</h2>
+<p>Как на frontend system design интервью спроектировать API? Как выбрать пагинацию, формат ответа и обработку ошибок и зачем нужен BFF?</p>
+<h2 id="пример-лента">Пример: лента</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="http" data-theme="mono"><code data-language="http" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-keyword)">GET</span><span style="color:var(--shiki-foreground)"> /api/feed?cursor=eyJpZCI6MTIzfQ&#x26;limit=20</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="mono"><code data-language="json" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-foreground)">{</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "items"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> [</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">    {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "id"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "p_123"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "author"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> { </span><span style="color:var(--shiki-token-keyword)">"id"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "u_1"</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-keyword)"> "name"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "Анна"</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-keyword)"> "avatarUrl"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "https://cdn.example.com/a/u_1_64.webp"</span><span style="color:var(--shiki-foreground)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "text"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "Привет!"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "media"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> [{ </span><span style="color:var(--shiki-token-keyword)">"type"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "image"</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-keyword)"> "url"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "..."</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-keyword)"> "width"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 1200</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-keyword)"> "height"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 800</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-keyword)"> "blurhash"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "..."</span><span style="color:var(--shiki-foreground)"> }]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "likeCount"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 42</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "likedByMe"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "createdAt"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "2026-10-17T10:00:00Z"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">    }</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  ]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "nextCursor"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "eyJpZCI6MTAzfQ"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "hasMore"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">}</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="http" data-theme="mono"><code data-language="http" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-keyword)">POST</span><span style="color:var(--shiki-foreground)">   /api/posts                 создать пост</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">POST</span><span style="color:var(--shiki-foreground)">   /api/posts/p_123/like      поставить лайк (идемпотентно)</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">DELETE</span><span style="color:var(--shiki-foreground)"> /api/posts/p_123/like      снять лайк</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">GET</span><span style="color:var(--shiki-foreground)">    /api/posts/p_123/comments?cursor=...</span></span></code></pre></figure>
+<p>Детали в ответе, которые упрощают фронтенд:</p>
+<ul>
+<li><code>width</code> и <code>height</code> медиа — резервирование места и отсутствие CLS;</li>
+<li><code>likedByMe</code> — не нужен отдельный запрос;</li>
+<li>данные автора внутри поста или отдельным словарем — по выбору нормализации.</li>
+</ul>
+<h2 id="пагинация">Пагинация</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th></th><th>Offset (<code>?page=3&#x26;limit=20</code>)</th><th>Cursor (<code>?cursor=abc&#x26;limit=20</code>)</th></tr></thead><tbody><tr><td>Переход на произвольную страницу</td><td>да</td><td>нет</td></tr><tr><td>Новые элементы во время листания</td><td>дубли и пропуски</td><td>стабильно</td></tr><tr><td>Производительность на больших объемах</td><td>падает (<code>OFFSET 100000</code>)</td><td>стабильна</td></tr><tr><td>Где подходит</td><td>таблицы, админки, поиск со страницами</td><td>ленты, чаты, бесконечный скролл</td></tr></tbody></table></div>
+<h2 id="rest-graphql-bff">REST, GraphQL, BFF</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Подход</th><th>Когда</th></tr></thead><tbody><tr><td>REST</td><td>простые ресурсы, HTTP-кеш и CDN, публичный API</td></tr><tr><td>GraphQL</td><td>разные клиенты, сложные связанные данные, нужно выбирать поля</td></tr><tr><td>BFF</td><td>сервер под конкретный фронтенд: объединяет микросервисы, режет лишние поля, держит токены</td></tr></tbody></table></div>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>Браузер ──▶ BFF (Next.js / Node) ──┬──▶ users-service</span></span>
+<span data-line=""><span>                                    ├──▶ posts-service</span></span>
+<span data-line=""><span>                                    └──▶ media-service</span></span></code></pre></figure>
+<p>BFF уменьшает число запросов с клиента, скрывает внутренние сервисы и позволяет хранить токены сервисов на сервере.</p>
+<h2 id="ошибки">Ошибки</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="mono"><code data-language="json" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-foreground)">{</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "error"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "code"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "VALIDATION_ERROR"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "message"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "Текст поста слишком длинный"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "fields"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> { </span><span style="color:var(--shiki-token-keyword)">"text"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "Максимум 5000 символов"</span><span style="color:var(--shiki-foreground)"> }</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">}</span></span></code></pre></figure>
+<ul>
+<li>HTTP-статусы по смыслу: 400/422 — ввод, 401 — нет сессии, 403 — нет прав, 404, 409 — конфликт, 429 — лимит, 5xx — сервер;</li>
+<li>стабильный машинный <code>code</code> для логики и человекочитаемый <code>message</code> для UI;</li>
+<li>для 429 и 503 — заголовок <code>Retry-After</code>, клиент делает повтор с backoff.</li>
+</ul>
+<h2 id="мутации">Мутации</h2>
+<ul>
+<li><strong>идемпотентность</strong>: повторный лайк не создает второй лайк; для создания заказов — <code>Idempotency-Key</code>;</li>
+<li><strong>оптимистичный ответ</strong>: сервер возвращает созданную сущность, клиент заменяет временную;</li>
+<li><strong>конфликты</strong>: версия или <code>updatedAt</code> для защиты от перезаписи (ответ 409).</li>
+</ul>
+<h2 id="что-важно-помнить">Что важно помнить</h2>
+<ul>
+<li>Проектируйте API под экран: минимум последовательных запросов (водопадов), только нужные поля.</li>
+<li>Для лент и чатов — cursor-пагинация.</li>
+<li>Отдавайте размеры медиа и превью (blurhash, LQIP) — это сразу улучшает CLS и LCP.</li>
+<li>Обсудите ограничения: размер страницы, rate limit, таймауты.</li>
+<li>Связанные темы: <a href="/refront/l/01/03/02/" data-internal="true">REST ресурсы</a>, <a href="/refront/l/01/03/04/" data-internal="true">пагинация</a>, <a href="/refront/l/01/03/06/" data-internal="true">GraphQL</a>.</li>
+</ul>
+<h2 id="мини-шпаргалка">Мини-шпаргалка</h2>
+<p>Опишите эндпоинты экрана, параметры, формат ответа. Ленты — cursor (<code>nextCursor</code>), таблицы — offset. REST — просто и кешируемо, GraphQL — гибкие поля, BFF — агрегация под фронтенд. Ошибки: статус + <code>code</code> + <code>message</code> + поля. Мутации идемпотентны, медиа с размерами.</p>
+<h2 id="документация">Документация</h2>
+<p><a href="https://www.greatfrontend.com/front-end-system-design-playbook" target="_blank" rel="noopener noreferrer">GreatFrontEnd: Front End System Design Playbook</a>, <a href="https://slack.engineering/evolving-api-pagination-at-slack/" target="_blank" rel="noopener noreferrer">Slack Engineering: Evolving API Pagination</a>, <a href="https://www.rfc-editor.org/rfc/rfc9457" target="_blank" rel="noopener noreferrer">RFC 9457: Problem Details for HTTP APIs</a>, <a href="https://samnewman.io/patterns/architectural/bff/" target="_blank" rel="noopener noreferrer">Sam Newman: Backends For Frontends</a>.</p>1d:["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L2c",null,{"children":"$1a:0:1:d:r:props:children:0:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[["$","span","qk1yis",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/11/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"11"}],"Frontend System Design"]}]]}],["$","span","1tuqiho",{"className":"flex items-center gap-2","children":[["$","span",null,{"className":"text-faint","children":"/"}],["$","$L10",null,{"href":"/l/11/02/","className":"hover:text-foreground transition-colors","children":[["$","span",null,{"className":"text-faint mr-1.5","children":"02"}],"Архитектура и данные"]}]]}]]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","04"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[3," ","минуты"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Как спроектировать API между клиентом и сервером"}],["$","div",null,{"className":"mt-7","children":["$","$L2d",null,{"id":"cgxwwi","href":"/l/11/02/04/","title":"Как спроектировать API между клиентом и сервером"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$2e"}}],"$L2f","$L30","$L31"]}]]}]
+1e:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L32",null,{"items":[{"id":"вопрос","text":"Вопрос","depth":2},{"id":"пример-лента","text":"Пример: лента","depth":2},{"id":"пагинация","text":"Пагинация","depth":2},{"id":"rest-graphql-bff","text":"REST, GraphQL, BFF","depth":2},{"id":"ошибки","text":"Ошибки","depth":2},{"id":"мутации","text":"Мутации","depth":2},{"id":"что-важно-помнить","text":"Что важно помнить","depth":2},{"id":"мини-шпаргалка","text":"Мини-шпаргалка","depth":2},{"id":"документация","text":"Документация","depth":2}]}]}]
+1f:["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true}]
+20:["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true}]
+21:["$","$L33",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@34"}]}]
+35:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+36:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+14:300
+2f:["$","$L35",null,{"targetId":"lesson-body"}]
+30:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L2d",null,{"id":"cgxwwi","href":"/l/11/02/04/","title":"Как спроектировать API между клиентом и сервером","variant":"footer"}]}]
+31:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/11/02/03/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L36",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как спроектировать модель данных и состояние клиента"}]]}],["$","$L10",null,{"href":"/l/11/02/05/","className":"group flex flex-col items-end gap-1.5 bg-background p-5 text-right transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":["Далее ",["$","$L36",null,{"icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-3 transition-transform group-hover:translate-x-1"}]]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как выбрать способ realtime - polling, SSE или WebSocket"}]]}]]}]
+34:null
+2b:true
+14:C
+2a:0
+19:"$undefined"
+16:"$undefined"
+13:"$undefined"
+29:"$undefined"
+22:"$undefined"

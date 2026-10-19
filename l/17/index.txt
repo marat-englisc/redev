@@ -1,0 +1,318 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+18:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+19:"$Sreact.suspense"
+1b:"ViewportBoundary"
+1c:I[97367,["$2","$3","$4","$5","$6","$7"],"$1b"]
+1e:"MetadataBoundary"
+1f:I[97367,["$2","$3","$4","$5","$6","$7"],"$1e"]
+21:I[68027,["$2","$3","$4","$5","$6","$7"],"default",1]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+:HL["/refront/_next/static/media/4fa387ec64143e14-s.p.2tuy5pz7dlieh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/8a480f0b521d4e75-s.p.1qq4vpdcun5oj.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+14:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$L17",[["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true,"nonce":"$undefined"}]],["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]]}],"p":false,"v":null}}]]
+15:[["children",{"s":{"n":"slug","t":"c","k":"17","s":[]},"h":66048,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q16"}]]
+13:[["children",{"s":"l","h":131584,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q15"}]]
+0:{"P":null,"c":["","l","17",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1c",null,{"children":"$L1d"}],["$","$L1f",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$19",null,{"name":"Next.Metadata","children":"$L20"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$21",[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"wRMcUeVIbhyGgdOCswqeh"}
+14:C
+1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]
+22:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+23:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+24:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+25:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+26:Td0e9,<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p>Не нужно устанавливать все расширения подряд. Основной набор подходит почти любому React- или Next.js-проекту, а инструменты для Stylelint, Vitest, Jest, Playwright и Prisma нужны только тогда, когда соответствующая технология используется в проекте.</p></div>
+</div>
+<h2 id="основные-расширения">Основные расширения</h2>
+<p>VS Code из коробки понимает JSX и TSX: подсказки, переход к определению, рефакторинги и переименование парных тегов (<code>editor.linkedEditing</code>) работают через встроенный TypeScript без отдельного расширения для React. Поэтому основной набор — это инструменты качества кода.</p>
+<ol>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" target="_blank" rel="noopener noreferrer">ESLint</a> (<code>dbaeumer.vscode-eslint</code>) — показывает ошибки ESLint, включая нарушения правил хуков, и применяет безопасные автоисправления.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank" rel="noopener noreferrer">Prettier</a> (<code>esbenp.prettier-vscode</code>) — единое форматирование JavaScript, TypeScript, JSX/TSX, CSS, JSON и Markdown.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig" target="_blank" rel="noopener noreferrer">EditorConfig</a> (<code>editorconfig.editorconfig</code>) — синхронизирует отступы, окончания строк и другие базовые правила между разными редакторами.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss" target="_blank" rel="noopener noreferrer">Tailwind CSS IntelliSense</a> (<code>bradlc.vscode-tailwindcss</code>) — автодополнение классов, превью CSS при наведении и диагностика конфликтующих классов. Tailwind CSS предлагается по умолчанию в <code>create-next-app</code>, поэтому для Next.js-проектов это расширение почти обязательно.</li>
+</ol>
+<p>Расширения ESLint и Prettier не заменяют зависимости проекта. Для воспроизводимого результата установи <code>eslint</code> и <code>prettier</code> в <code>devDependencies</code> и храни их конфигурацию в репозитории. Если ESLint содержит стилистические правила, используй <code>eslint-config-prettier</code>, чтобы линтер и форматтер не спорили друг с другом.</p>
+<p>В Next.js-проекте ESLint настраивается через <code>eslint-config-next</code>: он уже включает правила React, <code>eslint-plugin-react-hooks</code> (<code>rules-of-hooks</code>, <code>exhaustive-deps</code>) и <code>@next/eslint-plugin-next</code>. Для Tailwind CSS добавь <code>prettier-plugin-tailwindcss</code> — он сортирует классы в рекомендуемом порядке.</p>
+<h2 id="полезные-расширения-по-ситуации">Полезные расширения по ситуации</h2>
+<h3 id="удобство-разработки">Удобство разработки</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens" target="_blank" rel="noopener noreferrer">Error Lens</a> (<code>usernamehw.errorlens</code>) — выводит ошибки и предупреждения прямо возле проблемной строки.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors" target="_blank" rel="noopener noreferrer">Pretty TypeScript Errors</a> (<code>yoavbls.pretty-ts-errors</code>) — делает длинные ошибки TypeScript более читаемыми. Особенно помогает с ошибками в типах props и дженерик-компонентах.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" target="_blank" rel="noopener noreferrer">ES7+ React/Redux/React-Native snippets</a> (<code>dsznajder.es7-react-js-snippets</code>) — сниппеты для компонентов, хуков и Redux (<code>rafce</code>, <code>useState</code>, <code>useEffect</code>). Полезно в работе, но на лайвкодинге всё равно нужно уметь писать без них.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense" target="_blank" rel="noopener noreferrer">Path Intellisense</a> (<code>christian-kohler.path-intellisense</code>) — дополняет пути к файлам. Для импортов JavaScript и TypeScript сначала стоит попробовать встроенные подсказки VS Code.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env" target="_blank" rel="noopener noreferrer">ENV</a> (<code>IronGeek.vscode-env</code>) — подсветка синтаксиса <code>.env</code>, <code>.env.local</code> и других файлов окружения Next.js.</li>
+</ul>
+<h3 id="качество-кода-и-тесты">Качество кода и тесты</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint" target="_blank" rel="noopener noreferrer">Stylelint</a> (<code>stylelint.vscode-stylelint</code>) — линтинг CSS, SCSS и CSS Modules (<code>*.module.css</code>), если проект не ограничивается Tailwind CSS.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=vitest.explorer" target="_blank" rel="noopener noreferrer">Vitest</a> (<code>vitest.explorer</code>) — запуск и отладка unit-тестов и тестов компонентов на React Testing Library из панели Testing.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest" target="_blank" rel="noopener noreferrer">Jest</a> (<code>Orta.vscode-jest</code>) — то же самое для проектов на Jest.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright" target="_blank" rel="noopener noreferrer">Playwright Test for VS Code</a> (<code>ms-playwright.playwright</code>) — запуск, запись и пошаговая отладка E2E-тестов.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank" rel="noopener noreferrer">GitLens</a> (<code>eamodio.gitlens</code>) — история строк и файлов, blame и навигация по изменениям Git. Базовые Git-операции уже встроены в VS Code.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank" rel="noopener noreferrer">GitHub Pull Requests</a> (<code>GitHub.vscode-pull-request-github</code>) — просмотр и ревью pull request без выхода из редактора.</li>
+</ul>
+<h3 id="fullstack-на-nextjs">Fullstack на Next.js</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Prisma.prisma" target="_blank" rel="noopener noreferrer">Prisma</a> (<code>Prisma.prisma</code>) — подсветка, автодополнение и форматирование <code>schema.prisma</code>.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client" target="_blank" rel="noopener noreferrer">REST Client</a> (<code>humao.rest-client</code>) — отправка HTTP-запросов из <code>.http</code>-файлов. Удобно проверять Route Handlers (<code>app/api/**/route.ts</code>) без Postman.</li>
+</ul>
+<h3 id="для-этого-учебного-проекта">Для этого учебного проекта</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one" target="_blank" rel="noopener noreferrer">Markdown All in One</a> (<code>yzhang.markdown-all-in-one</code>) — удобная работа со списками, таблицами, оглавлением и предпросмотром Markdown.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint" target="_blank" rel="noopener noreferrer">markdownlint</a> (<code>DavidAnson.vscode-markdownlint</code>) — проверка единообразия Markdown. Правила лучше настроить в <code>.markdownlint.json</code>, прежде чем проверять весь проект.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker" target="_blank" rel="noopener noreferrer">Code Spell Checker</a> и <a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-russian" target="_blank" rel="noopener noreferrer">русский словарь</a> — поиск опечаток в тексте, комментариях и названиях.</li>
+</ul>
+<h3 id="оформление">Оформление</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols" target="_blank" rel="noopener noreferrer">Symbols</a> — иконки файлов и папок.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ztluwu.lucide-icons" target="_blank" rel="noopener noreferrer">Lucide Product Icon Theme</a> — иконки интерфейса VS Code.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper" target="_blank" rel="noopener noreferrer">Vesper</a> — цветовая тема.</li>
+<li><a href="https://www.jetbrains.com/lp/mono/" target="_blank" rel="noopener noreferrer">JetBrains Mono</a> — шрифт с лигатурами.</li>
+</ul>
+<h2 id="рекомендуемый-settingsjson">Рекомендуемый <code>settings.json</code></h2>
+<p>Открыть файл можно через палитру команд: <code>Preferences: Open User Settings (JSON)</code>. Пример ниже является полноценным JSON-объектом и подходит как отправная точка:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="mono"><code data-language="json" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-foreground)">{</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.fontSize"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 14</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.fontFamily"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "JetBrains Mono, Consolas, 'Courier New', monospace"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.fontLigatures"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.inlayHints.fontFamily"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "JetBrains Mono"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.codeLensFontFamily"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "JetBrains Mono"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.quickSuggestionsDelay"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.wordWrap"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "bounded"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.wordWrapColumn"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 100</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.rulers"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> [</span><span style="color:var(--shiki-token-constant)">100</span><span style="color:var(--shiki-foreground)">]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.insertSpaces"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.tabSize"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 2</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.detectIndentation"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.folding"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.stickyScroll.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.smoothScrolling"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.cursorBlinking"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "expand"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.cursorSmoothCaretAnimation"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "explicit"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.overtypeCursorStyle"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "line-thin"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.minimap.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> false</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.glyphMargin"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.linkedEditing"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.colorDecorators"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.semanticHighlighting.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.bracketPairColorization.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.guides.bracketPairs"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "active"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.defaultFormatter"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "esbenp.prettier-vscode"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.formatOnSave"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.codeActionsOnSave"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "source.fixAll.eslint"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "explicit"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "files.eol"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "\n"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "files.insertFinalNewline"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "files.trimTrailingWhitespace"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "files.associations"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "*.css"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "tailwindcss"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "typescript.updateImportsOnFileMove.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "always"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "javascript.updateImportsOnFileMove.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "always"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "typescript.preferences.importModuleSpecifier"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "non-relative"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "typescript.inlayHints.parameterNames.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "literals"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "javascript.inlayHints.parameterNames.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "literals"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "emmet.includeLanguages"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "javascriptreact"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "html"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "typescriptreact"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "html"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "tailwindCSS.classFunctions"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> [</span><span style="color:var(--shiki-token-string-expression)">"cn"</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> "cva"</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> "clsx"</span><span style="color:var(--shiki-foreground)">]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "prettier.useEditorConfig"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "debug.javascript.autoAttachFilter"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "smart"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.unicodeHighlight.ambiguousCharacters"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.unicodeHighlight.invisibleCharacters"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.unicodeHighlight.allowedLocales"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "ru"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "explorer.compactFolders"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> false</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "explorer.fileNesting.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "explorer.fileNesting.patterns"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "package.json"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "package-lock.json, pnpm-lock.yaml, yarn.lock, bun.lockb, .npmrc"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "tsconfig.json"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "tsconfig.*.json, next-env.d.ts"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    ".env"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> ".env.*"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "scm.diffDecorations"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "gutter"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "git.autofetch"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "telemetry.telemetryLevel"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "off"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "terminal.integrated.fontFamily"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "JetBrains Mono"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "terminal.integrated.fontLigatures.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "terminal.integrated.fontSize"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 13</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "terminal.integrated.cursorBlinking"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "terminal.integrated.cursorStyle"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "line"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "[markdown]"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "editor.defaultFormatter"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "esbenp.prettier-vscode"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "editor.wordWrap"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "on"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "files.trimTrailingWhitespace"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> false</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">}</span></span></code></pre></figure>
+<p>Пояснения к настройкам:</p>
+<ul>
+<li>ESLint исправляет только собственные ошибки через <code>source.fixAll.eslint</code>, не запуская все доступные исправления без разбора. Отдельный список <code>eslint.validate</code> не нужен: расширение по умолчанию проверяет <code>.js</code>, <code>.jsx</code>, <code>.ts</code> и <code>.tsx</code>.</li>
+<li><code>editor.glyphMargin</code> включён, чтобы были видны точки останова, статусы тестов и другие служебные значки.</li>
+<li><code>editor.linkedEditing</code> синхронно переименовывает открывающий и закрывающий тег — в JSX это работает через встроенный TypeScript.</li>
+<li>При переименовании или перемещении файла VS Code автоматически обновляет импорты, а <code>importModuleSpecifier: non-relative</code> заставляет автоимпорт использовать алиас <code>@/…</code> из <code>tsconfig.json</code> (в Next.js он настроен по умолчанию) вместо цепочек <code>../../..</code>.</li>
+<li>Emmet включён для JSX/TSX: <code>div.card>h3+p</code> разворачивается в разметку с <code>className</code>.</li>
+<li><code>files.associations</code> для <code>*.css</code> нужен Tailwind CSS 4: редактор перестаёт ругаться на <code>@theme</code>, <code>@apply</code> и другие директивы. <code>tailwindCSS.classFunctions</code> включает подсказки классов внутри <code>cn()</code>, <code>cva()</code> и <code>clsx()</code> — так устроены компоненты shadcn/ui.</li>
+<li><code>explorer.fileNesting</code> сворачивает lock-файлы, <code>next-env.d.ts</code> и <code>.env.*</code> под основные файлы, чтобы корень Next.js-проекта не был перегружен.</li>
+<li>Включена подсветка невидимых и неоднозначных Unicode-символов. Русская локаль разрешена отдельно, чтобы кириллица в документации не создавала лишний шум.</li>
+<li>Для фронтенд-проектов выбраны два пробела. Если в команде принят другой стиль, <code>.editorconfig</code> и настройки проекта должны иметь приоритет.</li>
+</ul>
+<h3 id="дополнительные-настройки-интерфейса">Дополнительные настройки интерфейса</h3>
+<p>Эти параметры не влияют на качество кода и зависят только от личных предпочтений:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="mono"><code data-language="json" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-foreground)">{</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "window.density.editorTabHeight"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "compact"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "workbench.activityBar.location"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "bottom"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "workbench.layoutControl.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> false</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "workbench.editor.empty.hint"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "hidden"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "workbench.editor.editorActionsLocation"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "titleBar"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "workbench.editor.customLabels.patterns"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "**/app/**/page.tsx"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "${dirname} — page"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">    "**/app/**/layout.tsx"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "${dirname} — layout"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "workbench.tree.renderIndentGuides"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "none"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "workbench.tree.indent"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> 18</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "terminal.integrated.tabs.enabled"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> false</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.scrollbar.horizontal"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "auto"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "editor.scrollbar.vertical"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "auto"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">}</span></span></code></pre></figure>
+<p><code>workbench.editor.customLabels.patterns</code> особенно полезен в App Router: вместо десятка одинаковых вкладок <code>page.tsx</code> редактор показывает имя папки маршрута, например <code>dashboard — page</code>.</p>
+<h2 id="настройки-проекта">Настройки проекта</h2>
+<p>Личные параметры темы, шрифта и интерфейса лучше хранить в пользовательском <code>settings.json</code>. Общие для команды настройки форматирования и линтинга — в <code>.vscode/settings.json</code>, <code>.editorconfig</code> и конфигурациях инструментов внутри репозитория.</p>
+<h3 id="рекомендуемые-расширения-рабочей-области">Рекомендуемые расширения рабочей области</h3>
+<p>Файл <code>.vscode/extensions.json</code> позволяет VS Code предложить нужные расширения всем участникам проекта:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="mono"><code data-language="json" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-foreground)">{</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "recommendations"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> [</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "dbaeumer.vscode-eslint"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "esbenp.prettier-vscode"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "editorconfig.editorconfig"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "bradlc.vscode-tailwindcss"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "DavidAnson.vscode-markdownlint"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "yzhang.markdown-all-in-one"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "streetsidesoftware.code-spell-checker"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-string-expression)">    "streetsidesoftware.code-spell-checker-russian"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  ]</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">}</span></span></code></pre></figure>
+<h3 id="версия-typescript-из-проекта-и-плагин-nextjs">Версия TypeScript из проекта и плагин Next.js</h3>
+<p>Если TypeScript установлен в <code>devDependencies</code>, открой файл <code>.ts</code> или <code>.tsx</code>, выполни команду <code>TypeScript: Select TypeScript Version</code> и выбери <code>Use Workspace Version</code>. Так редактор и сборка будут использовать одну версию TypeScript.</p>
+<p>Для Next.js это особенно важно: <code>create-next-app</code> добавляет в <code>tsconfig.json</code> плагин <code>{ "name": "next" }</code>, а он работает только с версией TypeScript из проекта. Плагин подсказывает допустимые значения <code>dynamic</code>, <code>revalidate</code> и других опций сегмента маршрута, проверяет директиву <code>'use client'</code> и предупреждает об использовании клиентских хуков в серверных компонентах. Чтобы VS Code сам предлагал нужную версию, добавь в <code>.vscode/settings.json</code>:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="mono"><code data-language="json" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-foreground)">{</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "typescript.tsdk"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "node_modules/typescript/lib"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "typescript.enablePromptUseWorkspaceTsdk"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-constant)"> true</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">}</span></span></code></pre></figure>
+<h3 id="отладка-nextjs">Отладка Next.js</h3>
+<p>Файл <code>.vscode/launch.json</code> позволяет ставить точки останова прямо в VS Code — и в серверном коде (Server Components, Route Handlers, Server Actions), и в клиентских компонентах:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="json" data-theme="mono"><code data-language="json" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-foreground)">{</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "version"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "0.2.0"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">  "configurations"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-foreground)"> [</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">    {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "name"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "Next.js: debug server-side"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "type"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "node-terminal"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "request"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "launch"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "command"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "npm run dev"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">    {</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "name"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "Next.js: debug client-side"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "type"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "chrome"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "request"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "launch"</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span data-line=""><span style="color:var(--shiki-token-keyword)">      "url"</span><span style="color:var(--shiki-token-punctuation)">:</span><span style="color:var(--shiki-token-string-expression)"> "http://localhost:3000"</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">    }</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">  ]</span></span>
+<span data-line=""><span style="color:var(--shiki-foreground)">}</span></span></code></pre></figure>
+<p>Сначала запусти конфигурацию <code>debug server-side</code>, затем <code>debug client-side</code>. Для изучения дерева компонентов, props, хуков и причин ререндеров дополнительно установи в браузер расширение React Developer Tools — его вкладка Profiler нужна для разбора производительности.</p>
+<h3 id="профиль-и-синхронизация">Профиль и синхронизация</h3>
+<ul>
+<li>Создай профиль <code>React</code> через <code>File → Preferences → Profiles</code>, чтобы расширения для веб-разработки не смешивались с другими наборами инструментов.</li>
+<li>Включи <code>Settings Sync</code>, если нужно переносить настройки, сочетания клавиш и расширения между компьютерами.</li>
+<li>При конфликтах расширений запусти <code>Help: Start Extension Bisect</code>: VS Code будет отключать их группами и поможет найти проблемное.</li>
+</ul>
+<h2 id="ошибка-запуска-скриптов-powershell">Ошибка запуска скриптов PowerShell</h2>
+<p>Если Windows сообщает, что <code>npm.ps1</code> не может быть загружен из-за политики выполнения, сначала проверь действующие значения:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="powershell" data-theme="mono"><code data-language="powershell" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">Get-ExecutionPolicy</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-foreground)">List</span></span></code></pre></figure>
+<p>Затем разреши локальные скрипты только для текущего пользователя — права администратора для этого не нужны:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="powershell" data-theme="mono"><code data-language="powershell" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">Set-ExecutionPolicy</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-foreground)">Scope CurrentUser RemoteSigned</span></span></code></pre></figure>
+<h2 id="полезные-команды-и-сочетания-клавиш">Полезные команды и сочетания клавиш</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Действие</th><th>Windows / Linux</th><th>macOS</th></tr></thead><tbody><tr><td>Палитра команд</td><td><code>Ctrl + Shift + P</code></td><td><code>Cmd + Shift + P</code></td></tr><tr><td>Быстро открыть файл</td><td><code>Ctrl + P</code></td><td><code>Cmd + P</code></td></tr><tr><td>Перейти к определению</td><td><code>F12</code></td><td><code>F12</code></td></tr><tr><td>Найти все использования</td><td><code>Shift + F12</code></td><td><code>Shift + F12</code></td></tr><tr><td>Переименовать символ во всём проекте</td><td><code>F2</code></td><td><code>F2</code></td></tr><tr><td>Быстрое исправление и рефакторинг</td><td><code>Ctrl + .</code></td><td><code>Cmd + .</code></td></tr><tr><td>Форматировать документ</td><td><code>Shift + Alt + F</code></td><td><code>Shift + Option + F</code></td></tr><tr><td>Открыть терминал</td><td><kbd>Ctrl</kbd> + <kbd>`</kbd></td><td><kbd>Ctrl</kbd> + <kbd>`</kbd></td></tr></tbody></table></div>
+<p>Через «Быстрое исправление» удобно выносить JSX в отдельный компонент или функцию (<code>Extract to function in module scope</code>) и добавлять недостающие импорты.</p>
+<p>Если подсказки TypeScript перестали обновляться (например, после <code>npm install</code> или изменения <code>tsconfig.json</code>), обычно помогают команды <code>TypeScript: Restart TS Server</code>, <code>ESLint: Restart ESLint Server</code> или <code>Developer: Reload Window</code>. Типы маршрутов Next.js генерируются в папку <code>.next/types</code> при запуске <code>next dev</code> или <code>next build</code> — если подсказки по <code>params</code> и ссылкам устарели, перезапусти dev-сервер.</p>2b:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+2c:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+2d:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+2e:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+17:[["$","$L22",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L23",null,{"tree":null,"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"1yungkm"}]}],["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L24",null,{"children":"$17:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","17"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[9," ","минут"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Настройка VS Code для React и Next.js"}],["$","div",null,{"className":"mt-7","children":["$","$L25",null,{"id":"1yungkm","href":"/l/17/","title":"Настройка VS Code"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$26"}}],"$L27","$L28","$L29"]}]]}],"$L2a"]}]]
+27:["$","$L2b",null,{"targetId":"lesson-body"}]
+28:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L25",null,{"id":"1yungkm","href":"/l/17/","title":"Настройка VS Code","variant":"footer"}]}]
+29:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/16/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L2c",null,{"ref":"$undefined","icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Полезные ссылки"}]]}],["$","span",null,{"className":"hidden bg-background sm:block"}]]}]
+2a:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L2d",null,{"items":[{"id":"основные-расширения","text":"Основные расширения","depth":2},{"id":"полезные-расширения-по-ситуации","text":"Полезные расширения по ситуации","depth":2},{"id":"удобство-разработки","text":"Удобство разработки","depth":3},{"id":"качество-кода-и-тесты","text":"Качество кода и тесты","depth":3},{"id":"fullstack-на-nextjs","text":"Fullstack на Next.js","depth":3},{"id":"для-этого-учебного-проекта","text":"Для этого учебного проекта","depth":3},{"id":"оформление","text":"Оформление","depth":3},{"id":"рекомендуемый-settingsjson","text":"Рекомендуемый settings.json","depth":2},{"id":"дополнительные-настройки-интерфейса","text":"Дополнительные настройки интерфейса","depth":3},{"id":"настройки-проекта","text":"Настройки проекта","depth":2},{"id":"рекомендуемые-расширения-рабочей-области","text":"Рекомендуемые расширения рабочей области","depth":3},{"id":"версия-typescript-из-проекта-и-плагин-nextjs","text":"Версия TypeScript из проекта и плагин Next.js","depth":3},{"id":"отладка-nextjs","text":"Отладка Next.js","depth":3},{"id":"профиль-и-синхронизация","text":"Профиль и синхронизация","depth":3},{"id":"ошибка-запуска-скриптов-powershell","text":"Ошибка запуска скриптов PowerShell","depth":2},{"id":"полезные-команды-и-сочетания-клавиш","text":"Полезные команды и сочетания клавиш","depth":2}]}]}]
+1a:null
+20:[["$","title","0",{"children":"Настройка VS Code · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L2e","3",{}]]

@@ -1,0 +1,152 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+18:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+19:"$Sreact.suspense"
+1b:"ViewportBoundary"
+1c:I[97367,["$2","$3","$4","$5","$6","$7"],"$1b"]
+1e:"MetadataBoundary"
+1f:I[97367,["$2","$3","$4","$5","$6","$7"],"$1e"]
+21:I[68027,["$2","$3","$4","$5","$6","$7"],"default",1]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+:HL["/refront/_next/static/media/4fa387ec64143e14-s.p.2tuy5pz7dlieh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/8a480f0b521d4e75-s.p.1qq4vpdcun5oj.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+14:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$L17",[["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true,"nonce":"$undefined"}]],["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]]}],"p":false,"v":null}}]]
+15:[["children",{"s":{"n":"slug","t":"c","k":"16","s":[]},"h":66048,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q16"}]]
+13:[["children",{"s":"l","h":131584,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q15"}]]
+0:{"P":null,"c":["","l","16",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1c",null,{"children":"$L1d"}],["$","$L1f",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$19",null,{"name":"Next.Metadata","children":"$L20"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$21",[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"wRMcUeVIbhyGgdOCswqeh"}
+14:C
+22:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+23:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+24:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+25:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+26:T3870,<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p>В первую очередь здесь собраны русскоязычные материалы. Англоязычные ресурсы помечены «(англ.)» и оставлены там, где хорошей русской альтернативы нет: документация Next.js, Redux Toolkit, TanStack Query и большинства инструментов экосистемы React доступна только на английском.</p></div>
+</div>
+<h2 id="документация-и-справочники">Документация и справочники</h2>
+<ul>
+<li><a href="https://doka.guide/" target="_blank" rel="noopener noreferrer">Дока</a> — понятные статьи по HTML, CSS, JavaScript, веб-платформе и доступности.</li>
+<li><a href="https://developer.mozilla.org/ru/docs/Web" target="_blank" rel="noopener noreferrer">MDN Web Docs на русском</a> — справочник по веб-технологиям, Web API, HTTP и браузерной платформе.</li>
+<li><a href="https://learn.javascript.ru/" target="_blank" rel="noopener noreferrer">Современный учебник JavaScript</a> — последовательное изучение языка и браузерных API с задачами.</li>
+<li><a href="https://scriptdev.ru/guide/" target="_blank" rel="noopener noreferrer">TypeScript на ScriptDev</a> — русскоязычное руководство по TypeScript.</li>
+<li><a href="https://nodejsdev.ru/" target="_blank" rel="noopener noreferrer">Node.js для начинающих</a> — перевод документации, справочник API и практические руководства по Node.js.</li>
+<li><a href="https://vite-docs-ru.vercel.app/guide/" target="_blank" rel="noopener noreferrer">Vite</a> — русскоязычное руководство по сборщику.</li>
+<li><a href="https://frontskill.ru/docs" target="_blank" rel="noopener noreferrer">Frontskill</a> — справочник по темам фронтенд-разработки.</li>
+<li><a href="https://git-scm.com/cheat-sheet" target="_blank" rel="noopener noreferrer">Шпаргалка Git</a> — основные команды Git (англ.).</li>
+</ul>
+<h2 id="react">React</h2>
+<ul>
+<li><a href="https://ru.react.dev/learn" target="_blank" rel="noopener noreferrer">Изучение React</a> — официальное руководство на русском: компоненты, состояние, эффекты, «Thinking in React».</li>
+<li><a href="https://ru.react.dev/reference/react" target="_blank" rel="noopener noreferrer">Справочник API React</a> — все хуки, компоненты и API с примерами и типичными ошибками.</li>
+<li><a href="https://ru.react.dev/reference/rsc/server-components" target="_blank" rel="noopener noreferrer">Серверные компоненты</a> — React Server Components, директивы <code>'use client'</code> и <code>'use server'</code>.</li>
+<li><a href="https://ru.react.dev/learn/typescript" target="_blank" rel="noopener noreferrer">React и TypeScript</a> — официальный раздел о типизации props, хуков и событий.</li>
+<li><a href="https://react-typescript-cheatsheet.netlify.app/" target="_blank" rel="noopener noreferrer">React TypeScript Cheatsheet</a> — шпаргалка по типизации компонентов, контекста, рефов и дженерик-компонентов (англ.).</li>
+<li><a href="https://reactdev.ru/" target="_blank" rel="noopener noreferrer">React с примерами кода</a> — русскоязычные переводы документации библиотек экосистемы React.</li>
+<li><a href="https://doka.guide/tools/react-and-alternatives/" target="_blank" rel="noopener noreferrer">React и альтернативы в Доке</a> — место React среди других UI-библиотек.</li>
+<li><a href="https://www.patterns.dev/" target="_blank" rel="noopener noreferrer">Patterns.dev</a> — паттерны рендеринга, производительности и проектирования React-приложений (англ.).</li>
+</ul>
+<h2 id="nextjs">Next.js</h2>
+<ul>
+<li><a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer">Документация Next.js</a> — App Router, рендеринг, Data Fetching, Server Actions, Metadata и конфигурация (англ.).</li>
+<li><a href="https://nextjs.org/learn" target="_blank" rel="noopener noreferrer">Next.js Learn</a> — официальный пошаговый курс: от первой страницы до дашборда с БД и авторизацией (англ.).</li>
+<li><a href="https://nextjs.org/docs/app/guides/caching" target="_blank" rel="noopener noreferrer">Кэширование в Next.js</a> — уровни кэша, ревалидация и их взаимодействие; частая тема на собеседованиях (англ.).</li>
+<li><a href="https://vercel.com/docs" target="_blank" rel="noopener noreferrer">Документация Vercel</a> — деплой, Edge и Serverless функции, переменные окружения (англ.).</li>
+<li><a href="https://authjs.dev/" target="_blank" rel="noopener noreferrer">Auth.js</a> — аутентификация в Next.js-приложениях (англ.).</li>
+<li><a href="https://www.prisma.io/docs" target="_blank" rel="noopener noreferrer">Prisma</a> — ORM для fullstack-приложений на Next.js (англ.).</li>
+</ul>
+<h2 id="состояние-данные-и-формы">Состояние, данные и формы</h2>
+<ul>
+<li><a href="https://redux-toolkit.js.org/" target="_blank" rel="noopener noreferrer">Redux Toolkit</a> — официальная документация: <code>createSlice</code>, <code>configureStore</code>, RTK Query (англ.).</li>
+<li><a href="https://reactdev.ru/libs/redux-toolkit/" target="_blank" rel="noopener noreferrer">Redux Toolkit на русском</a> — перевод документации Redux Toolkit.</li>
+<li><a href="https://tanstack.com/query/latest/docs/framework/react/overview" target="_blank" rel="noopener noreferrer">TanStack Query</a> — серверное состояние, кэширование и инвалидация запросов (англ.).</li>
+<li><a href="https://reactrouter.com/" target="_blank" rel="noopener noreferrer">React Router</a> — маршрутизация в SPA на React (англ.).</li>
+<li><a href="https://react-hook-form.com/" target="_blank" rel="noopener noreferrer">React Hook Form</a> — производительные формы на неконтролируемых полях (англ.).</li>
+<li><a href="https://zod.dev/" target="_blank" rel="noopener noreferrer">Zod</a> — валидация данных и вывод типов TypeScript из схем (англ.).</li>
+</ul>
+<h2 id="стили-и-ui">Стили и UI</h2>
+<ul>
+<li><a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer">Tailwind CSS</a> — документация utility-first CSS-фреймворка (англ.).</li>
+<li><a href="https://ui.shadcn.com/" target="_blank" rel="noopener noreferrer">shadcn/ui</a> — копируемые доступные компоненты на React и Tailwind CSS (англ.).</li>
+</ul>
+<h2 id="тестирование">Тестирование</h2>
+<ul>
+<li><a href="https://vitest.dev/" target="_blank" rel="noopener noreferrer">Vitest</a> — быстрый тест-раннер, совместимый с API Jest (англ.).</li>
+<li><a href="https://testing-library.com/docs/react-testing-library/intro/" target="_blank" rel="noopener noreferrer">React Testing Library</a> — тестирование компонентов через поведение пользователя (англ.).</li>
+<li><a href="https://playwright.dev/docs/intro" target="_blank" rel="noopener noreferrer">Playwright</a> — E2E-тесты в реальных браузерах (англ.).</li>
+</ul>
+<h2 id="архитектура">Архитектура</h2>
+<ul>
+<li><a href="https://feature-sliced.design/ru/" target="_blank" rel="noopener noreferrer">Feature-Sliced Design</a> — методология структурирования фронтенд-проектов, популярная в React-командах.</li>
+</ul>
+<h2 id="обучение-и-углубление-знаний">Обучение и углубление знаний</h2>
+<ul>
+<li><a href="https://code-basics.com/ru/languages/javascript" target="_blank" rel="noopener noreferrer">Code Basics: JavaScript</a> — бесплатный интерактивный курс для начинающих с упражнениями в браузере.</li>
+<li><a href="https://education.yandex.ru/handbook/algorithms" target="_blank" rel="noopener noreferrer">Хендбук «Основы алгоритмов» от Яндекса</a> — теория, структуры данных и задачи с автоматической проверкой.</li>
+<li><a href="https://web-standards.ru/" target="_blank" rel="noopener noreferrer">Веб-стандарты</a> — статьи, новости и подкаст о современной веб-разработке.</li>
+</ul>
+<h2 id="подготовка-к-собеседованиям">Подготовка к собеседованиям</h2>
+<ul>
+<li><a href="https://www.hackfrontend.com/ru/docs/introduction" target="_blank" rel="noopener noreferrer">Hack Frontend</a> — теория и вопросы по фронтенду.</li>
+<li><a href="https://speedrunit.ru/questions/frontend/" target="_blank" rel="noopener noreferrer">SpeedrUnit</a> — тренажёр вопросов для собеседований.</li>
+<li><a href="https://itbooster.ru/database/" target="_blank" rel="noopener noreferrer">IT Booster</a> — база вопросов по веб-разработке.</li>
+<li><a href="https://coderun.yandex.ru/selections" target="_blank" rel="noopener noreferrer">Подборки CodeRun</a> — тематические наборы задач, включая подготовку к собеседованиям.</li>
+<li><a href="https://yandex.ru/yaintern/training" target="_blank" rel="noopener noreferrer">Тренировки по алгоритмам от Яндекса</a> — лекции, разборы и домашние задания прошлых сезонов.</li>
+<li><a href="https://www.greatfrontend.com/" target="_blank" rel="noopener noreferrer">GreatFrontEnd</a> — задачи с фронтенд-собеседований: JavaScript, React-компоненты и system design (англ.).</li>
+</ul>
+<h2 id="практика-и-алгоритмы">Практика и алгоритмы</h2>
+<ul>
+<li><a href="https://coderun.yandex.ru/catalog?groups=algorithm" target="_blank" rel="noopener noreferrer">CodeRun: алгоритмы</a> — задачи на русском языке с онлайн-проверкой решений.</li>
+<li><a href="https://www.codewars.com/" target="_blank" rel="noopener noreferrer">Codewars</a> — короткие задачи разной сложности (англ.).</li>
+<li><a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">LeetCode</a> — большая база алгоритмических задач и типовых задач с собеседований (англ.).</li>
+</ul>
+<h2 id="доступность-безопасность-и-производительность">Доступность, безопасность и производительность</h2>
+<ul>
+<li><a href="https://www.a11y.mts.ru/web" target="_blank" rel="noopener noreferrer">Гайд МТС по веб-доступности</a> — практические требования и примеры доступных интерфейсов.</li>
+<li><a href="https://developer.mozilla.org/ru/docs/Web/Security" target="_blank" rel="noopener noreferrer">Безопасность веб-сайтов на MDN</a> — базовые угрозы и способы защиты веб-приложений.</li>
+<li><a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Extensions/Performance" target="_blank" rel="noopener noreferrer">Производительность веб-сайтов на MDN</a> — критический путь рендеринга, загрузка ресурсов и измерение производительности.</li>
+<li><a href="https://web.dev/articles/vitals" target="_blank" rel="noopener noreferrer">Core Web Vitals</a> — метрики LCP, INP и CLS и способы их улучшить (англ.).</li>
+</ul>
+<h2 id="youtube-каналы">YouTube-каналы</h2>
+<ul>
+<li><a href="https://www.youtube.com/@AsForJS" target="_blank" rel="noopener noreferrer">As For JS</a> — углублённые видео о JavaScript.</li>
+<li><a href="https://www.youtube.com/@UlbiTV" target="_blank" rel="noopener noreferrer">Ulbi TV</a> — видео о React, Next.js и архитектуре фронтенд-приложений.</li>
+</ul>
+<h2 id="курсы-из-текущей-подборки">Курсы из текущей подборки</h2>
+<ol>
+<li><a href="https://cloud.mail.ru/public/yfuL/7DxQTXy5H" target="_blank" rel="noopener noreferrer">Git</a></li>
+<li><a href="https://cloud.mail.ru/public/jpRT/aN1gLQNgu" target="_blank" rel="noopener noreferrer">HTML и CSS</a></li>
+<li><a href="https://cloud.mail.ru/public/kkvZ/AMrgWQjTC" target="_blank" rel="noopener noreferrer">JavaScript: основы</a></li>
+<li><a href="https://cloud.mail.ru/public/oZjD/3XYmrwksT" target="_blank" rel="noopener noreferrer">JavaScript: продвинутый уровень</a></li>
+<li><a href="https://cloud.mail.ru/public/MFJ1/evYLLSPAa" target="_blank" rel="noopener noreferrer">TypeScript</a></li>
+</ol>17:[["$","$L22",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L23",null,{"tree":null,"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"1w8lilq"}]}],["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L24",null,{"children":"$17:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","16"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[4," ","минуты"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Полезные ссылки"}],["$","div",null,{"className":"mt-7","children":["$","$L25",null,{"id":"1w8lilq","href":"/l/16/","title":"Полезные ссылки"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$26"}}],"$L27","$L28","$L29"]}]]}],"$L2a"]}]]
+2b:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+2c:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+2d:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+2e:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+27:["$","$L2b",null,{"targetId":"lesson-body"}]
+28:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L25",null,{"id":"1w8lilq","href":"/l/16/","title":"Полезные ссылки","variant":"footer"}]}]
+29:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/15/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L2c",null,{"ref":"$undefined","icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Git"}]]}],["$","$L10",null,{"href":"/l/17/","className":"group flex flex-col items-end gap-1.5 bg-background p-5 text-right transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":["Далее ",["$","$L2c",null,{"ref":"$undefined","icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-3 transition-transform group-hover:translate-x-1"}]]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Настройка VS Code"}]]}]]}]
+2a:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L2d",null,{"items":[{"id":"документация-и-справочники","text":"Документация и справочники","depth":2},{"id":"react","text":"React","depth":2},{"id":"nextjs","text":"Next.js","depth":2},{"id":"состояние-данные-и-формы","text":"Состояние, данные и формы","depth":2},{"id":"стили-и-ui","text":"Стили и UI","depth":2},{"id":"тестирование","text":"Тестирование","depth":2},{"id":"архитектура","text":"Архитектура","depth":2},{"id":"обучение-и-углубление-знаний","text":"Обучение и углубление знаний","depth":2},{"id":"подготовка-к-собеседованиям","text":"Подготовка к собеседованиям","depth":2},{"id":"практика-и-алгоритмы","text":"Практика и алгоритмы","depth":2},{"id":"доступность-безопасность-и-производительность","text":"Доступность, безопасность и производительность","depth":2},{"id":"youtube-каналы","text":"YouTube-каналы","depth":2},{"id":"курсы-из-текущей-подборки","text":"Курсы из текущей подборки","depth":2}]}]}]
+1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]
+1a:null
+20:[["$","title","0",{"children":"Полезные ссылки · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L2e","3",{}]]

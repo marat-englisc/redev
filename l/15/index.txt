@@ -1,0 +1,743 @@
+1:"$Sreact.fragment"
+2:"/refront/_next/static/chunks/0umf92h1sb77c.js"
+3:"/refront/_next/static/chunks/3y5jztjr8ctrt.js"
+4:"/refront/_next/static/chunks/2zeyy97a4e29e.js"
+5:"/refront/_next/static/chunks/17orpc05h52-_.js"
+6:"/refront/_next/static/chunks/25r8rqi1cxim7.js"
+7:"/refront/_next/static/chunks/31l59oa45j202.js"
+8:I[63178,["$2","$3","$4","$5","$6","$7"],"ThemeProvider"]
+9:I[22069,["$2","$3","$4","$5","$6","$7"],"StoreProvider"]
+a:I[46798,["$2","$3","$4","$5","$6","$7"],"TooltipProvider"]
+b:I[3020,["$2","$3","$4","$5","$6","$7"],"SiteHeader"]
+c:I[39756,["$2","$3","$4","$5","$6","$7"],"default"]
+d:I[37457,["$2","$3","$4","$5","$6","$7"],"default"]
+e:"/refront/_next/static/chunks/1_tfrp7pus02j.js"
+f:"/refront/_next/static/chunks/339lcfgojted_.js"
+10:I[22016,["$2","$3","$4","$5","$6","$7","$e","$f"],""]
+11:I[11719,["$2","$3","$4","$5","$6","$7"],"CommandMenu"]
+12:I[13354,["$2","$3","$4","$5","$6","$7"],"Toaster"]
+18:I[97367,["$2","$3","$4","$5","$6","$7"],"OutletBoundary"]
+19:"$Sreact.suspense"
+1b:"ViewportBoundary"
+1c:I[97367,["$2","$3","$4","$5","$6","$7"],"$1b"]
+1e:"MetadataBoundary"
+1f:I[97367,["$2","$3","$4","$5","$6","$7"],"$1e"]
+21:I[68027,["$2","$3","$4","$5","$6","$7"],"default",1]
+:HL["/refront/_next/static/chunks/2rp-0taxbl1hs.css","style"]
+:HL["/refront/_next/static/chunks/0ib_f74omhahi.css","style"]
+:HL["/refront/_next/static/media/4fa387ec64143e14-s.p.2tuy5pz7dlieh.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/8a480f0b521d4e75-s.p.1qq4vpdcun5oj.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/refront/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+14:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$L17",[["$","script","script-0",{"src":"/refront/_next/static/chunks/1_tfrp7pus02j.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/339lcfgojted_.js","async":true,"nonce":"$undefined"}]],["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]]}],"p":false,"v":null}}]]
+15:[["children",{"s":{"n":"slug","t":"c","k":"15","s":[]},"h":66048,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q16"}]]
+13:[["children",{"s":"l","h":131584,"d":{"r":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$14"},"c":"$Q15"}]]
+0:{"P":null,"c":["","l","15",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/refront/_next/static/chunks/0umf92h1sb77c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/refront/_next/static/chunks/3y5jztjr8ctrt.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/refront/_next/static/chunks/2zeyy97a4e29e.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/refront/_next/static/chunks/17orpc05h52-_.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/refront/_next/static/chunks/25r8rqi1cxim7.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/refront/_next/static/chunks/31l59oa45j202.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"className":"UNybwq_variable mUfs1G_variable antialiased","children":["$","body",null,{"className":"min-h-dvh flex flex-col","children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L9",null,{"children":["$","$La",null,{"delay":300,"children":[["$","$Lb",null,{}],["$","div",null,{"className":"flex-1 flex flex-col","children":["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"grid flex-1 place-items-center px-4 py-24","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"font-mono text-[clamp(6rem,20vw,12rem)] font-extralight leading-none tracking-tighter text-muted-foreground/30","children":"404"}],["$","h1",null,{"className":"mt-4 text-2xl font-semibold tracking-tight","children":"Такой страницы нет"}],["$","p",null,{"className":"mt-2 text-muted-foreground","children":"Возможно, урок переименовали или перенесли."}],["$","$L10",null,{"href":"/","className":"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-primary text-primary-foreground hover:bg-primary/80 h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 mt-8 px-5","children":"К разделам"}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-center"}]]}]}]}]}]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1c",null,{"children":"$L1d"}],["$","$L1f",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$19",null,{"name":"Next.Metadata","children":"$L20"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$21",[["$","link","0",{"rel":"stylesheet","href":"/refront/_next/static/chunks/2rp-0taxbl1hs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/refront/_next/static/chunks/0ib_f74omhahi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"wRMcUeVIbhyGgdOCswqeh"}
+14:C
+1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#0b0b0b","media":"(prefers-color-scheme: dark)"}]]
+22:I[94327,["$2","$3","$4","$5","$6","$7","$e","$f"],"ReadingProgress"]
+23:I[25450,["$2","$3","$4","$5","$6","$7","$e","$f"],"SectionNav"]
+24:I[731,["$2","$3","$4","$5","$6","$7","$e","$f"],"MobileNav"]
+25:I[78688,["$2","$3","$4","$5","$6","$7","$e","$f"],"LessonActions"]
+26:Tc0f4,<p>Git — распределённая система контроля версий. Она хранит историю проекта, помогает безопасно экспериментировать в ветках и позволяет нескольким разработчикам работать над одним кодом.</p>
+<div class="callout callout-note" data-callout="note">
+<div class="callout-title">Кратко</div>
+<div class="callout-body"><p>Git не сохраняет каждое изменение автоматически. Коммит создаётся только из тех изменений, которые разработчик предварительно добавил в staging area.</p></div>
+</div>
+<h2 id="маршрут-изучения">Маршрут изучения</h2>
+<ol>
+<li>Разобраться с четырьмя состояниями проекта.</li>
+<li>Научиться выполнять цикл <code>status → add → commit</code>.</li>
+<li>Освоить ветки и слияние.</li>
+<li>Подключить удалённый репозиторий.</li>
+<li>Научиться безопасно отменять изменения.</li>
+<li>Разобраться с конфликтами, <code>merge</code> и <code>rebase</code>.</li>
+</ol>
+<h2 id="как-git-видит-проект">Как Git видит проект</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>Рабочая папка ── git add ──> Staging area ── git commit ──> Локальный репозиторий</span></span>
+<span data-line=""><span>      ↑                         │                                  │</span></span>
+<span data-line=""><span>      └──── git restore ────────┘                                  └── git push ──> Удалённый репозиторий</span></span></code></pre></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Область</th><th>Что в ней находится</th></tr></thead><tbody><tr><td>Рабочая папка</td><td>Файлы, которые сейчас открыты и изменяются</td></tr><tr><td>Staging area, или index</td><td>Изменения, выбранные для следующего коммита</td></tr><tr><td>Локальный репозиторий</td><td>История коммитов внутри папки <code>.git</code></td></tr><tr><td>Удалённый репозиторий</td><td>Общая копия проекта на GitHub, GitLab или другом сервере</td></tr></tbody></table></div>
+<h3 id="состояния-файла">Состояния файла</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Состояние</th><th>Значение</th></tr></thead><tbody><tr><td><code>untracked</code></td><td>Git ещё не отслеживает новый файл</td></tr><tr><td><code>modified</code></td><td>Отслеживаемый файл изменён</td></tr><tr><td><code>staged</code></td><td>Изменения добавлены в staging area</td></tr><tr><td><code>committed</code></td><td>Изменения сохранены в локальной истории</td></tr></tbody></table></div>
+<h2 id="первоначальная-настройка">Первоначальная настройка</h2>
+<p>Настрой имя и почту, которые будут записываться в коммиты:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> config</span><span style="color:var(--shiki-token-string)"> --global</span><span style="color:var(--shiki-token-string)"> user.name</span><span style="color:var(--shiki-token-string-expression)"> "Marat"</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> config</span><span style="color:var(--shiki-token-string)"> --global</span><span style="color:var(--shiki-token-string)"> user.email</span><span style="color:var(--shiki-token-string-expression)"> "example@gmail.com"</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> config</span><span style="color:var(--shiki-token-string)"> --global</span><span style="color:var(--shiki-token-string)"> init.defaultBranch</span><span style="color:var(--shiki-token-string)"> main</span></span></code></pre></figure>
+<p>Проверить настройки:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> config</span><span style="color:var(--shiki-token-string)"> --list</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> config</span><span style="color:var(--shiki-token-string)"> user.name</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> config</span><span style="color:var(--shiki-token-string)"> user.email</span></span></code></pre></figure>
+<p>Флаг <code>--global</code> применяет настройку ко всем репозиториям пользователя. Без него команда меняет конфигурацию только текущего репозитория.</p>
+<h2 id="создание-и-получение-репозитория">Создание и получение репозитория</h2>
+<h3 id="новый-локальный-репозиторий">Новый локальный репозиторий</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> init</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> status</span></span></code></pre></figure>
+<p><code>git init</code> создаёт скрытую папку <code>.git</code>. Выполнять эту команду повторно при каждом запуске проекта не нужно.</p>
+<h3 id="клонирование-существующего-проекта">Клонирование существующего проекта</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> clone</span><span style="color:var(--shiki-token-string)"> https://github.com/user/project.git</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">cd</span><span style="color:var(--shiki-token-string)"> project</span></span></code></pre></figure>
+<p><code>git clone</code> скачивает файлы, историю, ветки и автоматически добавляет удалённый репозиторий с именем <code>origin</code>.</p>
+<h2 id="первый-коммит">Первый коммит</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> status</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> add</span><span style="color:var(--shiki-token-string)"> README.md</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> diff</span><span style="color:var(--shiki-token-string)"> --staged</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> commit</span><span style="color:var(--shiki-token-string)"> -m</span><span style="color:var(--shiki-token-string-expression)"> "docs: add project description"</span></span></code></pre></figure>
+<p>Что произошло:</p>
+<ol>
+<li><code>git status</code> показал состояние файлов.</li>
+<li><code>git add</code> выбрал изменение для следующего коммита.</li>
+<li><code>git diff --staged</code> показал содержимое будущего коммита.</li>
+<li><code>git commit</code> создал снимок в локальной истории.</li>
+</ol>
+<div class="callout callout-tip" data-callout="tip">
+<div class="callout-title">Подсказка</div>
+<div class="callout-body"><p>Коммит должен содержать одно логически завершённое изменение. Небольшие тематические коммиты проще проверять, отменять и переносить между ветками.</p></div>
+</div>
+<h2 id="ежедневный-цикл-работы">Ежедневный цикл работы</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> status</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> diff</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> add</span><span style="color:var(--shiki-token-string)"> -p</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> diff</span><span style="color:var(--shiki-token-string)"> --staged</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> commit</span><span style="color:var(--shiki-token-string)"> -m</span><span style="color:var(--shiki-token-string-expression)"> "feat: add profile form"</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> push</span></span></code></pre></figure>
+<p><code>git add -p</code> позволяет просмотреть изменения частями и выбрать только нужные фрагменты. Это помогает не добавлять в коммит отладочный код и случайные правки.</p>
+<h3 id="перед-коммитом-проверь">Перед коммитом проверь</h3>
+<ul>
+<li>относятся ли все изменения к одной задаче;</li>
+<li>не попали ли в diff пароли, токены и файлы <code>.env</code>;</li>
+<li>проходят ли линтер, тесты и сборка;</li>
+<li>понятно ли сообщение коммита без дополнительного контекста.</li>
+</ul>
+<h2 id="работа-со-staging-area">Работа со staging area</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Команда</th><th>Что делает</th></tr></thead><tbody><tr><td><code>git add file.js</code></td><td>Добавляет конкретный файл</td></tr><tr><td><code>git add src/</code></td><td>Добавляет изменения внутри папки <code>src</code></td></tr><tr><td><code>git add .</code></td><td>Добавляет изменения из текущей папки и её вложенных папок</td></tr><tr><td><code>git add -A</code></td><td>Добавляет все новые, изменённые и удалённые файлы репозитория</td></tr><tr><td><code>git add -u</code></td><td>Добавляет изменения и удаления отслеживаемых файлов, но не новые файлы</td></tr><tr><td><code>git add -p</code></td><td>Позволяет выбирать отдельные фрагменты изменений</td></tr><tr><td><code>git restore --staged file.js</code></td><td>Убирает файл из staging area, не удаляя правки</td></tr></tbody></table></div>
+<div class="callout callout-warning" data-callout="warning">
+<div class="callout-title">Внимание</div>
+<div class="callout-body"><p>Перед <code>git add .</code> или <code>git add -A</code> всегда выполняй <code>git status</code>. Команда может добавить временные файлы, сборку или секреты, если они не исключены через <code>.gitignore</code>.</p></div>
+</div>
+<h2 id="просмотр-изменений-и-истории">Просмотр изменений и истории</h2>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> status</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> diff</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> diff</span><span style="color:var(--shiki-token-string)"> --staged</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> log</span><span style="color:var(--shiki-token-string)"> --oneline</span><span style="color:var(--shiki-token-string)"> --graph</span><span style="color:var(--shiki-token-string)"> --decorate</span><span style="color:var(--shiki-token-string)"> --all</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> show</span><span style="color:var(--shiki-token-keyword)"> &#x3C;</span><span style="color:var(--shiki-token-string)">commi</span><span style="color:var(--shiki-foreground)">t</span><span style="color:var(--shiki-token-keyword)">></span></span></code></pre></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Команда</th><th>Результат</th></tr></thead><tbody><tr><td><code>git diff</code></td><td>Неиндексированные изменения в рабочей папке</td></tr><tr><td><code>git diff --staged</code></td><td>Изменения, подготовленные к коммиту</td></tr><tr><td><code>git diff main...feature/profile</code></td><td>Разница между общей точкой ветвления и feature-веткой</td></tr><tr><td><code>git show &#x3C;commit></code></td><td>Содержимое и метаданные выбранного коммита</td></tr><tr><td><code>git blame file.js</code></td><td>Автор и коммит для каждой строки файла</td></tr></tbody></table></div>
+<p><code>HEAD</code> — указатель на текущий коммит. Обычно он указывает на последний коммит активной ветки.</p>
+<h2 id="ветки">Ветки</h2>
+<p>Ветка — подвижный указатель на цепочку коммитов. Она позволяет разрабатывать функцию или исправление отдельно от <code>main</code>.</p>
+<h3 id="основные-команды">Основные команды</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> branch</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> switch</span><span style="color:var(--shiki-token-string)"> -c</span><span style="color:var(--shiki-token-string)"> feature/profile</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> switch</span><span style="color:var(--shiki-token-string)"> main</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> branch</span><span style="color:var(--shiki-token-string)"> -d</span><span style="color:var(--shiki-token-string)"> feature/profile</span></span></code></pre></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Команда</th><th>Что делает</th></tr></thead><tbody><tr><td><code>git branch</code></td><td>Показывает локальные ветки</td></tr><tr><td><code>git branch --all</code></td><td>Показывает локальные и remote-tracking ветки</td></tr><tr><td><code>git switch &#x3C;branch></code></td><td>Переключает на существующую ветку</td></tr><tr><td><code>git switch -c &#x3C;branch></code></td><td>Создаёт ветку и переключает на неё</td></tr><tr><td><code>git branch -m &#x3C;new-name></code></td><td>Переименовывает текущую ветку</td></tr><tr><td><code>git branch -d &#x3C;branch></code></td><td>Безопасно удаляет уже слитую ветку</td></tr><tr><td><code>git branch -D &#x3C;branch></code></td><td>Принудительно удаляет локальную ветку</td></tr></tbody></table></div>
+<p>В старых материалах часто встречается <code>git checkout -b feature/profile</code>. Современный и более понятный аналог — <code>git switch -c feature/profile</code>. Команда <code>checkout</code> всё ещё работает, но одновременно решает несколько разных задач.</p>
+<h3 id="имена-веток">Имена веток</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>feature/user-profile</span></span>
+<span data-line=""><span>fix/login-validation</span></span>
+<span data-line=""><span>refactor/api-client</span></span>
+<span data-line=""><span>docs/git-guide</span></span></code></pre></figure>
+<p>Используй короткое имя без пробелов, которое объясняет назначение ветки.</p>
+<h2 id="слияние-веток">Слияние веток</h2>
+<p>Чтобы влить <code>feature/profile</code> в <code>main</code>:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> switch</span><span style="color:var(--shiki-token-string)"> main</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> merge</span><span style="color:var(--shiki-token-string)"> feature/profile</span></span></code></pre></figure>
+<p>Git может выполнить:</p>
+<ul>
+<li><strong>fast-forward</strong> — просто передвинуть указатель <code>main</code>, если ветки не расходились;</li>
+<li><strong>merge commit</strong> — создать отдельный коммит слияния, если обе ветки развивались независимо;</li>
+<li><strong>conflict</strong> — остановить слияние, если одни строки были несовместимо изменены с двух сторон.</li>
+</ul>
+<p>Отменить незавершённое слияние:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> merge</span><span style="color:var(--shiki-token-string)"> --abort</span></span></code></pre></figure>
+<h2 id="удалённый-репозиторий">Удалённый репозиторий</h2>
+<p>Проверить подключённые серверы:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> remote</span><span style="color:var(--shiki-token-string)"> -v</span></span></code></pre></figure>
+<p>Подключить GitHub-репозиторий к существующему локальному проекту:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> remote</span><span style="color:var(--shiki-token-string)"> add</span><span style="color:var(--shiki-token-string)"> origin</span><span style="color:var(--shiki-token-string)"> https://github.com/user/project.git</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> push</span><span style="color:var(--shiki-token-string)"> -u</span><span style="color:var(--shiki-token-string)"> origin</span><span style="color:var(--shiki-token-string)"> main</span></span></code></pre></figure>
+<p>Первая отправка новой ветки:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> push</span><span style="color:var(--shiki-token-string)"> -u</span><span style="color:var(--shiki-token-string)"> origin</span><span style="color:var(--shiki-token-string)"> feature/profile</span></span></code></pre></figure>
+<p>Флаг <code>-u</code> связывает локальную ветку с удалённой. После этого достаточно выполнять <code>git push</code> и <code>git pull</code> без указания имён.</p>
+<h3 id="fetch-pull-и-push"><code>fetch</code>, <code>pull</code> и <code>push</code></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Команда</th><th>Что делает</th></tr></thead><tbody><tr><td><code>git fetch origin</code></td><td>Загружает сведения о новых коммитах, но не меняет рабочую ветку</td></tr><tr><td><code>git pull</code></td><td>Выполняет <code>fetch</code>, затем интегрирует изменения в текущую ветку</td></tr><tr><td><code>git pull --ff-only</code></td><td>Обновляет ветку только без создания merge-коммита</td></tr><tr><td><code>git pull --rebase</code></td><td>Переносит локальные коммиты поверх обновлённой удалённой ветки</td></tr><tr><td><code>git push</code></td><td>Отправляет локальные коммиты в связанную удалённую ветку</td></tr></tbody></table></div>
+<p><code>git fetch</code> безопасно использовать для проверки состояния сервера: он не изменяет рабочие файлы.</p>
+<h2 id="типовой-сценарий-работы-над-задачей">Типовой сценарий работы над задачей</h2>
+<h3 id="1-получить-свежую-основную-ветку">1. Получить свежую основную ветку</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> switch</span><span style="color:var(--shiki-token-string)"> main</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> pull</span><span style="color:var(--shiki-token-string)"> --ff-only</span></span></code></pre></figure>
+<h3 id="2-создать-отдельную-ветку">2. Создать отдельную ветку</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> switch</span><span style="color:var(--shiki-token-string)"> -c</span><span style="color:var(--shiki-token-string)"> feature/user-profile</span></span></code></pre></figure>
+<h3 id="3-сделать-и-проверить-коммиты">3. Сделать и проверить коммиты</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> status</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> add</span><span style="color:var(--shiki-token-string)"> -p</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> diff</span><span style="color:var(--shiki-token-string)"> --staged</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> commit</span><span style="color:var(--shiki-token-string)"> -m</span><span style="color:var(--shiki-token-string-expression)"> "feat: add user profile"</span></span></code></pre></figure>
+<h3 id="4-отправить-ветку-и-создать-pull-request">4. Отправить ветку и создать pull request</h3>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> push</span><span style="color:var(--shiki-token-string)"> -u</span><span style="color:var(--shiki-token-string)"> origin</span><span style="color:var(--shiki-token-string)"> feature/user-profile</span></span></code></pre></figure>
+<p>После ревью ветка сливается в <code>main</code> через интерфейс GitHub или GitLab. Локальную ветку затем можно удалить:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> switch</span><span style="color:var(--shiki-token-string)"> main</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> pull</span><span style="color:var(--shiki-token-string)"> --ff-only</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> branch</span><span style="color:var(--shiki-token-string)"> -d</span><span style="color:var(--shiki-token-string)"> feature/user-profile</span></span></code></pre></figure>
+<h2 id="merge-и-rebase">Merge и rebase</h2>
+<p>Обе команды интегрируют изменения, но делают это по-разному.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Критерий</th><th><code>merge</code></th><th><code>rebase</code></th></tr></thead><tbody><tr><td>История</td><td>Сохраняет реальное разветвление</td><td>Делает историю линейной</td></tr><tr><td>Коммиты</td><td>Может создать merge-коммит</td><td>Пересоздаёт коммиты с новыми hash</td></tr><tr><td>Безопасность</td><td>Подходит для общих веток</td><td>Подходит прежде всего для локальных коммитов</td></tr><tr><td>Конфликты</td><td>Обычно решаются один раз</td><td>Могут возникать при переносе каждого коммита</td></tr></tbody></table></div>
+<p>Обновить feature-ветку через rebase:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> switch</span><span style="color:var(--shiki-token-string)"> feature/user-profile</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> fetch</span><span style="color:var(--shiki-token-string)"> origin</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> rebase</span><span style="color:var(--shiki-token-string)"> origin/main</span></span></code></pre></figure>
+<p>Продолжить или отменить rebase:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> rebase</span><span style="color:var(--shiki-token-string)"> --continue</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> rebase</span><span style="color:var(--shiki-token-string)"> --abort</span></span></code></pre></figure>
+<div class="callout callout-warning" data-callout="warning">
+<div class="callout-title">Внимание</div>
+<div class="callout-body"><p>Не выполняй rebase коммитов, которыми уже пользуются другие разработчики. Rebase переписывает историю. После rebase собственной опубликованной ветки используй <code>git push --force-with-lease</code>, а не <code>git push --force</code>.</p></div>
+</div>
+<h2 id="разрешение-конфликтов">Разрешение конфликтов</h2>
+<p>При конфликте Git отмечает проблемный участок:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;&#x3C; HEAD</span></span>
+<span data-line=""><span>текущая версия</span></span>
+<span data-line=""><span>=======</span></span>
+<span data-line=""><span>версия из другой ветки</span></span>
+<span data-line=""><span>>>>>>>> feature/profile</span></span></code></pre></figure>
+<p>Порядок действий:</p>
+<ol>
+<li>Выполни <code>git status</code> и найди конфликтующие файлы.</li>
+<li>Выбери правильный вариант или объедини изменения вручную.</li>
+<li>Удали маркеры <code>&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;&#x3C;</code>, <code>=======</code> и <code>>>>>>>></code>.</li>
+<li>Проверь код и выполни <code>git add &#x3C;file></code>.</li>
+<li>Заверши операцию через <code>git commit</code> или <code>git rebase --continue</code>.</li>
+</ol>
+<div class="callout callout-tip" data-callout="tip">
+<div class="callout-title">Подсказка</div>
+<div class="callout-body"><p>Не выбирай автоматически «текущую» или «входящую» версию, пока не понял обе стороны конфликта. Синтаксически корректный результат может нарушить бизнес-логику.</p></div>
+</div>
+<h2 id="отмена-изменений">Отмена изменений</h2>
+<p>Сначала выполни <code>git status</code> и определи, где находится изменение: в рабочей папке, staging area, локальном коммите или уже на сервере.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Ситуация</th><th>Команда</th><th>Результат</th></tr></thead><tbody><tr><td>Убрать файл из staging area</td><td><code>git restore --staged file.js</code></td><td>Правки остаются в файле</td></tr><tr><td>Отменить незакоммиченные правки</td><td><code>git restore file.js</code></td><td>Файл возвращается к состоянию последнего коммита</td></tr><tr><td>Исправить последний локальный коммит</td><td><code>git commit --amend</code></td><td>Последний коммит пересоздаётся</td></tr><tr><td>Безопасно отменить опубликованный коммит</td><td><code>git revert &#x3C;commit></code></td><td>Создаётся новый обратный коммит</td></tr><tr><td>Перенести отдельный коммит в текущую ветку</td><td><code>git cherry-pick &#x3C;commit></code></td><td>Создаётся копия выбранного изменения</td></tr></tbody></table></div>
+<div class="callout callout-warning" data-callout="warning">
+<div class="callout-title">Внимание</div>
+<div class="callout-body"><p><code>git restore file.js</code> безвозвратно удаляет незакоммиченные изменения этого файла. Перед выполнением проверь путь и при необходимости используй <code>git stash</code>.</p></div>
+</div>
+<h3 id="варианты-git-reset">Варианты <code>git reset</code></h3>
+<p><code>reset</code> обычно используют только для локальной, ещё не опубликованной истории.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Команда</th><th>HEAD</th><th>Staging</th><th>Рабочие файлы</th></tr></thead><tbody><tr><td><code>git reset --soft HEAD~1</code></td><td>Перемещает</td><td>Сохраняет</td><td>Сохраняет</td></tr><tr><td><code>git reset HEAD~1</code></td><td>Перемещает</td><td>Очищает</td><td>Сохраняет</td></tr><tr><td><code>git reset --hard HEAD~1</code></td><td>Перемещает</td><td>Очищает</td><td>Удаляет изменения</td></tr></tbody></table></div>
+<div class="callout callout-danger" data-callout="danger">
+<div class="callout-title">Опасно</div>
+<div class="callout-body"><p><code>git reset --hard</code>, <code>git clean</code> и принудительный push могут удалить работу. Не копируй такие команды вслепую и не применяй их к общей ветке.</p></div>
+</div>
+<h2 id="временное-сохранение-через-stash">Временное сохранение через stash</h2>
+<p>Stash полезен, когда нужно временно убрать незавершённые изменения и переключиться на другую задачу.</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> stash</span><span style="color:var(--shiki-token-string)"> push</span><span style="color:var(--shiki-token-string)"> -m</span><span style="color:var(--shiki-token-string-expression)"> "WIP: profile form"</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> stash</span><span style="color:var(--shiki-token-string)"> list</span></span>
+<span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> stash</span><span style="color:var(--shiki-token-string)"> pop</span></span></code></pre></figure>
+<p>Дополнительные команды:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Команда</th><th>Что делает</th></tr></thead><tbody><tr><td><code>git stash apply stash@{0}</code></td><td>Применяет stash, но сохраняет его в списке</td></tr><tr><td><code>git stash pop</code></td><td>Применяет последний stash и удаляет его из списка</td></tr><tr><td><code>git stash drop stash@{0}</code></td><td>Удаляет выбранный stash</td></tr><tr><td><code>git stash push -u</code></td><td>Сохраняет также новые неотслеживаемые файлы</td></tr></tbody></table></div>
+<p>Stash не заменяет коммиты и не предназначен для долговременного хранения важной работы.</p>
+<h2 id="gitignore-и-секреты"><code>.gitignore</code> и секреты</h2>
+<p>Пример для frontend- и Node.js-проекта:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>node_modules/</span></span>
+<span data-line=""><span>dist/</span></span>
+<span data-line=""><span>coverage/</span></span>
+<span data-line=""><span>.env</span></span>
+<span data-line=""><span>.env.*</span></span>
+<span data-line=""><span>!.env.example</span></span>
+<span data-line=""><span>.DS_Store</span></span>
+<span data-line=""><span>*.log</span></span></code></pre></figure>
+<p><code>.gitignore</code> действует только на неотслеживаемые файлы. Если файл уже добавлен в Git, убери его из index, не удаляя локальную копию:</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="bash" data-theme="mono"><code data-language="bash" data-theme="mono" style="display: grid;"><span data-line=""><span style="color:var(--shiki-token-function)">git</span><span style="color:var(--shiki-token-string)"> rm</span><span style="color:var(--shiki-token-string)"> --cached</span><span style="color:var(--shiki-token-string)"> .env</span></span></code></pre></figure>
+<div class="callout callout-warning" data-callout="warning">
+<div class="callout-title">Внимание</div>
+<div class="callout-body"><p>Если секрет уже попал в коммит или был отправлен на сервер, одного удаления файла недостаточно. Считай секрет скомпрометированным и немедленно отзови или замени его.</p></div>
+</div>
+<h2 id="сообщения-коммитов">Сообщения коммитов</h2>
+<p>Хорошее сообщение кратко отвечает на вопрос: «Что изменится после применения этого коммита?»</p>
+<figure data-rehype-pretty-code-figure=""><pre tabindex="0" data-language="plaintext" data-theme="mono"><code data-language="plaintext" data-theme="mono" style="display: grid;"><span data-line=""><span>feat: add profile editing</span></span>
+<span data-line=""><span>fix: prevent duplicate form submission</span></span>
+<span data-line=""><span>refactor: extract API client</span></span>
+<span data-line=""><span>test: cover token refresh</span></span>
+<span data-line=""><span>docs: explain Git workflow</span></span>
+<span data-line=""><span>chore: update dependencies</span></span></code></pre></figure>
+<p>Часто используемые типы Conventional Commits:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Тип</th><th>Назначение</th></tr></thead><tbody><tr><td><code>feat</code></td><td>Новая возможность</td></tr><tr><td><code>fix</code></td><td>Исправление ошибки</td></tr><tr><td><code>refactor</code></td><td>Изменение структуры без новой функциональности</td></tr><tr><td><code>test</code></td><td>Добавление или изменение тестов</td></tr><tr><td><code>docs</code></td><td>Документация</td></tr><tr><td><code>chore</code></td><td>Служебные изменения</td></tr></tbody></table></div>
+<p>Формат Conventional Commits полезен, но применять его нужно только если команда договорилась о таком стандарте.</p>
+<h2 id="частые-вопросы-на-собеседовании">Частые вопросы на собеседовании</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Вопрос</th><th>Короткий ответ</th></tr></thead><tbody><tr><td>Чем Git отличается от GitHub?</td><td>Git хранит версии локально; GitHub размещает удалённые репозитории и инструменты совместной работы</td></tr><tr><td>Что такое staging area?</td><td>Промежуточная область, из которой формируется следующий коммит</td></tr><tr><td>Чем <code>fetch</code> отличается от <code>pull</code>?</td><td><code>fetch</code> только загружает данные, <code>pull</code> сразу интегрирует их в текущую ветку</td></tr><tr><td>Чем <code>merge</code> отличается от <code>rebase</code>?</td><td><code>merge</code> сохраняет ветвление, <code>rebase</code> переносит и пересоздаёт коммиты</td></tr><tr><td>Чем <code>revert</code> отличается от <code>reset</code>?</td><td><code>revert</code> добавляет обратный коммит, <code>reset</code> перемещает указатель и может переписать историю</td></tr><tr><td>Что такое <code>HEAD</code>?</td><td>Указатель на текущий коммит или активную ветку</td></tr><tr><td>Почему <code>.gitignore</code> не скрывает файл?</td><td>Git уже отслеживает файл, поэтому его нужно убрать из index</td></tr><tr><td>Что такое detached HEAD?</td><td>Состояние, когда <code>HEAD</code> указывает прямо на коммит, а не на ветку</td></tr><tr><td>Когда нужен <code>cherry-pick</code>?</td><td>Когда требуется перенести отдельный коммит без слияния всей ветки</td></tr><tr><td>Почему опасен force push?</td><td>Он может переписать удалённую историю и удалить чужие коммиты</td></tr></tbody></table></div>
+<h2 id="практическое-упражнение">Практическое упражнение</h2>
+<ol>
+<li>Создай пустую папку и выполни <code>git init</code>.</li>
+<li>Создай <code>README.md</code>, добавь его через <code>git add</code> и сделай первый коммит.</li>
+<li>Создай ветку <code>feature/about</code>, измени файл и сделай второй коммит.</li>
+<li>Вернись в <code>main</code> и выполни <code>git merge feature/about</code>.</li>
+<li>Посмотри историю через <code>git log --oneline --graph --decorate --all</code>.</li>
+<li>Создай ещё одно изменение, добавь его в staging и верни через <code>git restore --staged</code>.</li>
+<li>Спрячь незавершённую работу через <code>git stash</code>, затем восстанови через <code>git stash pop</code>.</li>
+</ol>
+<p>После упражнения попробуй объяснить вслух, в какой области находились изменения после каждого шага.</p>
+<h2 id="мини-шпаргалка">Мини-шпаргалка</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>Задача</th><th>Команда</th></tr></thead><tbody><tr><td>Посмотреть состояние</td><td><code>git status</code></td></tr><tr><td>Посмотреть изменения</td><td><code>git diff</code></td></tr><tr><td>Выбрать части изменений</td><td><code>git add -p</code></td></tr><tr><td>Проверить будущий коммит</td><td><code>git diff --staged</code></td></tr><tr><td>Создать коммит</td><td><code>git commit -m "message"</code></td></tr><tr><td>Посмотреть историю</td><td><code>git log --oneline --graph --decorate --all</code></td></tr><tr><td>Создать ветку</td><td><code>git switch -c &#x3C;branch></code></td></tr><tr><td>Переключить ветку</td><td><code>git switch &#x3C;branch></code></td></tr><tr><td>Слить ветку в текущую</td><td><code>git merge &#x3C;branch></code></td></tr><tr><td>Получить данные с сервера</td><td><code>git fetch origin</code></td></tr><tr><td>Забрать и интегрировать изменения</td><td><code>git pull</code></td></tr><tr><td>Отправить новую ветку</td><td><code>git push -u origin &#x3C;branch></code></td></tr><tr><td>Убрать файл из staging</td><td><code>git restore --staged &#x3C;file></code></td></tr><tr><td>Безопасно отменить коммит</td><td><code>git revert &#x3C;commit></code></td></tr><tr><td>Временно спрятать изменения</td><td><code>git stash push -m "description"</code></td></tr></tbody></table></div>
+<p>Подробнее: <a href="https://git-scm.com/book/ru/v2" target="_blank" rel="noopener noreferrer">официальная книга Pro Git на русском</a> и <a href="https://git-scm.com/docs" target="_blank" rel="noopener noreferrer">справочник команд Git</a>.</p>2b:I[89123,["$2","$3","$4","$5","$6","$7","$e","$f"],"ArticleEnhancer"]
+2c:I[5014,["$2","$3","$4","$5","$6","$7","$e","$f"],"default"]
+2d:I[70669,["$2","$3","$4","$5","$6","$7","$e","$f"],"Toc"]
+2e:I[27201,["$2","$3","$4","$5","$6","$7"],"IconMark"]
+17:[["$","$L22",null,{}],["$","div",null,{"className":"mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)_260px]","children":[["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] border-r lg:block","children":["$","$L23",null,{"tree":null,"sections":[{"id":"cu0h4k","num":"01","title":"Web технологии","href":"/l/01/"},{"id":"5rkma8","num":"02","title":"HTML","href":"/l/02/"},{"id":"wrzae8","num":"03","title":"CSS","href":"/l/03/"},{"id":"sczm2y","num":"04","title":"JavaScript","href":"/l/04/"},{"id":"5cskiq","num":"05","title":"TypeScript","href":"/l/05/"},{"id":"1yochrw","num":"06","title":"React","href":"/l/06/"},{"id":"1padbm0","num":"07","title":"Next","href":"/l/07/"},{"id":"ejgzl9","num":"08","title":"Node","href":"/l/08/"},{"id":"1wkd37o","num":"09","title":"Алгоритмы и структуры данных","href":"/l/09/"},{"id":"qmdcc7","num":"10","title":"Тестирование","href":"/l/10/"},{"id":"qk1yis","num":"11","title":"Frontend System Design","href":"/l/11/"},{"id":"1cb7oa9","num":"12","title":"Сборка и инструменты","href":"/l/12/"},{"id":"17y0y5i","num":"13","title":"Задачи с лайвкодинга","href":"/l/13/"},{"id":"9omkan","num":"14","title":"Поведенческое интервью","href":"/l/14/"},{"id":"1ep0t1n","num":"15","title":"Git","href":"/l/15/"},{"id":"1w8lilq","num":"16","title":"Полезные ссылки","href":"/l/16/"},{"id":"1yungkm","num":"17","title":"Настройка VS Code","href":"/l/17/"}],"currentId":"1ep0t1n"}]}],["$","main",null,{"className":"min-w-0 px-4 pb-24 pt-6 sm:px-8 lg:px-12 xl:px-16","children":[["$","div",null,{"className":"mb-8 flex items-center gap-3 lg:hidden","children":["$","$L24",null,{"children":"$17:1:props:children:0:props:children"}]}],["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","nav",null,{"aria-label":"Навигация","className":"flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground","children":[["$","$L10",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Разделы"}],[]]}],["$","header",null,{"className":"mt-8 animate-rise","children":[["$","div",null,{"className":"label flex items-center gap-3","children":[["$","span",null,{"children":["Урок ","15"]}],["$","span",null,{"className":"h-px w-6 bg-border"}],["$","span",null,{"children":[13," ","минут"," чтения"]}]]}],["$","h1",null,{"className":"mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]","children":"Git: понятный конспект и шпаргалка"}],["$","div",null,{"className":"mt-7","children":["$","$L25",null,{"id":"1ep0t1n","href":"/l/15/","title":"Git"}]}]]}],["$","div",null,{"id":"lesson-body","className":"prose mt-10 animate-rise [animation-delay:80ms]","dangerouslySetInnerHTML":{"__html":"$26"}}],"$L27","$L28","$L29"]}]]}],"$L2a"]}]]
+27:["$","$L2b",null,{"targetId":"lesson-body"}]
+28:["$","div",null,{"className":"mt-16 border-t pt-8","children":["$","$L25",null,{"id":"1ep0t1n","href":"/l/15/","title":"Git","variant":"footer"}]}]
+29:["$","nav",null,{"className":"mt-10 grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2","children":[["$","$L10",null,{"href":"/l/14/05/04/","className":"group flex flex-col gap-1.5 bg-background p-5 transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":[["$","$L2c",null,{"ref":"$undefined","icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"size-3 transition-transform group-hover:-translate-x-1"}]," Назад"]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Как сравнить офферы и договориться об условиях"}]]}],["$","$L10",null,{"href":"/l/16/","className":"group flex flex-col items-end gap-1.5 bg-background p-5 text-right transition-colors hover:bg-muted/60","children":[["$","span",null,{"className":"label flex items-center gap-2","children":["Далее ",["$","$L2c",null,{"ref":"$undefined","icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-3 transition-transform group-hover:translate-x-1"}]]}],["$","span",null,{"className":"line-clamp-2 font-medium leading-snug","children":"Полезные ссылки"}]]}]]}]
+2a:["$","aside",null,{"className":"sticky top-14 hidden h-[calc(100dvh-3.5rem)] overflow-y-auto py-10 pr-6 thin-scrollbar xl:block","children":["$","$L2d",null,{"items":[{"id":"маршрут-изучения","text":"Маршрут изучения","depth":2},{"id":"как-git-видит-проект","text":"Как Git видит проект","depth":2},{"id":"состояния-файла","text":"Состояния файла","depth":3},{"id":"первоначальная-настройка","text":"Первоначальная настройка","depth":2},{"id":"создание-и-получение-репозитория","text":"Создание и получение репозитория","depth":2},{"id":"новый-локальный-репозиторий","text":"Новый локальный репозиторий","depth":3},{"id":"клонирование-существующего-проекта","text":"Клонирование существующего проекта","depth":3},{"id":"первый-коммит","text":"Первый коммит","depth":2},{"id":"ежедневный-цикл-работы","text":"Ежедневный цикл работы","depth":2},{"id":"перед-коммитом-проверь","text":"Перед коммитом проверь","depth":3},{"id":"работа-со-staging-area","text":"Работа со staging area","depth":2},{"id":"просмотр-изменений-и-истории","text":"Просмотр изменений и истории","depth":2},{"id":"ветки","text":"Ветки","depth":2},{"id":"основные-команды","text":"Основные команды","depth":3},{"id":"имена-веток","text":"Имена веток","depth":3},{"id":"слияние-веток","text":"Слияние веток","depth":2},{"id":"удалённый-репозиторий","text":"Удалённый репозиторий","depth":2},{"id":"fetch-pull-и-push","text":"fetch, pull и push","depth":3},{"id":"типовой-сценарий-работы-над-задачей","text":"Типовой сценарий работы над задачей","depth":2},{"id":"1-получить-свежую-основную-ветку","text":"1. Получить свежую основную ветку","depth":3},{"id":"2-создать-отдельную-ветку","text":"2. Создать отдельную ветку","depth":3},{"id":"3-сделать-и-проверить-коммиты","text":"3. Сделать и проверить коммиты","depth":3},{"id":"4-отправить-ветку-и-создать-pull-request","text":"4. Отправить ветку и создать pull request","depth":3},{"id":"merge-и-rebase","text":"Merge и rebase","depth":2},{"id":"разрешение-конфликтов","text":"Разрешение конфликтов","depth":2},{"id":"отмена-изменений","text":"Отмена изменений","depth":2},{"id":"варианты-git-reset","text":"Варианты git reset","depth":3},{"id":"временное-сохранение-через-stash","text":"Временное сохранение через stash","depth":2},{"id":"gitignore-и-секреты","text":".gitignore и секреты","depth":2},{"id":"сообщения-коммитов","text":"Сообщения коммитов","depth":2},{"id":"частые-вопросы-на-собеседовании","text":"Частые вопросы на собеседовании","depth":2},{"id":"практическое-упражнение","text":"Практическое упражнение","depth":2},{"id":"мини-шпаргалка","text":"Мини-шпаргалка","depth":2}]}]}]
+1a:null
+20:[["$","title","0",{"children":"Git · re:front"}],["$","meta","1",{"name":"description","content":"re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS."}],["$","link","2",{"rel":"icon","href":"/refront/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L2e","3",{}]]
