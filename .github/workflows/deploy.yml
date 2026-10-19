@@ -35,7 +35,7 @@ jobs:
       - run: npm ci
 
       # base_path = "/<repo>" для project pages или "" для <user>.github.io
-      - run: npm run build
+      - run: npm run build:pages
         env:
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 

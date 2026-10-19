@@ -81,6 +81,20 @@ npm run dev
 
 ### Деплой
 
+Готовый статический сайт с уроками, карточками и поиском размещается в отдельной ветке `gh-pages`. Для публикации этой ветки выбери **Settings → Pages → Source: Deploy from a branch → gh-pages → / (root)**.
+
+Повторная сборка для адреса `https://marat-englisc.github.io/refront/`:
+
+```bash
+cd site
+npm ci
+npm run build:pages
+```
+
+Команда подставляет префикс `/refront`, собирает контент в `site/out/` и проверяет страницы, карточки, поиск и локальные ссылки. В корень `gh-pages` нужно отправлять содержимое `site/out/`, включая `.nojekyll`, а не саму папку `out`.
+
+Также доступна автоматическая публикация из исходников:
+
 Пуш в `main` запускает [GitHub Actions](.github/workflows/deploy.yml), который собирает сайт и публикует его на GitHub Pages. Для первого запуска включи в настройках репозитория **Settings → Pages → Source: GitHub Actions**.
 
 Подробности об устройстве сайта — в [`site/README.md`](site/README.md).

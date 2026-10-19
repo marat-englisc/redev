@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "node scripts/build-pages.mjs",
+    "check:pages": "node scripts/check-pages.mjs",
     "start": "next start",
     "lint": "eslint",
     "preview": "npx --yes serve@14.2.4 out"

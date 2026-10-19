@@ -21,12 +21,24 @@ SPA для чтения уроков из родительской папки (`
 npm install
 npm run dev       # http://localhost:3000
 npm run build     # статический сайт в out/
+npm run build:pages # сборка для /refront/ с проверкой контента и ссылок
+npm run check:pages # проверить готовый экспорт для GitHub Pages
 npm run preview   # раздать out/ локально
 ```
 
 Путь к конспекту можно переопределить переменной `CONTENT_DIR`.
 
 ## Деплой на GitHub Pages
+
+### Готовая ветка `gh-pages`
+
+`npm run build:pages` собирает весь конспект, `cards.json`, `search-index.json` и статические страницы в `out/`. По умолчанию используется префикс `/refront`. Переменная `NEXT_PUBLIC_BASE_PATH` переопределяет его; в CI имя репозитория берётся из `GITHUB_REPOSITORY`.
+
+Отправьте **содержимое** `out/` в корень отдельной ветки `gh-pages`, включая `.nojekyll` (он сохраняет доступность папки `_next`). В **Settings → Pages** выберите **Deploy from a branch → gh-pages → / (root)**. Адрес сайта: <https://marat-englisc.github.io/refront/>.
+
+После изменения уроков или кода нужно пересобрать сайт и обновить `gh-pages`. `npm run check:pages` проверяет, что каждый Markdown-урок попал в экспорт и карточки, а локальные ссылки и ресурсы доступны под выбранным префиксом.
+
+### Автоматическая публикация из исходников
 
 1. Создайте репозиторий из папки `Frontend` (корень — папка с уроками, сайт — в `site/`).
 2. В настройках репозитория: **Settings → Pages → Source: GitHub Actions**.
