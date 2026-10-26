@@ -12,6 +12,7 @@ import { Kbd } from "@/components/ui/kbd";
 const NAV = [
   { href: "/", label: "Разделы", match: (p: string) => p === "/" || p.startsWith("/l/") },
   { href: "/review/", label: "Повторение", match: (p: string) => p.startsWith("/review") },
+  { href: "/sandbox/", label: "Песочница", match: (p: string) => p.startsWith("/sandbox") },
   { href: "/stats/", label: "Статистика", match: (p: string) => p.startsWith("/stats") },
   { href: "/settings/", label: "Настройки", match: (p: string) => p.startsWith("/settings") },
 ];
@@ -44,7 +45,7 @@ export function SiteHeader() {
                 className={cn(
                   "relative flex h-14 items-center gap-1.5 px-2.5 text-[13px] whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground",
                   active && "text-foreground",
-                  item.href !== "/" && item.href !== "/review/" && "hidden md:flex",
+                  !["/", "/review/", "/sandbox/"].includes(item.href) && "hidden md:flex",
                 )}
               >
                 {item.label}

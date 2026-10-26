@@ -7,7 +7,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
 import rehypeStringify from "rehype-stringify";
 import rehypePrettyCode, { type Options as PrettyCodeOptions } from "rehype-pretty-code";
-import { bundledLanguages, bundledLanguagesAlias, createCssVariablesTheme } from "shiki";
+import { bundledLanguages, bundledLanguagesAlias } from "shiki";
 import { visit, SKIP } from "unist-util-visit";
 import { toString as hastToString } from "hast-util-to-string";
 import type { Root as MdRoot, RootContent, Blockquote, Paragraph, Text, Heading } from "mdast";
@@ -157,15 +157,12 @@ function rehypeWrapTables() {
 
 /* ───────────────────────── подсветка кода ───────────────────────── */
 
-const monoTheme = createCssVariablesTheme({
-  name: "mono",
-  variablePrefix: "--shiki-",
-  variableDefaults: {},
-  fontStyle: true,
-});
-
+/**
+ * Две IDE-темы: Shiki пишет цвета обеих в CSS-переменные --shiki-light / --shiki-dark,
+ * а globals.css выбирает нужную по классу .dark. Те же цвета использует песочница.
+ */
 const prettyCode: PrettyCodeOptions = {
-  theme: monoTheme as unknown as PrettyCodeOptions["theme"],
+  theme: { light: "one-light", dark: "one-dark-pro" },
   keepBackground: false,
   bypassInlineCode: true,
   defaultLang: { block: "plaintext" },

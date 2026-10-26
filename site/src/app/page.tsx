@@ -1,14 +1,25 @@
 import Link from "next/link";
 import { ArrowUpRightIcon } from "lucide-react";
 import { getContent, lessonIdsOf } from "@/lib/content";
-import { CompletionBar, CompletionPct, CompletionText } from "@/components/progress-bits";
+import { CompletionPct } from "@/components/progress-bits";
 import { HomeStats, ContinueCard } from "@/components/home-client";
+import { SectionsBrowser, type SectionCard } from "@/components/sections-browser";
+import { sectionMeta } from "@/lib/sections";
 
 export default function HomePage() {
   const { root, lessons } = getContent();
   const sections = root.filter((n) => n.kind === "folder");
   const extras = root.filter((n) => n.kind === "lesson");
   const allIds = lessons.map((l) => l.id);
+  const cards: SectionCard[] = sections.map((s) => ({
+    id: s.id,
+    num: s.num,
+    title: s.title,
+    href: s.href,
+    ids: lessonIdsOf(s),
+    topics: s.children.filter((c) => c.kind === "folder").length,
+    ...sectionMeta(s.title),
+  }));
 
   return (
     <main className="flex-1">
@@ -45,36 +56,7 @@ export default function HomePage() {
           </span>
         </div>
 
-        <div className="grid border-l border-t sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {sections.map((s, i) => {
-            const ids = lessonIdsOf(s);
-            const topics = s.children.filter((c) => c.kind === "folder").length;
-            return (
-              <Link
-                key={s.id}
-                href={s.href}
-                className="group relative flex min-h-56 flex-col border-b border-r p-6 transition-colors hover:bg-foreground hover:text-background animate-rise"
-                style={{ animationDelay: `${Math.min(i, 12) * 40}ms` }}
-              >
-                <div className="flex items-start justify-between">
-                  <span className="font-mono text-5xl font-light tracking-tighter text-muted-foreground/50 transition-colors group-hover:text-background/40">
-                    {s.num}
-                  </span>
-                  <ArrowUpRightIcon className="size-5 -translate-x-1 translate-y-1 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100" />
-                </div>
-                <h3 className="mt-auto pt-8 text-xl font-medium leading-tight tracking-tight">{s.title}</h3>
-                <div className="mt-3 flex items-center justify-between font-mono text-[11px] uppercase tracking-wider text-muted-foreground group-hover:text-background/60">
-                  <span>
-                    {topics > 0 ? `${topics} тем · ` : ""}
-                    {ids.length} ур.
-                  </span>
-                  <CompletionText ids={ids} className="[&>span]:group-hover:text-background/50" />
-                </div>
-                <CompletionBar ids={ids} className="mt-3 group-hover:bg-background/20 [&>div]:group-hover:bg-background" />
-              </Link>
-            );
-          })}
-        </div>
+        <SectionsBrowser sections={cards} />
 
         {extras.length > 0 && (
           <div className="mt-14">

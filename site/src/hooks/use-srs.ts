@@ -33,7 +33,13 @@ export function useDueSummary(scope?: Set<string> | null) {
       }
     }
     const newToday = Math.min(fresh, left);
-    return { review, learning, fresh, newToday, total: review + learning + newToday };
+    return {
+      review,
+      learning,
+      fresh,
+      newToday,
+      total: review + learning + newToday,
+    };
   }, [cards, left, now, scope]);
 }
 
@@ -48,4 +54,5 @@ export function useCompletion(ids: string[]) {
 }
 
 export const OPEN_SEARCH_EVENT = "refront:open-search";
-export const openSearch = () => window.dispatchEvent(new Event(OPEN_SEARCH_EVENT));
+export const openSearch = () =>
+  window.dispatchEvent(new Event(OPEN_SEARCH_EVENT));

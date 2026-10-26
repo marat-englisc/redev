@@ -51,7 +51,7 @@
   }
 }
 
-/* ─────────────── Строгая монохромная палитра ─────────────── */
+/* ─────────────── Строгая монохромная палитра (цветная — только подсветка кода) ─────────────── */
 
 :root {
   --radius: 0.375rem;
@@ -76,19 +76,6 @@
   --input: oklch(0.9 0 0);
   --ring: oklch(0.13 0 0);
 
-  --shiki-foreground: oklch(0.13 0 0);
-  --shiki-background: transparent;
-  --shiki-token-keyword: oklch(0.13 0 0);
-  --shiki-token-constant: oklch(0.35 0 0);
-  --shiki-token-string: oklch(0.5 0 0);
-  --shiki-token-string-expression: oklch(0.5 0 0);
-  --shiki-token-comment: oklch(0.68 0 0);
-  --shiki-token-function: oklch(0.2 0 0);
-  --shiki-token-parameter: oklch(0.32 0 0);
-  --shiki-token-punctuation: oklch(0.55 0 0);
-  --shiki-token-link: oklch(0.13 0 0);
-  --shiki-token-inserted: oklch(0.13 0 0);
-  --shiki-token-deleted: oklch(0.55 0 0);
 }
 
 .dark {
@@ -113,18 +100,6 @@
   --input: oklch(1 0 0 / 14%);
   --ring: oklch(0.97 0 0);
 
-  --shiki-foreground: oklch(0.93 0 0);
-  --shiki-token-keyword: oklch(1 0 0);
-  --shiki-token-constant: oklch(0.82 0 0);
-  --shiki-token-string: oklch(0.66 0 0);
-  --shiki-token-string-expression: oklch(0.66 0 0);
-  --shiki-token-comment: oklch(0.46 0 0);
-  --shiki-token-function: oklch(0.97 0 0);
-  --shiki-token-parameter: oklch(0.85 0 0);
-  --shiki-token-punctuation: oklch(0.6 0 0);
-  --shiki-token-link: oklch(1 0 0);
-  --shiki-token-inserted: oklch(1 0 0);
-  --shiki-token-deleted: oklch(0.6 0 0);
 }
 
 @layer base {
@@ -359,6 +334,17 @@
   min-width: max-content;
   counter-reset: line;
 }
+/* цвета токенов: rehype-pretty-code кладёт обе темы в переменные */
+.prose figure[data-rehype-pretty-code-figure] pre :is(code, span) {
+  color: var(--shiki-light);
+  font-style: var(--shiki-light-font-style);
+  font-weight: var(--shiki-light-font-weight);
+}
+.dark .prose figure[data-rehype-pretty-code-figure] pre :is(code, span) {
+  color: var(--shiki-dark);
+  font-style: var(--shiki-dark-font-style);
+  font-weight: var(--shiki-dark-font-weight);
+}
 .prose [data-line] {
   padding: 0 1.25rem;
   border-left: 2px solid transparent;
@@ -488,4 +474,31 @@
     animation-delay: 0ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ─────────────── Песочница (Sandpack) ─────────────── */
+
+.refront-sandbox {
+  --sp-layout-height: 100%;
+}
+.refront-sandbox .sp-stack,
+.refront-sandbox .sp-wrapper {
+  height: 100%;
+}
+.refront-sandbox :is(.refront-editor, .refront-preview, .refront-console, .refront-explorer) {
+  border: 0;
+  border-radius: 0;
+}
+.refront-sandbox .refront-explorer {
+  overflow: auto;
+  padding: 0.35rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.refront-sandbox .sp-tabs {
+  border-bottom: 1px solid var(--border);
+}
+.refront-sandbox .cm-scroller {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
 }
