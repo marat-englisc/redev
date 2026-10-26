@@ -5,6 +5,7 @@ import { CompletionPct } from "@/components/progress-bits";
 import { HomeStats, ContinueCard } from "@/components/home-client";
 import { SectionsBrowser, type SectionCard } from "@/components/sections-browser";
 import { sectionMeta } from "@/lib/sections";
+import { BRAND } from "@/lib/brand";
 
 export default function HomePage() {
   const { root, lessons } = getContent();
@@ -27,17 +28,18 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-b">
         <div className="absolute inset-0 grid-bg [mask-image:radial-gradient(ellipse_at_top_left,black_20%,transparent_70%)]" />
         <div className="relative mx-auto max-w-[1440px] px-4 sm:px-6 pt-16 pb-14 sm:pt-24 sm:pb-20">
-          <div className="label animate-rise">re:front · конспект · {lessons.length} уроков · {sections.length} разделов</div>
+          <div className="label animate-rise">{BRAND.name} · конспект · {lessons.length} уроков · {sections.length} разделов</div>
           <h1 className="mt-6 text-[clamp(3rem,10vw,8.5rem)] font-semibold leading-[0.88] tracking-[-0.055em] animate-rise [animation-delay:80ms]">
-            <span className="text-[color-mix(in_oklch,var(--muted-foreground)_40%,var(--background))]">re:</span>front
+            <span className="text-[color-mix(in_oklch,var(--muted-foreground)_40%,var(--background))]">{BRAND.prefix}</span>
+            {BRAND.suffix}
             <br />
             {/* непрозрачный цвет: при полупрозрачном пересечения букв (TT) светлеют */}
-            <span className="text-[color-mix(in_oklch,var(--muted-foreground)_35%,var(--background))]">от HTTP</span> до&nbsp;System&nbsp;Design
+            <span className="text-[color-mix(in_oklch,var(--muted-foreground)_35%,var(--background))]">от HTTP</span> до&nbsp;WebGL
           </h1>
           <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end animate-rise [animation-delay:160ms]">
             <p className="max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Читайте уроки, отмечайте пройденное и закрепляйте знания интервальными повторениями по&nbsp;алгоритму FSRS. Весь прогресс хранится только
-              в&nbsp;вашем браузере.
+              Фронтенд, бэкенд, геймдев, инструменты и&nbsp;подготовка к&nbsp;собеседованиям. Читайте уроки, запускайте примеры в&nbsp;песочнице
+              и&nbsp;закрепляйте знания интервальными повторениями по&nbsp;алгоритму FSRS. Работает офлайн, прогресс хранится только в&nbsp;вашем браузере.
             </p>
             <HomeStats allIds={allIds} />
           </div>

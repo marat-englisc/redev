@@ -6,6 +6,7 @@ import { createPortal } from "react-dom";
 import { usePathname } from "next/navigation";
 import { PlayIcon } from "lucide-react";
 import type { ExampleBlock } from "@/components/sandbox/shared";
+import { useOnline } from "@/lib/offline";
 
 /** Sandpack грузится отдельным чанком только после нажатия «Запустить». */
 const LiveExampleRunner = dynamic(() => import("@/components/sandbox/live-example-runner").then((m) => m.LiveExampleRunner), {
@@ -17,6 +18,7 @@ const LANG_LABELS: Record<string, string> = { javascript: "js", typescript: "ts"
 
 function LiveExample({ blocks }: { blocks: ExampleBlock[] }) {
   const [running, setRunning] = useState(false);
+  const online = useOnline();
   const langs = [...new Set(blocks.map((b) => LANG_LABELS[b.lang] ?? b.lang))].join(" + ");
 
   return (
@@ -27,15 +29,16 @@ function LiveExample({ blocks }: { blocks: ExampleBlock[] }) {
         <button
           type="button"
           onClick={() => setRunning(true)}
-          className="group flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-muted/60"
+          disabled={!online}
+          className="group flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-muted/60 disabled:pointer-events-none disabled:opacity-60"
         >
           <span className="grid size-8 shrink-0 place-items-center rounded-md bg-foreground text-background transition-transform group-hover:scale-105">
             <PlayIcon className="size-3.5 translate-x-px" fill="currentColor" />
           </span>
           <span className="min-w-0 flex-1">
-            <span className="block text-sm font-medium">Запустить пример</span>
+            <span className="block text-sm font-medium">{online ? "Запустить пример" : "Пример запустится при подключении к интернету"}</span>
             <span className="label mt-0.5 block normal-case tracking-normal">
-              {langs} · код можно менять, результат обновится сразу
+              {langs} · {online ? "код можно менять, результат обновится сразу" : "код собирается на серверах CodeSandbox"}
             </span>
           </span>
         </button>

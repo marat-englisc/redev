@@ -6,6 +6,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner";
 import { SiteHeader } from "@/components/site-header";
 import { CommandMenu } from "@/components/command-menu";
+import { PwaRegister } from "@/components/pwa";
+import { BRAND } from "@/lib/brand";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,8 +21,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: { default: "re:front — повторяем фронтенд", template: "%s · re:front" },
-  description: "re:front — конспект по frontend-разработке с прогрессом и интервальным повторением FSRS.",
+  title: { default: BRAND.title, template: `%s · ${BRAND.name}` },
+  description: BRAND.description,
+  applicationName: BRAND.name,
+  appleWebApp: { capable: true, title: BRAND.name, statusBarStyle: "black-translucent" },
 };
 
 export const viewport: Viewport = {
@@ -41,6 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <div className="flex-1 flex flex-col">{children}</div>
               <CommandMenu />
               <Toaster position="bottom-center" />
+              <PwaRegister />
             </TooltipProvider>
           </StoreProvider>
         </ThemeProvider>

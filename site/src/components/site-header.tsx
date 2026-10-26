@@ -8,6 +8,7 @@ import { useDueSummary, openSearch } from "@/hooks/use-srs";
 import { useHydrated } from "@/store/hooks";
 import { ThemeToggle } from "./theme-toggle";
 import { Kbd } from "@/components/ui/kbd";
+import { BRAND } from "@/lib/brand";
 
 const NAV = [
   { href: "/", label: "Разделы", match: (p: string) => p === "/" || p.startsWith("/l/") },
@@ -30,7 +31,8 @@ export function SiteHeader() {
             re:
           </span>
           <span className="hidden font-mono text-[13px] font-medium tracking-[0.04em] sm:inline">
-            <span className="text-muted-foreground">re:</span>front
+            <span className="text-muted-foreground">{BRAND.prefix}</span>
+            {BRAND.suffix}
           </span>
         </Link>
 

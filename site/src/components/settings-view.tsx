@@ -12,6 +12,7 @@ import { useAppDispatch, useAppSelector, useAppStore, useHydrated } from "@/stor
 import { hydrate, resetAll, selectPersisted, updateSettings, type PersistedState } from "@/store";
 import { dayKey } from "@/lib/date";
 import { cn } from "@/lib/utils";
+import { OfflineSettings } from "@/components/offline-settings";
 
 function Row({ title, desc, children }: { title: string; desc: React.ReactNode; children: React.ReactNode }) {
   return (
@@ -44,13 +45,13 @@ export function SettingsView() {
   const [confirm, setConfirm] = useState(false);
 
   const exportData = () => {
-    const blob = new Blob([JSON.stringify({ app: "refront", version: 1, exportedAt: new Date().toISOString(), ...selectPersisted(store.getState()) }, null, 2)], {
+    const blob = new Blob([JSON.stringify({ app: "redev", version: 1, exportedAt: new Date().toISOString(), ...selectPersisted(store.getState()) }, null, 2)], {
       type: "application/json",
     });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `refront-progress-${dayKey()}.json`;
+    a.download = `redev-progress-${dayKey()}.json`;
     a.click();
     URL.revokeObjectURL(url);
     toast("Резервная копия сохранена");
@@ -113,6 +114,11 @@ export function SettingsView() {
         <Row title="Автодобавление в колоду" desc="Когда урок отмечается изученным, его карточка автоматически попадает в повторение.">
           <Switch checked={settings.autoAdd} onCheckedChange={(v) => dispatch(updateSettings({ autoAdd: v }))} />
         </Row>
+      </div>
+
+      <h2 id="offline" className="label mt-14 scroll-mt-24">Офлайн и приложение</h2>
+      <div className="border-t">
+        <OfflineSettings />
       </div>
 
       <h2 className="label mt-14">Данные</h2>

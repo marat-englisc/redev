@@ -1,8 +1,8 @@
-# re:front
+# re:dev
 
-SPA для чтения уроков из родительской папки (`../*.md`) с прогрессом и интервальным повторением FSRS.
+SPA для чтения уроков из родительской папки (`../*.md`) с прогрессом, интервальным повторением FSRS, песочницей и офлайн-режимом (PWA).
 
-**Стек:** Next.js 16 (static export) · TypeScript · Redux Toolkit · Tailwind CSS 4 · shadcn/ui (Base UI) · unified/remark/rehype + Shiki · ts-fsrs · Sandpack.
+**Стек:** Next.js 16 (static export) · TypeScript · Redux Toolkit · Tailwind CSS 4 · shadcn/ui (Base UI) · unified/remark/rehype + Shiki · ts-fsrs · Sandpack · Workbox.
 
 ## Как это устроено
 
@@ -21,6 +21,11 @@ SPA для чтения уроков из родительской папки (`
   в проекте «Из урока». Сборка идёт в iframe на серверах CodeSandbox, поэтому песочнице нужен интернет.
 - Живые примеры: блоки кода с мета-флагом `run` (`remarkLiveExamples` в `src/lib/markdown.ts`) превращаются в мини-песочницу прямо
   в уроке (`components/lesson/live-examples.tsx`); Sandpack подгружается только по кнопке «Запустить». Синтаксис — в корневом README.
+- Название и описание сайта — в `src/lib/brand.ts` (шапка, метаданные, манифест).
+- PWA: манифест — `src/app/manifest.ts`, иконки — `public/icons` (генерирует `npm run icons`). После `next build` скрипт
+  `scripts/build-sw.mjs` собирает Workbox service worker в `out/sw.js`: оболочка приложения и `cards.json` кешируются заранее,
+  страницы — при открытии (NetworkFirst, без сети — `/offline/`). Разделы целиком скачиваются в «Настройках → Офлайн и приложение»
+  (`src/lib/offline.ts`). Регистрация и уведомление об обновлении — `src/components/pwa.tsx`; в `npm run dev` service worker не регистрируется.
 - id урока — хеш пути **без номеров**, поэтому перенумерация файлов не сбрасывает прогресс (переименование — сбрасывает).
 
 ## Команды

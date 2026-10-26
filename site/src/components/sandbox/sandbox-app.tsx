@@ -30,6 +30,7 @@ import { STARTERS, exampleStarter, templateEnvironment, type ProjectId, type San
 import { LESSON_SNIPPET_KEY, type LessonSnippet } from "./shared";
 import { CURRENT_KEY, PROJECT_KEY, VIEW_KEY, readJSON, removeKey, saveAsLessonProject, writeJSON, type SavedProject } from "./storage";
 import { ADDITIONAL_LANGUAGES, IconButton, useSandpackSiteTheme } from "./sandpack-shared";
+import { useOnline } from "@/lib/offline";
 
 /* ───────────── загрузка проектов ───────────── */
 
@@ -296,6 +297,7 @@ function initialProject(): Starter {
 /** Рендерится только в браузере (dynamic с ssr: false), поэтому localStorage читается прямо в инициализаторах. */
 export function SandboxApp() {
   const theme = useSandpackSiteTheme();
+  const online = useOnline();
   const [project, setProject] = useState<Starter>(initialProject);
   const [version, setVersion] = useState(0); // смена ключа пересоздаёт SandpackProvider
   const [view, setView] = useState<View>(() => readJSON<View>(VIEW_KEY) ?? "split");
@@ -391,6 +393,12 @@ export function SandboxApp() {
         </div>
       </div>
 
+      {!online && (
+        <div className="shrink-0 border-b bg-muted/60 px-4 py-2 text-[13px] text-muted-foreground sm:px-6">
+          Нет подключения: код собирается на серверах CodeSandbox, поэтому превью и тесты недоступны. Редактировать файлы можно — всё
+          сохранится в браузере.
+        </div>
+      )}
       <Workspace view={view} showFiles={showFiles} showConsole={showConsole} mode={project.mode} />
     </SandpackProvider>
   );
