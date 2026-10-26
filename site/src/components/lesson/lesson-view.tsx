@@ -8,6 +8,7 @@ import { SectionNav, type SectionLink } from "./section-nav";
 import { Toc } from "./toc";
 import { LessonActions } from "./lesson-actions";
 import { ArticleEnhancer } from "./article-enhancer";
+import { LiveExamples } from "./live-examples";
 import { ReadingProgress } from "./reading-progress";
 import { MobileNav } from "./mobile-nav";
 import { plural } from "@/lib/date";
@@ -52,6 +53,7 @@ export async function LessonView({ node }: { node: ContentNode }) {
 
             <div id="lesson-body" className="prose mt-10 animate-rise [animation-delay:80ms]" dangerouslySetInnerHTML={{ __html: html }} />
             <ArticleEnhancer targetId="lesson-body" />
+            <LiveExamples targetId="lesson-body" />
 
             <div className="mt-16 border-t pt-8">
               <LessonActions id={node.id} href={node.href} title={node.title} variant="footer" />

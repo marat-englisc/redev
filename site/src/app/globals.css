@@ -502,3 +502,15 @@
   scrollbar-width: thin;
   scrollbar-color: var(--border) transparent;
 }
+
+/* живые примеры в уроке: заглушка из remark становится контейнером портала */
+.prose .live-example:empty {
+  display: none;
+}
+.prose figure[data-rehype-pretty-code-figure] + .live-example,
+.prose .live-example {
+  margin-top: 0.6rem;
+}
+.refront-sandbox .refront-tests {
+  overflow: auto;
+}

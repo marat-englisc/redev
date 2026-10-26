@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useTheme } from "next-themes";
 import {
   SandpackCodeEditor,
   SandpackConsole,
   SandpackFileExplorer,
   SandpackPreview,
   SandpackProvider,
+  SandpackTests,
   UnstyledOpenInCodeSandboxButton,
   useSandpack,
 } from "@codesandbox/sandpack-react";
@@ -17,6 +17,7 @@ import {
   ExternalLinkIcon,
   EyeIcon,
   FilePlusIcon,
+  FlaskConicalIcon,
   FolderTreeIcon,
   PencilIcon,
   RotateCcwIcon,
@@ -25,39 +26,12 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
-import { STARTERS, snippetStarter, templateEnvironment, type ProjectId, type SandboxTemplate, type Starter } from "./starters";
+import { STARTERS, exampleStarter, templateEnvironment, type ProjectId, type SandboxTemplate, type Starter } from "./starters";
 import { LESSON_SNIPPET_KEY, type LessonSnippet } from "./shared";
-import { darkTheme, lightTheme } from "./theme";
+import { CURRENT_KEY, PROJECT_KEY, VIEW_KEY, readJSON, removeKey, saveAsLessonProject, writeJSON, type SavedProject } from "./storage";
+import { ADDITIONAL_LANGUAGES, IconButton, useSandpackSiteTheme } from "./sandpack-shared";
 
-/* ───────────── хранение проектов в localStorage ───────────── */
-
-interface SavedProject {
-  template: SandboxTemplate;
-  files: Record<string, string>;
-  activeFile: string;
-  label?: string;
-  hint?: string;
-}
-
-const PROJECT_KEY = (id: ProjectId) => `refront:sandbox:v1:${id}`;
-const CURRENT_KEY = "refront:sandbox:current";
-const VIEW_KEY = "refront:sandbox:view";
-
-function readJSON<T>(key: string): T | null {
-  try {
-    return JSON.parse(localStorage.getItem(key) ?? "null");
-  } catch {
-    return null;
-  }
-}
-
-function writeJSON(key: string, value: unknown) {
-  try {
-    localStorage.setItem(key, JSON.stringify(value));
-  } catch {
-    toast.error("Не удалось сохранить проект: хранилище браузера недоступно или переполнено");
-  }
-}
+/* ───────────── загрузка проектов ───────────── */
 
 function loadProject(id: ProjectId): Starter | null {
   const saved = readJSON<SavedProject>(PROJECT_KEY(id));
@@ -68,6 +42,7 @@ function loadProject(id: ProjectId): Starter | null {
       label: saved.label ?? starter?.label ?? "Из урока",
       hint: saved.hint ?? starter?.hint ?? "",
       template: saved.template,
+      mode: saved.mode ?? starter?.mode ?? "preview",
       activeFile: saved.activeFile,
       files: saved.files,
     };
@@ -75,64 +50,47 @@ function loadProject(id: ProjectId): Starter | null {
   return starter ?? null;
 }
 
-/** Код, переданный из урока кнопкой «В песочницу», становится проектом «Из урока». */
+/** Код, переданный из урока кнопкой ▶, становится проектом «Из урока». */
 function takeLessonSnippet(): Starter | null {
   const snippet = readJSON<LessonSnippet>(LESSON_SNIPPET_KEY);
-  if (!snippet) return null;
-  try {
-    localStorage.removeItem(LESSON_SNIPPET_KEY);
-  } catch {}
-  const project = snippetStarter(snippet);
-  writeJSON(CURRENT_KEY, "lesson"); // сразу: в StrictMode инициализатор вызывается дважды
-  writeJSON(PROJECT_KEY("lesson"), {
+  if (!snippet?.blocks?.length) return null;
+  removeKey(LESSON_SNIPPET_KEY);
+  const project = exampleStarter(snippet.blocks, snippet.title);
+  // сохраняем сразу: в StrictMode инициализатор вызывается дважды
+  saveAsLessonProject({
     template: project.template,
+    mode: project.mode,
     files: project.files,
     activeFile: project.activeFile,
-    label: project.label,
     hint: project.hint,
-  } satisfies SavedProject);
+  });
   return project;
 }
 
 /* ───────────── автосохранение ───────────── */
 
-function AutoSave({ id, template, label, hint }: { id: ProjectId; template: SandboxTemplate; label: string; hint: string }) {
+function AutoSave({ id, template, mode, label, hint }: { id: ProjectId; template: SandboxTemplate; mode: Starter["mode"]; label: string; hint: string }) {
   const { sandpack } = useSandpack();
   const { files, activeFile } = sandpack;
 
   useEffect(() => {
     const t = setTimeout(() => {
       const plain = Object.fromEntries(Object.entries(files).map(([path, f]) => [path, f.code]));
-      writeJSON(PROJECT_KEY(id), { template, files: plain, activeFile, label, hint } satisfies SavedProject);
+      writeJSON(PROJECT_KEY(id), { template, mode, files: plain, activeFile, label, hint } satisfies SavedProject);
     }, 400);
     return () => clearTimeout(t);
-  }, [files, activeFile, id, template, label, hint]);
+  }, [files, activeFile, id, template, mode, label, hint]);
 
   return null;
 }
 
 /* ───────────── панель файлов ───────────── */
 
-const PROTECTED = new Set(["/package.json", "/index.html", "/public/index.html", "/index.tsx"]);
+const PROTECTED = new Set(["/package.json", "/index.html", "/public/index.html", "/index.tsx", "/src/main.ts"]);
 
 function normalizePath(raw: string) {
   const path = raw.trim().replace(/\\/g, "/").replace(/\/{2,}/g, "/");
   return path.startsWith("/") ? path : `/${path}`;
-}
-
-function IconButton({ label, onClick, children, disabled }: { label: string; onClick: () => void; children: React.ReactNode; disabled?: boolean }) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      disabled={disabled}
-      title={label}
-      aria-label={label}
-      className="grid size-7 place-items-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground disabled:pointer-events-none disabled:opacity-40"
-    >
-      {children}
-    </button>
-  );
 }
 
 function FilePanel() {
@@ -237,6 +195,12 @@ const VIEWS: { id: View; label: string; icon: typeof CodeIcon }[] = [
   { id: "preview", label: "Просмотр", icon: EyeIcon },
 ];
 
+const TEST_VIEWS: typeof VIEWS = [
+  { id: "code", label: "Код", icon: CodeIcon },
+  { id: "split", label: "Код и тесты", icon: Columns2Icon },
+  { id: "preview", label: "Тесты", icon: FlaskConicalIcon },
+];
+
 function Segmented<T extends string>({
   value,
   onChange,
@@ -272,7 +236,7 @@ function Segmented<T extends string>({
   );
 }
 
-function Workspace({ view, showFiles, showConsole }: { view: View; showFiles: boolean; showConsole: boolean }) {
+function Workspace({ view, showFiles, showConsole, mode }: { view: View; showFiles: boolean; showConsole: boolean; mode: Starter["mode"] }) {
   return (
     <div className="flex min-h-0 flex-1 flex-col overflow-hidden md:flex-row">
       {showFiles && view !== "preview" && (
@@ -290,6 +254,7 @@ function Workspace({ view, showFiles, showConsole }: { view: View; showFiles: bo
           showLineNumbers
           showInlineErrors
           showRunButton={false}
+          additionalLanguages={ADDITIONAL_LANGUAGES}
         />
       </div>
 
@@ -300,14 +265,19 @@ function Workspace({ view, showFiles, showConsole }: { view: View; showFiles: bo
           view === "preview" && "border-0 md:border-0",
         )}
       >
-        <SandpackPreview
-          className="refront-preview"
-          style={{ flex: "1 1 0", minHeight: 0 }}
-          showNavigator={view === "preview"}
-          showOpenInCodeSandbox={false}
-          showRefreshButton
-          showOpenNewtab={false}
-        />
+        {mode === "tests" ? (
+          // тесты в стиле Jest выполняются прямо в браузере; watch-режим перезапускает их при правках
+          <SandpackTests className="refront-tests" style={{ flex: "1 1 0", minHeight: 0 }} watchMode verbose />
+        ) : (
+          <SandpackPreview
+            className="refront-preview"
+            style={{ flex: "1 1 0", minHeight: 0 }}
+            showNavigator={view === "preview"}
+            showOpenInCodeSandbox={false}
+            showRefreshButton
+            showOpenNewtab={false}
+          />
+        )}
         {showConsole && (
           <div className="h-48 shrink-0 border-t">
             <SandpackConsole className="refront-console" style={{ height: "100%" }} resetOnPreviewRestart showHeader />
@@ -325,7 +295,7 @@ function initialProject(): Starter {
 
 /** Рендерится только в браузере (dynamic с ssr: false), поэтому localStorage читается прямо в инициализаторах. */
 export function SandboxApp() {
-  const { resolvedTheme } = useTheme();
+  const theme = useSandpackSiteTheme();
   const [project, setProject] = useState<Starter>(initialProject);
   const [version, setVersion] = useState(0); // смена ключа пересоздаёт SandpackProvider
   const [view, setView] = useState<View>(() => readJSON<View>(VIEW_KEY) ?? "split");
@@ -350,16 +320,12 @@ export function SandboxApp() {
   const reset = () => {
     if (project.id === "lesson") {
       if (!confirm("Удалить проект «Из урока»?")) return;
-      try {
-        localStorage.removeItem(PROJECT_KEY("lesson"));
-      } catch {}
+      removeKey(PROJECT_KEY("lesson"));
       setProject(STARTERS[0]);
       return;
     }
     if (!confirm(`Вернуть проект «${project.label}» к исходному состоянию? Ваши изменения будут потеряны.`)) return;
-    try {
-      localStorage.removeItem(PROJECT_KEY(project.id));
-    } catch {}
+    removeKey(PROJECT_KEY(project.id));
     setProject(STARTERS.find((s) => s.id === project.id)!);
     setVersion((v) => v + 1);
     toast.success("Проект сброшен");
@@ -370,10 +336,10 @@ export function SandboxApp() {
       key={`${project.id}:${version}`}
       files={project.files}
       customSetup={{ environment: templateEnvironment(project.template) }}
-      theme={resolvedTheme === "light" ? lightTheme : darkTheme}
+      theme={theme}
       options={{
         activeFile: project.activeFile,
-        visibleFiles: [project.activeFile],
+        visibleFiles: project.visibleFiles ?? [project.activeFile],
         recompileMode: "delayed",
         recompileDelay: 500,
         initMode: "immediate",
@@ -382,7 +348,7 @@ export function SandboxApp() {
       // стили Sandpack (stitches) не в CSS-слоях и перебивают утилиты Tailwind, поэтому раскладка — инлайном
       style={{ display: "flex", flexDirection: "column", flex: "1 1 0", minHeight: 0, overflow: "hidden" }}
     >
-      <AutoSave id={project.id} template={project.template} label={project.label} hint={project.hint} />
+      <AutoSave id={project.id} template={project.template} mode={project.mode} label={project.label} hint={project.hint} />
 
       <div className="flex shrink-0 flex-wrap items-center gap-2 border-b px-4 py-2 sm:px-6">
         <div className="-mx-1 flex w-full min-w-0 items-center gap-1 overflow-x-auto px-1 no-scrollbar sm:w-auto sm:flex-1">
@@ -406,7 +372,7 @@ export function SandboxApp() {
         </div>
 
         <div className="flex items-center gap-1.5">
-          <Segmented value={view} onChange={setView} items={VIEWS} />
+          <Segmented value={view} onChange={setView} items={project.mode === "tests" ? TEST_VIEWS : VIEWS} />
           <IconButton label={showFiles ? "Скрыть файлы" : "Показать файлы"} onClick={() => setShowFiles((v) => !v)}>
             <FolderTreeIcon className={cn("size-4", showFiles && "text-foreground")} />
           </IconButton>
@@ -425,7 +391,7 @@ export function SandboxApp() {
         </div>
       </div>
 
-      <Workspace view={view} showFiles={showFiles} showConsole={showConsole} />
+      <Workspace view={view} showFiles={showFiles} showConsole={showConsole} mode={project.mode} />
     </SandpackProvider>
   );
 }

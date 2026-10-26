@@ -42,8 +42,7 @@ export function ArticleEnhancer({ targetId }: { targetId: string }) {
       }<button type="button" class="copy-btn ${btnClass}" aria-label="Копировать код" title="Копировать">${COPY_ICON}</button></span>`;
       head.querySelector(".run-btn")?.addEventListener("click", () => {
         const snippet: LessonSnippet = {
-          lang,
-          code: pre.innerText.replace(/\n$/, ""),
+          blocks: [{ lang, code: pre.innerText.replace(/\n$/, "") }],
           title: document.querySelector("h1")?.textContent?.trim(),
         };
         try {

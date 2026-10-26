@@ -10,7 +10,7 @@ import rehypePrettyCode, { type Options as PrettyCodeOptions } from "rehype-pret
 import { bundledLanguages, bundledLanguagesAlias } from "shiki";
 import { visit, SKIP } from "unist-util-visit";
 import { toString as hastToString } from "hast-util-to-string";
-import type { Root as MdRoot, RootContent, Blockquote, Paragraph, Text, Heading } from "mdast";
+import type { Root as MdRoot, RootContent, Blockquote, Paragraph, Text, Heading, Code, Parent } from "mdast";
 import type { Root as HRoot, Element } from "hast";
 import { getContent } from "./content";
 import type { TocItem } from "./types";
@@ -92,6 +92,47 @@ function remarkCodeLang() {
       if (!lang || !(lang in bundledLanguages || lang in bundledLanguagesAlias)) lang = "plaintext";
       node.lang = lang;
     });
+  };
+}
+
+/* ───────────────────────── remark: живые примеры ───────────────────────── */
+
+const RUN_RE = /(?:^|\s)run(?:=(["']?)([\w-]+)\1)?(?=\s|$)/;
+const FILE_RE = /(?:^|\s)file=(["']?)([\w./-]+)\1(?=\s|$)/;
+
+/**
+ * Блоки кода с мета-флагом `run` превращаются в живой пример, который запускается прямо в уроке:
+ *
+ *     ```html run=card        ← блоки с одинаковым именем объединяются в один пример
+ *     ```css run=card
+ *     ```tsx run              ← без имени — отдельный пример из одного блока
+ *     ```ts run=t file=price.ts ← file= кладёт блок в отдельный файл, чтобы работали импорты
+ *
+ * После последнего блока группы вставляется заглушка с файлами примера; на клиенте её
+ * подхватывает LiveExamples и по кнопке поднимает Sandpack.
+ */
+function remarkLiveExamples() {
+  return (tree: MdRoot) => {
+    const groups = new Map<string, { blocks: { lang: string; code: string }[]; last: Code; parent: Parent }>();
+    let anonymous = 0;
+
+    visit(tree, "code", (node: Code, _index, parent) => {
+      const m = node.meta?.match(RUN_RE);
+      if (!m || !parent) return;
+      const name = m[2] ?? `#${anonymous++}`;
+      const group = groups.get(name) ?? { blocks: [], last: node, parent: parent as Parent };
+      const file = node.meta?.match(FILE_RE)?.[2];
+      group.blocks.push({ lang: node.lang ?? "plaintext", code: node.value, ...(file ? { file } : {}) });
+      group.last = node;
+      group.parent = parent as Parent;
+      groups.set(name, group);
+    });
+
+    for (const { blocks, last, parent } of groups.values()) {
+      const at = parent.children.indexOf(last as RootContent);
+      const data = encodeURIComponent(JSON.stringify({ blocks }));
+      parent.children.splice(at + 1, 0, { type: "html", value: `<div class="live-example" data-example="${data}"></div>` } as RootContent);
+    }
   };
 }
 
@@ -183,7 +224,7 @@ function mdText(node: unknown): string {
   return (n.children ?? []).map(mdText).join("");
 }
 
-const parser = unified().use(remarkParse).use(remarkGfm).use(remarkCallouts).use(remarkCodeLang);
+const parser = unified().use(remarkParse).use(remarkGfm).use(remarkCallouts).use(remarkCodeLang).use(remarkLiveExamples);
 
 async function toHtml(tree: MdRoot, rel: string, toc?: TocItem[]) {
   const proc = unified()

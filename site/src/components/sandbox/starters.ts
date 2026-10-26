@@ -1,25 +1,30 @@
 import { SANDBOX_TEMPLATES, type SandboxEnvironment } from "@codesandbox/sandpack-react";
-import type { LessonSnippet } from "./shared";
+import type { ExampleBlock } from "./shared";
 
 /** Среды Sandpack, которые используются в песочнице. */
-export type SandboxTemplate = "static" | "vanilla" | "vanilla-ts" | "react-ts";
+export type SandboxTemplate = "static" | "vanilla" | "vanilla-ts" | "react-ts" | "vue-ts" | "test-ts";
 
-export type ProjectId = "html" | "js" | "ts" | "react" | "canvas" | "lesson";
+export type ProjectId = "html" | "js" | "ts" | "react" | "vue" | "canvas" | "tests" | "react-tests" | "lesson";
 
 export interface Starter {
   id: ProjectId;
   label: string;
   hint: string;
   template: SandboxTemplate;
+  /** preview — справа превью страницы, tests — панель запуска тестов */
+  mode: "preview" | "tests";
   activeFile: string;
   files: Record<string, string>;
+  /** файлы, открытые во вкладках редактора (по умолчанию — только активный) */
+  visibleFiles?: string[];
 }
 
 /** Служебные файлы шаблона (package.json, tsconfig, public/index.html) с нормализованными путями. */
 export function templateBase(template: SandboxTemplate): Record<string, string> {
   const out: Record<string, string> = {};
   for (const [path, file] of Object.entries(SANDBOX_TEMPLATES[template].files)) {
-    out[path.startsWith("/") ? path : `/${path}`] = (file as { code: string }).code;
+    const code = (file as { code?: unknown }).code;
+    if (typeof code === "string") out[path.startsWith("/") ? path : `/${path}`] = code;
   }
   return out;
 }
@@ -446,6 +451,317 @@ export class Ball {
 `,
 };
 
+const VUE_FILES = {
+  "/src/App.vue": `<script setup lang="ts">
+import { computed, ref } from "vue";
+import TodoItem from "./components/TodoItem.vue";
+import { useCounter } from "./composables/useCounter";
+
+interface Todo {
+  id: number;
+  title: string;
+  done: boolean;
+}
+
+const todos = ref<Todo[]>([
+  { id: 1, title: "Разобрать реактивность", done: true },
+  { id: 2, title: "Написать composable", done: false },
+]);
+const draft = ref("");
+const left = computed(() => todos.value.filter((t) => !t.done).length);
+const { count, inc, dec } = useCounter(0);
+
+function add() {
+  if (!draft.value.trim()) return;
+  todos.value.push({ id: Date.now(), title: draft.value.trim(), done: false });
+  draft.value = "";
+}
+
+function toggle(todo: Todo) {
+  todo.done = !todo.done;
+}
+</script>
+
+<template>
+  <main class="app">
+    <h1>Vue-песочница</h1>
+    <p class="muted">SFC-компоненты, composables и TypeScript.</p>
+
+    <form class="row" @submit.prevent="add">
+      <input v-model="draft" placeholder="Новая задача" />
+      <button>Добавить</button>
+    </form>
+
+    <ul>
+      <TodoItem v-for="todo in todos" :key="todo.id" :title="todo.title" :done="todo.done" @toggle="toggle(todo)" />
+    </ul>
+    <p class="muted">Осталось: {{ left }}</p>
+
+    <section class="row">
+      <button @click="dec">−</button>
+      <output>{{ count }}</output>
+      <button @click="inc">+</button>
+    </section>
+  </main>
+</template>
+`,
+  "/src/components/TodoItem.vue": `<script setup lang="ts">
+defineProps<{ title: string; done: boolean }>();
+defineEmits<{ toggle: [] }>();
+</script>
+
+<template>
+  <li :class="{ done }" @click="$emit('toggle')">
+    <input type="checkbox" :checked="done" @click.stop="$emit('toggle')" />
+    {{ title }}
+  </li>
+</template>
+
+<style scoped>
+li { display: flex; gap: 8px; padding: 6px 0; cursor: pointer; }
+.done { color: #9ca3af; text-decoration: line-through; }
+</style>
+`,
+  "/src/composables/useCounter.ts": `import { ref } from "vue";
+
+export function useCounter(initial = 0) {
+  const count = ref(initial);
+  const inc = () => count.value++;
+  const dec = () => count.value--;
+  return { count, inc, dec };
+}
+`,
+  "/src/shims-vue.d.ts": `declare module "*.vue" {
+  import type { DefineComponent } from "vue";
+  const component: DefineComponent<object, object, unknown>;
+  export default component;
+}
+`,
+  "/src/styles.css": `body { margin: 0; font-family: system-ui, sans-serif; }
+.app { max-width: 520px; padding: 40px 24px; }
+.muted { color: #6b7280; }
+.row { display: flex; align-items: center; gap: 8px; margin: 16px 0; }
+input:not([type]) { flex: 1; padding: 8px 10px; border: 1px solid #d1d5db; border-radius: 6px; }
+button { padding: 8px 14px; border: 1px solid #111; border-radius: 6px; background: #111; color: #fff; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+output { min-width: 3ch; text-align: center; font: 600 24px/1 ui-monospace, monospace; }
+`,
+};
+
+const TESTS_FILES = {
+  "/package.json": JSON.stringify({ dependencies: {}, devDependencies: { typescript: "^4.0.0" }, main: "/src/math.ts" }),
+  "/src/math.ts": `export const sum = (numbers: number[]) => numbers.reduce((acc, n) => acc + n, 0);
+
+export function clamp(value: number, min: number, max: number) {
+  if (min > max) throw new RangeError("min больше max");
+  return Math.min(max, Math.max(min, value));
+}
+`,
+  "/src/math.test.ts": `import { clamp, sum } from "./math";
+
+describe("sum", () => {
+  test("складывает числа", () => {
+    expect(sum([1, 2, 3])).toBe(6);
+  });
+
+  test("пустой массив даёт 0", () => {
+    expect(sum([])).toBe(0);
+  });
+});
+
+describe("clamp", () => {
+  test.each([
+    [5, 0, 10, 5],
+    [-5, 0, 10, 0],
+    [50, 0, 10, 10],
+  ])("ограничивает значение диапазоном", (value, min, max, expected) => {
+    expect(clamp(value, min, max)).toBe(expected);
+  });
+
+  test("бросает ошибку, если min > max", () => {
+    expect(() => clamp(1, 10, 0)).toThrow(RangeError);
+  });
+});
+`,
+  "/src/cart.ts": `export interface Product {
+  id: number;
+  price: number;
+}
+
+export interface Api {
+  getProduct(id: number): Promise<Product>;
+}
+
+export class Cart {
+  private items: Product[] = [];
+
+  constructor(private api: Api) {}
+
+  async add(id: number) {
+    const product = await this.api.getProduct(id);
+    this.items.push(product);
+  }
+
+  get total() {
+    return this.items.reduce((acc, p) => acc + p.price, 0);
+  }
+}
+`,
+  "/src/cart.test.ts": `import { Cart, type Api } from "./cart";
+
+describe("Cart", () => {
+  let getProduct: jest.Mock;
+  let api: Api;
+
+  beforeEach(() => {
+    // мок зависимости: тест не ходит в сеть и проверяет, как вызывали API
+    getProduct = jest.fn(async (id: number) => ({ id, price: id * 100 }));
+    api = { getProduct };
+  });
+
+  test("загружает товар через API", async () => {
+    const cart = new Cart(api);
+    await cart.add(3);
+
+    expect(getProduct).toHaveBeenCalledTimes(1);
+    expect(getProduct).toHaveBeenCalledWith(3);
+    expect(cart.total).toBe(300);
+  });
+
+  test("ошибка API пробрасывается наружу", async () => {
+    getProduct.mockRejectedValueOnce(new Error("Сеть недоступна"));
+    const cart = new Cart(api);
+
+    await expect(cart.add(1)).rejects.toThrow("Сеть недоступна");
+    expect(cart.total).toBe(0);
+  });
+});
+`,
+};
+
+const REACT_TESTS_FILES = {
+  "/App.tsx": `import { Counter } from "./Counter";
+import { LoginForm } from "./LoginForm";
+
+export default function App() {
+  return (
+    <main style={{ fontFamily: "system-ui", padding: 24 }}>
+      <Counter initial={0} />
+      <hr />
+      <LoginForm onSubmit={(data) => alert(JSON.stringify(data))} />
+    </main>
+  );
+}
+`,
+  "/Counter.tsx": `import { useState } from "react";
+
+export function Counter({ initial = 0 }: { initial?: number }) {
+  const [count, setCount] = useState(initial);
+  return (
+    <div>
+      <p>Счётчик: {count}</p>
+      <button onClick={() => setCount((c) => c + 1)}>Увеличить</button>
+      <button onClick={() => setCount(initial)} disabled={count === initial}>
+        Сбросить
+      </button>
+    </div>
+  );
+}
+`,
+  "/Counter.test.tsx": `import { render, screen, fireEvent } from "@testing-library/react";
+import { Counter } from "./Counter";
+
+describe("Counter", () => {
+  test("показывает начальное значение", () => {
+    render(<Counter initial={5} />);
+    expect(screen.getByText("Счётчик: 5")).toBeTruthy();
+  });
+
+  test("увеличивает значение по клику", () => {
+    render(<Counter />);
+    fireEvent.click(screen.getByRole("button", { name: "Увеличить" }));
+    fireEvent.click(screen.getByRole("button", { name: "Увеличить" }));
+    expect(screen.getByText("Счётчик: 2")).toBeTruthy();
+  });
+
+  test("кнопка сброса неактивна в начальном состоянии", () => {
+    render(<Counter />);
+    const reset = screen.getByRole("button", { name: "Сбросить" }) as HTMLButtonElement;
+    expect(reset.disabled).toBe(true);
+  });
+});
+`,
+  "/LoginForm.tsx": `import { useState, type FormEvent } from "react";
+
+interface Props {
+  onSubmit: (data: { email: string }) => void;
+}
+
+export function LoginForm({ onSubmit }: Props) {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+
+  function handleSubmit(e: FormEvent) {
+    e.preventDefault();
+    if (!email.includes("@")) {
+      setError("Введите корректный email");
+      return;
+    }
+    setError("");
+    onSubmit({ email });
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Email
+        <input value={email} onChange={(e) => setEmail(e.target.value)} />
+      </label>
+      <button type="submit">Войти</button>
+      {error && <p role="alert">{error}</p>}
+    </form>
+  );
+}
+`,
+  "/LoginForm.test.tsx": `import { render, screen, fireEvent } from "@testing-library/react";
+import { LoginForm } from "./LoginForm";
+
+describe("LoginForm", () => {
+  test("показывает ошибку при некорректном email", () => {
+    const onSubmit = jest.fn();
+    render(<LoginForm onSubmit={onSubmit} />);
+
+    fireEvent.change(screen.getByLabelText("Email"), { target: { value: "not-an-email" } });
+    fireEvent.click(screen.getByRole("button", { name: "Войти" }));
+
+    expect(screen.getByRole("alert").textContent).toBe("Введите корректный email");
+    expect(onSubmit).not.toHaveBeenCalled();
+  });
+
+  test("отправляет данные при корректном email", () => {
+    const onSubmit = jest.fn();
+    render(<LoginForm onSubmit={onSubmit} />);
+
+    fireEvent.change(screen.getByLabelText("Email"), { target: { value: "dev@example.com" } });
+    fireEvent.click(screen.getByRole("button", { name: "Войти" }));
+
+    expect(onSubmit).toHaveBeenCalledWith({ email: "dev@example.com" });
+    expect(screen.queryByRole("alert")).toBeNull();
+  });
+});
+`,
+  "/styles.css": `body { margin: 0; }
+button { margin-right: 8px; }
+`,
+};
+
+/** package.json шаблона с дополнительными зависимостями. */
+function withDeps(template: SandboxTemplate, deps: Record<string, string>) {
+  const pkg = JSON.parse(templateBase(template)["/package.json"]);
+  pkg.dependencies = { ...pkg.dependencies, ...deps };
+  return JSON.stringify(pkg, null, 2);
+}
+
 function withBase(template: SandboxTemplate, files: Record<string, string>, drop: string[] = []) {
   const base = templateBase(template);
   for (const path of drop) delete base[path];
@@ -458,6 +774,7 @@ export const STARTERS: Starter[] = [
     label: "HTML / CSS",
     hint: "Вёрстка: разметка, стили и немного JS",
     template: "static",
+    mode: "preview",
     activeFile: "/index.html",
     files: withBase("static", HTML_FILES),
   },
@@ -466,6 +783,7 @@ export const STARTERS: Starter[] = [
     label: "JavaScript",
     hint: "ES-модули: импорты между файлами",
     template: "vanilla",
+    mode: "preview",
     activeFile: "/index.js",
     files: withBase("vanilla", JS_FILES),
   },
@@ -474,6 +792,7 @@ export const STARTERS: Starter[] = [
     label: "TypeScript",
     hint: "Типы, generics и модули",
     template: "vanilla-ts",
+    mode: "preview",
     activeFile: "/index.ts",
     files: withBase("vanilla-ts", TS_FILES),
   },
@@ -482,62 +801,217 @@ export const STARTERS: Starter[] = [
     label: "React",
     hint: "Компоненты в разных файлах, хуки, TSX",
     template: "react-ts",
+    mode: "preview",
     activeFile: "/App.tsx",
     files: withBase("react-ts", REACT_FILES),
+  },
+  {
+    id: "vue",
+    label: "Vue",
+    hint: "SFC, composables, v-model и TypeScript",
+    template: "vue-ts",
+    mode: "preview",
+    activeFile: "/src/App.vue",
+    files: withBase("vue-ts", VUE_FILES),
   },
   {
     id: "canvas",
     label: "Canvas",
     hint: "Игровой цикл и анимация на canvas",
     template: "vanilla-ts",
+    mode: "preview",
     activeFile: "/index.ts",
     files: withBase("vanilla-ts", CANVAS_FILES),
+  },
+  {
+    id: "tests",
+    label: "Jest",
+    hint: "Юнит-тесты: describe/test, моки, async",
+    template: "test-ts",
+    mode: "tests",
+    activeFile: "/src/math.test.ts",
+    files: withBase("test-ts", TESTS_FILES, ["/add.ts", "/add.test.ts"]),
+  },
+  {
+    id: "react-tests",
+    label: "Testing Library",
+    hint: "Тесты React-компонентов: render, screen, события",
+    template: "react-ts",
+    mode: "tests",
+    activeFile: "/Counter.test.tsx",
+    files: withBase("react-ts", {
+      ...REACT_TESTS_FILES,
+      "/package.json": withDeps("react-ts", { "@testing-library/react": "^16.0.0", "@testing-library/dom": "^10.0.0" }),
+    }),
   },
 ];
 
 /* ───────────── код из урока ───────────── */
 
-/** Собирает проект «Из урока» под язык блока кода. */
-export function snippetStarter(snippet: LessonSnippet): Starter {
-  const lang = snippet.lang.toLowerCase();
-  const base = { id: "lesson" as const, label: "Из урока", hint: snippet.title ?? "Код из урока" };
+const LANG_ALIASES: Record<string, string> = { javascript: "js", typescript: "ts" };
 
-  if (lang === "html") {
-    const html = /<html|<!doctype/i.test(snippet.code)
-      ? snippet.code
-      : `<!DOCTYPE html>\n<html lang="ru">\n  <head>\n    <meta charset="UTF-8" />\n    <link rel="stylesheet" href="/styles.css" />\n  </head>\n  <body>\n${snippet.code}\n  </body>\n</html>\n`;
-    return { ...base, template: "static", activeFile: "/index.html", files: withBase("static", { "/index.html": html, "/styles.css": "" }) };
+const isTestCode = (code: string) => /\b(describe|test|it)(\.\w+)?\s*\(/.test(code) && /\bexpect\s*\(/.test(code);
+
+/** Пакеты, которые уже есть в средах Sandpack или не нужны в браузере. */
+const BUILTIN_PACKAGES = new Set(["react", "react-dom", "vue", "vitest", "@jest/globals"]);
+
+/** Голые импорты (`from "zustand"`) → зависимости package.json с версией latest. */
+function detectDependencies(code: string) {
+  const deps: Record<string, string> = {};
+  for (const [, spec] of code.matchAll(/(?:from\s+|import\s*\(?\s*)["']([^"'./][^"']*)["']/g)) {
+    const name = spec.startsWith("@") ? spec.split("/").slice(0, 2).join("/") : spec.split("/")[0];
+    if (!BUILTIN_PACKAGES.has(name) && !name.startsWith("node:")) deps[name] = "latest";
   }
-  if (lang === "css") {
-    return {
-      ...base,
-      template: "static",
-      activeFile: "/styles.css",
-      files: withBase("static", {
-        "/index.html": HTML_FILES["/index.html"].replace('\n    <script src="/script.js"></script>', ""),
-        "/styles.css": snippet.code,
-      }),
-    };
+  return deps;
+}
+
+/** Уроки по тестированию написаны для Vitest; раннер Sandpack совместим с Jest — подменяем vi на jest. */
+function vitestToJest(code: string) {
+  let out = code.replace(/^\s*import\s+[^;]*from\s+["'](vitest|@jest\/globals)["'];?\s*\n/gm, "");
+  if (/\bvi\./.test(out)) out = `const vi = jest;\n${out}`;
+  return out;
+}
+
+/** jest-dom матчеры (toBeInTheDocument и др.) подключаются отдельным импортом. */
+const usesJestDom = (code: string) =>
+  /\.(toBeInTheDocument|toHaveTextContent|toBeVisible|toBeDisabled|toBeEnabled|toHaveAttribute|toHaveValue|toBeChecked|toHaveClass|toHaveFocus|toHaveStyle)\(/.test(code);
+
+/** Вставляет фрагмент разметки в полноценный документ (или дополняет готовый документ ссылками). */
+function htmlDocument(body: string, { css, script }: { css: boolean; script?: string }) {
+  const link = css ? `<link rel="stylesheet" href="/styles.css" />` : "";
+  const tag = script ? `<script src="${script}"></script>` : "";
+  if (/<html|<!doctype/i.test(body)) {
+    let doc = body;
+    if (link && !doc.includes("styles.css")) doc = doc.replace(/<\/head>/i, `  ${link}\n  </head>`);
+    if (tag && !doc.includes(script!)) doc = doc.replace(/<\/body>/i, `  ${tag}\n  </body>`);
+    return doc;
   }
-  if (lang === "tsx" || lang === "jsx") {
-    const hasDefault = /export\s+default/.test(snippet.code);
-    const app = hasDefault
-      ? snippet.code
-      : `${snippet.code}\n\nexport default function App() {\n  return <p>Добавьте сюда компонент из примера выше.</p>;\n}\n`;
-    return { ...base, template: "react-ts", activeFile: "/App.tsx", files: withBase("react-ts", { "/App.tsx": app, "/styles.css": "body { font-family: system-ui, sans-serif; }\n" }) };
+  const indented = body
+    .split("\n")
+    .map((l) => (l ? `    ${l}` : l))
+    .join("\n");
+  return `<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    ${link}
+  </head>
+  <body>
+${indented}
+    ${tag}
+  </body>
+</html>
+`;
+}
+
+/**
+ * Собирает проект из блоков кода урока. Среда выбирается по языкам:
+ * тесты → test-ts / react-ts, vue → vue-ts, tsx/jsx → react-ts, ts → vanilla-ts, js → vanilla, html/css → static.
+ * Блоки с `file=` кладутся в свои файлы, остальные — в стандартные файлы среды.
+ */
+export function exampleStarter(input: ExampleBlock[], title?: string): Starter {
+  const blocks = input.map((b) => ({
+    ...b,
+    lang: LANG_ALIASES[b.lang.toLowerCase()] ?? b.lang.toLowerCase(),
+    code: b.code.replace(/\n$/, "") + "\n",
+  }));
+  const all = blocks.map((b) => b.code).join("\n");
+  const has = (...langs: string[]) => blocks.some((b) => langs.includes(b.lang));
+  const tests = blocks.some((b) => b.lang !== "html" && b.lang !== "css" && isTestCode(b.code));
+  const deps = detectDependencies(all);
+
+  let template: SandboxTemplate;
+  if (tests) template = has("tsx", "jsx") ? "react-ts" : "test-ts";
+  else if (has("vue")) template = "vue-ts";
+  else if (has("tsx", "jsx")) template = "react-ts";
+  else if (has("ts")) template = "vanilla-ts";
+  else if (has("js")) template = "vanilla";
+  else template = "static";
+
+  const root = template === "vue-ts" ? "/src/" : "/";
+  const named = (b: { file?: string }) => (b.file ? root + b.file.replace(/^\.?\//, "") : null);
+  const unnamed = (...langs: string[]) => blocks.filter((b) => !b.file && langs.includes(b.lang));
+  const join = (list: { code: string }[]) => list.map((b) => b.code).join("\n");
+
+  const files: Record<string, string> = {};
+  const fileOfBlock = new Map<(typeof blocks)[number], string>();
+  for (const b of blocks) {
+    const path = named(b);
+    if (path) {
+      files[path] = tests ? vitestToJest(b.code) : b.code;
+      fileOfBlock.set(b, path);
+    }
   }
-  if (lang === "ts" || lang === "typescript") {
-    return {
-      ...base,
-      template: "vanilla-ts",
-      activeFile: "/index.ts",
-      files: withBase("vanilla-ts", { "/index.ts": snippet.code, "/index.html": TS_FILES["/index.html"], "/styles.css": "" }),
-    };
-  }
-  return {
-    ...base,
-    template: "vanilla",
-    activeFile: "/index.js",
-    files: withBase("vanilla", { "/index.js": snippet.code, "/index.html": JS_FILES["/index.html"], "/styles.css": "" }),
+  const assign = (list: typeof blocks, path: string, code: string) => {
+    if (!list.length && !code) return;
+    files[path] = code;
+    list.forEach((b) => fileOfBlock.set(b, path));
   };
+  const cssCode = join(unnamed("css"));
+
+  if (tests) {
+    const scripts = unnamed("js", "ts", "tsx", "jsx");
+    const testBlocks = scripts.filter((b) => isTestCode(b.code));
+    const sources = scripts.filter((b) => !isTestCode(b.code));
+    const ext = template === "react-ts" ? "tsx" : "ts";
+    const jestDom = usesJestDom(all);
+    const header = jestDom ? `import "@testing-library/jest-dom";\n` : "";
+    assign(sources, `/example.${ext}`, join(sources));
+    assign(testBlocks, `/example.test.${ext}`, header + vitestToJest(join(testBlocks)));
+    const extra = { ...deps, ...(jestDom ? { "@testing-library/jest-dom": "^6.0.0" } : {}) };
+    if (template === "react-ts") {
+      Object.assign(extra, { "@testing-library/react": "^16.0.0", "@testing-library/dom": "^10.0.0" });
+      if (!files["/App.tsx"]) files["/App.tsx"] = `export default function App() {\n  return <p>Тесты запускаются в панели справа.</p>;\n}\n`;
+    } else {
+      files["/package.json"] = JSON.stringify({ dependencies: {}, devDependencies: { typescript: "^4.0.0" }, main: Object.keys(files)[0] ?? "/example.test.ts" });
+    }
+    files["/package.json"] = withExtraDeps(template, files["/package.json"], extra);
+  } else if (template === "vue-ts") {
+    const vue = unnamed("vue");
+    if (vue.length) assign([vue[0]], "/src/App.vue", vue[0].code);
+    vue.slice(1).forEach((b, i) => assign([b], `/src/components/Example${i + 1}.vue`, b.code));
+    assign(unnamed("ts", "js"), "/src/example.ts", join(unnamed("ts", "js")));
+    assign(unnamed("css"), "/src/styles.css", cssCode);
+    files["/package.json"] = withExtraDeps(template, undefined, deps);
+  } else if (template === "react-ts") {
+    const components = unnamed("tsx", "jsx");
+    const code = join(components);
+    const app = !code || /export\s+default/.test(code)
+      ? code
+      : `${code}\nexport default function App() {\n  return <p>Добавьте сюда компонент из примера выше.</p>;\n}\n`;
+    assign(components, "/App.tsx", (cssCode ? `import "./styles.css";\n` : "") + app);
+    assign(unnamed("css"), "/styles.css", cssCode);
+    files["/package.json"] = withExtraDeps(template, undefined, deps);
+  } else if (template === "vanilla-ts" || template === "vanilla") {
+    const entry = template === "vanilla-ts" ? "/index.ts" : "/index.js";
+    const scripts = unnamed("ts", "js");
+    assign(unnamed("html"), "/index.html", htmlDocument(join(unnamed("html")) || `<div id="app"></div>\n`, { css: false, script: entry.slice(1) }));
+    assign(scripts, entry, (cssCode ? `import "./styles.css";\n` : "") + join(scripts));
+    assign(unnamed("css"), "/styles.css", cssCode);
+    files["/package.json"] = withExtraDeps(template, undefined, deps);
+  } else {
+    assign(unnamed("html"), "/index.html", htmlDocument(join(unnamed("html")) || `<p>Пример стилей</p>\n`, { css: Boolean(cssCode) }));
+    assign(unnamed("css"), "/styles.css", cssCode);
+  }
+
+  const visible = [...new Set(blocks.map((b) => fileOfBlock.get(b)).filter(Boolean) as string[])];
+  return {
+    id: "lesson",
+    label: "Из урока",
+    hint: title ?? "Код из урока",
+    template,
+    mode: tests ? "tests" : "preview",
+    // у test-ts в шаблоне есть демо-файлы add.ts/add.test.ts — в примере из урока они не нужны
+    files: withBase(template, files, template === "test-ts" ? ["/add.ts", "/add.test.ts"] : []),
+    activeFile: visible[0] ?? Object.keys(files)[0],
+    visibleFiles: visible,
+  };
+}
+
+/** package.json среды (или переданный) с дополнительными зависимостями. */
+function withExtraDeps(template: SandboxTemplate, pkgJson: string | undefined, deps: Record<string, string>) {
+  const pkg = JSON.parse(pkgJson ?? templateBase(template)["/package.json"]);
+  pkg.dependencies = { ...pkg.dependencies, ...deps };
+  return JSON.stringify(pkg, null, 2);
 }
