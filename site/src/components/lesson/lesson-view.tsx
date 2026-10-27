@@ -45,11 +45,18 @@ export async function LessonView({ node }: { node: ContentNode }) {
                   {minutes} {plural(minutes, ["минута", "минуты", "минут"])} чтения
                 </span>
               </div>
-              <h1 className="mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.035em] text-balance sm:text-[2.75rem]">{title ?? node.title}</h1>
+              <h1 className="mt-4 text-[1.75rem] font-semibold leading-[1.12] tracking-[-0.035em] [overflow-wrap:anywhere] text-balance sm:text-[2.75rem] sm:leading-[1.08]">{title ?? node.title}</h1>
               <div className="mt-7">
                 <LessonActions id={node.id} href={node.href} title={node.title} />
               </div>
             </header>
+
+            {toc.length > 0 && (
+              <details className="mt-8 rounded-md border px-4 xl:hidden">
+                <summary className="cursor-pointer py-3 text-sm font-medium">На этой странице</summary>
+                <div className="pb-4"><Toc items={toc} /></div>
+              </details>
+            )}
 
             <div id="lesson-body" className="prose mt-10 animate-rise [animation-delay:80ms]" dangerouslySetInnerHTML={{ __html: html }} />
             <ArticleEnhancer targetId="lesson-body" />

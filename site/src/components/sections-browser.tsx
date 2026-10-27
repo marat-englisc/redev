@@ -55,7 +55,7 @@ function Chip({
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "inline-flex h-8 shrink-0 items-center gap-2 rounded-md border px-3 text-[13px] whitespace-nowrap transition-colors",
+        "inline-flex h-11 shrink-0 items-center gap-2 rounded-md border px-3 text-[13px] whitespace-nowrap transition-colors sm:h-8",
         active
           ? "border-foreground bg-foreground text-background"
           : "bg-background text-muted-foreground hover:border-foreground/40 hover:text-foreground",
@@ -73,7 +73,7 @@ function FilterRow({ label, children }: { label: string; children: React.ReactNo
   return (
     <div className="flex min-w-0 flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
       <span className="label w-28 shrink-0">{label}</span>
-      <div className="-mx-4 flex gap-1.5 overflow-x-auto px-4 no-scrollbar sm:mx-0 sm:flex-wrap sm:px-0">{children}</div>
+      <div className="flex min-w-0 gap-1.5 overflow-x-auto pb-1 thin-scrollbar sm:flex-wrap sm:pb-0">{children}</div>
     </div>
   );
 }
@@ -164,14 +164,14 @@ export function SectionsBrowser({ sections }: { sections: SectionCard[] }) {
           </FilterRow>
 
           <div className="flex items-center gap-2">
-            <label className="relative flex h-8 w-full items-center lg:w-64">
+            <label className="relative flex h-11 w-full min-w-0 items-center sm:h-8 lg:w-64">
               <SearchIcon className="pointer-events-none absolute left-2.5 size-3.5 text-muted-foreground" />
               <input
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Найти раздел"
                 aria-label="Найти раздел по названию"
-                className="h-8 w-full rounded-md border bg-muted/40 pl-8 pr-2.5 text-[13px] outline-none transition-colors placeholder:text-muted-foreground focus:border-foreground/40 focus:bg-background"
+                className="h-full w-full min-w-0 rounded-md border bg-muted/40 pl-8 pr-2.5 text-[13px] outline-none transition-colors placeholder:text-muted-foreground focus:border-foreground/40 focus:bg-background"
               />
             </label>
             {active && (
@@ -207,7 +207,7 @@ export function SectionsBrowser({ sections }: { sections: SectionCard[] }) {
             <Link
               key={s.id}
               href={s.href}
-              className="group relative flex min-h-56 flex-col border-b border-r p-6 transition-colors hover:bg-foreground hover:text-background animate-rise"
+              className="group relative flex min-h-48 min-w-0 flex-col border-b border-r p-5 transition-colors hover:bg-foreground hover:text-background animate-rise sm:min-h-56 sm:p-6"
               style={{ animationDelay: `${Math.min(i, 12) * 40}ms` }}
             >
               <div className="flex items-start justify-between">

@@ -109,7 +109,7 @@ export function StatsView({ sections, total }: { sections: Section[]; total: num
 
       {/* ─────────── Календарь активности ─────────── */}
       <section className="mt-16">
-        <div className="flex items-end justify-between">
+        <div className="flex flex-wrap items-end justify-between gap-2">
           <h2 className="text-2xl font-semibold tracking-tight">Активность</h2>
           <span className="label">Последние 12 месяцев</span>
         </div>
@@ -149,13 +149,13 @@ export function StatsView({ sections, total }: { sections: Section[]; total: num
 
       {/* ─────────── Прогноз ─────────── */}
       <section className="mt-16">
-        <div className="flex items-end justify-between">
+        <div className="flex flex-wrap items-end justify-between gap-2">
           <h2 className="text-2xl font-semibold tracking-tight">Прогноз повторений</h2>
           <span className="label">14 дней</span>
         </div>
-        <div className="mt-6 flex h-48 items-end gap-1.5 rounded-lg border p-5 sm:gap-2">
+        <div className="mt-6 flex h-48 items-end gap-1 rounded-lg border p-3 sm:gap-2 sm:p-5">
           {data.forecast.map((f, i) => (
-            <div key={i} className="group flex h-full flex-1 flex-col items-center justify-end gap-2">
+            <div key={i} className="group flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-2">
               <span className="font-mono text-[10px] tabular-nums text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100">
                 {hydrated ? f.count : ""}
               </span>

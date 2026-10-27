@@ -34,8 +34,8 @@ function Toolbar({ project, onClose, showConsole, toggleConsole }: { project: St
   };
 
   return (
-    <div className="flex h-10 items-center justify-between border-b pl-4 pr-1.5">
-      <span className="label">{project.mode === "tests" ? "Тесты · редактируйте код" : "Живой пример · редактируйте код"}</span>
+    <div className="flex min-h-11 flex-wrap items-center justify-between gap-x-2 border-b pl-3 pr-1.5 md:h-10 md:pl-4">
+      <span className="label py-2">{project.mode === "tests" ? "Тесты · редактируйте код" : "Живой пример · редактируйте код"}</span>
       <div className="flex items-center">
         {project.mode === "preview" && (
           <IconButton label={showConsole ? "Скрыть консоль" : "Показать консоль"} onClick={toggleConsole}>

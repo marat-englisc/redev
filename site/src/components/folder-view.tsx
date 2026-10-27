@@ -31,10 +31,10 @@ export function FolderView({ node }: { node: ContentNode }) {
     <main className="mx-auto w-full max-w-[1100px] flex-1 px-4 py-10 sm:px-6 sm:py-16">
       <Breadcrumbs chain={parents} />
 
-      <header className="mt-8 grid gap-8 border-b pb-10 md:grid-cols-[1fr_auto] md:items-end">
-        <div className="animate-rise">
+      <header className="mt-8 grid min-w-0 gap-8 border-b pb-10 md:grid-cols-[minmax(0,1fr)_auto] md:items-end">
+        <div className="min-w-0 animate-rise">
           {node.num && <div className="font-mono text-7xl font-extralight leading-none tracking-tighter text-muted-foreground/40 sm:text-8xl">{node.num}</div>}
-          <h1 className="mt-4 text-4xl font-semibold leading-[1.02] tracking-[-0.04em] sm:text-6xl">{node.title}</h1>
+          <h1 className="mt-4 text-3xl font-semibold leading-[1.08] tracking-[-0.04em] [overflow-wrap:anywhere] sm:text-6xl sm:leading-[1.02]">{node.title}</h1>
           <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-xs uppercase tracking-wider text-muted-foreground">
             {folders.length > 0 && (
               <span>

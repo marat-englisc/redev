@@ -212,7 +212,7 @@ function Segmented<T extends string>({
   items: { id: T; label: string; icon?: typeof CodeIcon }[];
 }) {
   return (
-    <div className="flex h-8 shrink-0 items-center rounded-md border p-0.5">
+    <div className="flex h-11 shrink-0 items-center rounded-md border p-0.5 md:h-8">
       {items.map((it) => {
         const Icon = it.icon;
         const active = value === it.id;
@@ -223,6 +223,7 @@ function Segmented<T extends string>({
             onClick={() => onChange(it.id)}
             aria-pressed={active}
             title={it.label}
+            aria-label={it.label}
             className={cn(
               "flex h-full items-center gap-1.5 rounded-[4px] px-2.5 text-[12px] whitespace-nowrap transition-colors",
               active ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
@@ -239,14 +240,14 @@ function Segmented<T extends string>({
 
 function Workspace({ view, showFiles, showConsole, mode }: { view: View; showFiles: boolean; showConsole: boolean; mode: Starter["mode"] }) {
   return (
-    <div className="flex min-h-0 flex-1 flex-col overflow-hidden md:flex-row">
+    <div className="flex min-h-0 flex-1 flex-col overflow-y-auto md:flex-row md:overflow-hidden">
       {showFiles && view !== "preview" && (
         <aside className="h-40 shrink-0 overflow-hidden border-b md:h-auto md:w-56 md:border-b-0 md:border-r">
           <FilePanel />
         </aside>
       )}
 
-      <div className={cn("min-h-0 min-w-0 flex-1 overflow-hidden", view === "preview" && "hidden")}>
+      <div className={cn("min-h-64 min-w-0 flex-1 overflow-hidden md:min-h-0", view === "preview" && "hidden")}>
         <SandpackCodeEditor
           className="refront-editor"
           style={{ height: "100%" }}
@@ -261,7 +262,8 @@ function Workspace({ view, showFiles, showConsole, mode }: { view: View; showFil
 
       <div
         className={cn(
-          "flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden border-t md:border-l md:border-t-0",
+          "flex min-h-72 min-w-0 flex-1 flex-col overflow-hidden border-t md:min-h-0 md:border-l md:border-t-0",
+          showConsole && "min-h-[26rem] md:min-h-0",
           view === "code" && "hidden",
           view === "preview" && "border-0 md:border-0",
         )}
@@ -280,7 +282,7 @@ function Workspace({ view, showFiles, showConsole, mode }: { view: View; showFil
           />
         )}
         {showConsole && (
-          <div className="h-48 shrink-0 border-t">
+          <div className="h-36 shrink-0 border-t md:h-48">
             <SandpackConsole className="refront-console" style={{ height: "100%" }} resetOnPreviewRestart showHeader />
           </div>
         )}
@@ -300,7 +302,7 @@ export function SandboxApp() {
   const online = useOnline();
   const [project, setProject] = useState<Starter>(initialProject);
   const [version, setVersion] = useState(0); // смена ключа пересоздаёт SandpackProvider
-  const [view, setView] = useState<View>(() => readJSON<View>(VIEW_KEY) ?? "split");
+  const [view, setView] = useState<View>(() => readJSON<View>(VIEW_KEY) ?? (window.matchMedia("(max-width: 767px)").matches ? "code" : "split"));
   const [showFiles, setShowFiles] = useState(() => !window.matchMedia("(max-width: 767px)").matches);
   const [showConsole, setShowConsole] = useState(false);
 
@@ -373,7 +375,7 @@ export function SandboxApp() {
           <span className="ml-2 hidden truncate text-[12px] text-muted-foreground 2xl:inline">{project.hint}</span>
         </div>
 
-        <div className="flex items-center gap-1.5">
+        <div className="flex max-w-full flex-wrap items-center gap-1.5">
           <Segmented value={view} onChange={setView} items={project.mode === "tests" ? TEST_VIEWS : VIEWS} />
           <IconButton label={showFiles ? "Скрыть файлы" : "Показать файлы"} onClick={() => setShowFiles((v) => !v)}>
             <FolderTreeIcon className={cn("size-4", showFiles && "text-foreground")} />
@@ -386,7 +388,8 @@ export function SandboxApp() {
           </IconButton>
           <UnstyledOpenInCodeSandboxButton
             title="Открыть в CodeSandbox"
-            className="grid size-7 place-items-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            aria-label="Открыть в CodeSandbox"
+            className="grid size-11 place-items-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground md:size-7"
           >
             <ExternalLinkIcon className="size-4" />
           </UnstyledOpenInCodeSandboxButton>

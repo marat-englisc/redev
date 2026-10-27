@@ -156,7 +156,8 @@
   font-size: 1rem;
   line-height: 1.75;
   color: color-mix(in oklch, var(--foreground) 88%, transparent);
-  overflow-wrap: break-word;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .prose > * + * {
   margin-top: var(--prose-gap);
@@ -277,11 +278,14 @@
 
 /* таблицы */
 .prose .table-wrap {
+  max-width: 100%;
   overflow-x: auto;
+  overscroll-behavior-x: contain;
   border: 1px solid var(--border);
   border-radius: var(--radius);
 }
 .prose table {
+  min-width: min(100%, 36rem);
   width: 100%;
   border-collapse: collapse;
   font-size: 0.875rem;
@@ -321,6 +325,7 @@
   overflow: hidden;
 }
 .prose figure[data-rehype-pretty-code-figure] pre {
+  overscroll-behavior-x: contain;
   overflow-x: auto;
   padding: 1.1rem 0;
   font-size: 0.82rem;
@@ -360,6 +365,21 @@
   height: 2.25rem;
   padding: 0 0.5rem 0 1rem;
   border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 639px) {
+  .prose :where(th, td) {
+    min-width: 8rem;
+  }
+  .prose h2 {
+    font-size: 1.35rem;
+  }
+  /* iOS увеличивает страницу при фокусе на поле с мелким шрифтом. */
+  input:not([type="range"]):not([type="checkbox"]):not([type="radio"]),
+  textarea,
+  select {
+    font-size: 16px;
+  }
 }
 
 /* каллауты */

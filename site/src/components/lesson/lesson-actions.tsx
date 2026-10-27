@@ -53,7 +53,7 @@ export function LessonActions({ id, href, title, variant = "header" }: { id: str
             {done ? "Карточка поможет не забыть материал." : "Отметьте урок — прогресс сохранится в браузере."}
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex w-full flex-wrap gap-2 sm:w-auto">
           <Button size="lg" variant={done ? "outline" : "default"} className="px-4" onClick={toggleDone}>
             {done ? <MinusIcon /> : <CheckIcon />}
             {done ? "Снять отметку" : "Отметить изученным"}

@@ -357,10 +357,10 @@ export function ReviewSession({ scopes }: { scopes: Record<string, { title: stri
           {!revealed ? (
             <button
               onClick={() => setRevealed(true)}
-              className="group mt-12 flex w-full items-center justify-center gap-3 rounded-lg border border-dashed py-10 text-muted-foreground transition-colors hover:border-foreground hover:text-foreground"
+              className="group mt-12 flex w-full flex-col items-center justify-center gap-3 rounded-lg border border-dashed px-4 py-8 text-center text-muted-foreground transition-colors hover:border-foreground hover:text-foreground sm:flex-row sm:py-10"
             >
               Вспомните ответ и откройте карточку
-              <Kbd>Space</Kbd>
+              <Kbd className="hidden sm:inline-flex">Space</Kbd>
             </button>
           ) : (
             <div className="mt-10 animate-rise [animation-duration:0.4s]">
@@ -381,7 +381,7 @@ export function ReviewSession({ scopes }: { scopes: Record<string, { title: stri
           )}
         </article>
 
-        <div className="sticky bottom-0 mt-auto bg-gradient-to-t from-background via-background to-transparent pb-4 pt-10">
+        <div className="sticky bottom-0 mt-auto bg-gradient-to-t from-background via-background to-transparent pb-[max(1rem,env(safe-area-inset-bottom))] pt-10">
           {revealed && previews && (
             <div className="grid grid-cols-4 gap-px overflow-hidden rounded-lg border bg-border animate-rise [animation-duration:0.35s]">
               {GRADES.map((g) => (

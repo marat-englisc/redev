@@ -8,9 +8,9 @@ export function Breadcrumbs({ chain }: { chain: ContentNode[] }) {
         Разделы
       </Link>
       {chain.map((c) => (
-        <span key={c.id} className="flex items-center gap-2">
-          <span className="text-faint">/</span>
-          <Link href={c.href} className="hover:text-foreground transition-colors">
+        <span key={c.id} className="flex min-w-0 items-start gap-2">
+          <span className="shrink-0 text-faint">/</span>
+          <Link href={c.href} className="min-w-0 [overflow-wrap:anywhere] hover:text-foreground transition-colors">
             {c.num && <span className="text-faint mr-1.5">{c.num}</span>}
             {c.title}
           </Link>

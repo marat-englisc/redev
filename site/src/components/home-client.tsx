@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 
 function Stat({ value, label, sub }: { value: React.ReactNode; label: string; sub?: React.ReactNode }) {
   return (
-    <div className="min-w-0 border-l pl-4 first:border-l-0 first:pl-0 sm:pl-6 sm:first:pl-0">
+    <div className="min-w-0 border-l pl-4 odd:border-l-0 odd:pl-0 sm:pl-6 sm:odd:border-l sm:odd:pl-6 sm:first:border-l-0 sm:first:pl-0">
       <div className="font-mono text-3xl font-light tracking-tighter tabular-nums sm:text-4xl">{value}</div>
       <div className="label mt-2 whitespace-nowrap">{label}</div>
       {sub && <div className="mt-0.5 font-mono text-[11px] text-muted-foreground">{sub}</div>}
@@ -45,8 +45,8 @@ export function ContinueCard() {
   const due = useDueSummary();
 
   return (
-    <div className={cn("grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2 transition-opacity", !hydrated && "opacity-0")}>
-      <Link href={last?.href ?? "/l/01/"} className="group flex items-center gap-4 bg-background p-5 transition-colors hover:bg-muted/60">
+    <div className={cn("grid grid-cols-[minmax(0,1fr)] gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2 transition-opacity", !hydrated && "opacity-0")}>
+      <Link href={last?.href ?? "/l/01/"} className="group flex min-w-0 items-center gap-3 bg-background p-4 transition-colors hover:bg-muted/60 sm:gap-4 sm:p-5">
         <span className="grid size-10 shrink-0 place-items-center rounded-md border">
           <BookOpenIcon className="size-4" />
         </span>
@@ -59,7 +59,7 @@ export function ContinueCard() {
       <Link
         href="/review/"
         className={cn(
-          "group flex items-center gap-4 p-5 transition-colors",
+          "group flex min-w-0 items-center gap-3 p-4 transition-colors sm:gap-4 sm:p-5",
           due.total > 0 ? "bg-foreground text-background hover:bg-foreground/90" : "bg-background hover:bg-muted/60",
         )}
       >
