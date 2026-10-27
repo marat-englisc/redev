@@ -47,6 +47,7 @@ const META: Record<string, SectionMeta> = {
   Vue: { categories: ["frontend"], languages: ["js", "ts"] },
   Nuxt: { categories: ["frontend", "backend"], languages: ["ts"] },
   Docker: { categories: ["tools", "backend"], languages: ["shell"] },
+  Linux: { categories: ["tools", "backend"], languages: ["shell"] },
   Тестирование: { categories: ["tools", "frontend"], languages: ["js", "ts"] },
   "Алгоритмы и структуры данных": { categories: ["cs"], languages: ["js"] },
   SEO: { categories: ["frontend"], languages: ["html-css"] },
